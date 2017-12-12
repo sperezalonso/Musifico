@@ -1063,6 +1063,60 @@ ModelImporter:
     102110: windowDoor1
     102112: windowDoor1 1
     102114: windows
+    102116: clock1
+    102118: closet1
+    102120: closet:closet
+    102122: closet:closetDoor1
+    102124: closet:closetDoor2
+    102126: closet:door1
+    102128: closet:door2
+    102130: closet:drawer
+    102132: closet:drawer1
+    102134: closet:drawer2
+    102136: closet:drawer3
+    102138: closet:pCube4
+    102140: closet:pCube5
+    102142: closet:pCylinder1
+    102144: closet:pCylinder1 1
+    102146: closet:pCylinder2
+    102148: closet:pCylinder3
+    102150: closet:pCylinder4
+    102152: desk
+    102154: desk_with_bevel:drawer_1
+    102156: desk_with_bevel:drawer_2
+    102158: desk_with_bevel:drawer_3
+    102160: desk_with_bevel:drawer_4
+    102162: desk_with_bevel:drawer_5
+    102164: desk_with_bevel:drawer_6
+    102166: fireplaceClock1:pCube1
+    102168: fireplaceClock1:pCube2
+    102170: fireplaceClock1:pCylinder1
+    102172: tvSideBoard
+    102174: tvsideboard:doorHandle
+    102176: tvsideboard:doorHandle 1
+    102178: tvsideboard:doorHandle 2
+    102180: tvsideboard:doorHandle1
+    102182: tvsideboard:doorHandle1 1
+    102184: tvsideboard:doorHandle1 2
+    102186: tvsideboard:drawer
+    102188: tvsideboard:drawer 1
+    102190: tvsideboard:drawer 2
+    102192: tvsideboard:drawer 3
+    102194: tvsideboard:drawer1
+    102196: tvsideboard:drawer2
+    102198: tvsideboard:drawerDoor2
+    102200: tvsideboard:drawerDoor2 1
+    102202: tvsideboard:drawerDoor2 2
+    102204: tvsideboard:drawerDoor3
+    102206: tvsideboard:drawerDoor3 1
+    102208: tvsideboard:drawerDoor3 2
+    102210: tvsideboard:drawerDoors
+    102212: tvsideboard:drawerDoors1
+    102214: tvsideboard:drawerDoors2
+    102216: tvsideboard:drawerHandle
+    102218: tvsideboard:drawerHandle 1
+    102220: tvsideboard:drawerHandle 2
+    102222: tvsideboard:sideboard
     400000: back
     400002: backRest
     400004: bookshelf2
@@ -2121,6 +2175,60 @@ ModelImporter:
     402110: windowDoor1
     402112: windowDoor1 1
     402114: windows
+    402116: clock1
+    402118: closet1
+    402120: closet:closet
+    402122: closet:closetDoor1
+    402124: closet:closetDoor2
+    402126: closet:door1
+    402128: closet:door2
+    402130: closet:drawer
+    402132: closet:drawer1
+    402134: closet:drawer2
+    402136: closet:drawer3
+    402138: closet:pCube4
+    402140: closet:pCube5
+    402142: closet:pCylinder1
+    402144: closet:pCylinder1 1
+    402146: closet:pCylinder2
+    402148: closet:pCylinder3
+    402150: closet:pCylinder4
+    402152: desk
+    402154: desk_with_bevel:drawer_1
+    402156: desk_with_bevel:drawer_2
+    402158: desk_with_bevel:drawer_3
+    402160: desk_with_bevel:drawer_4
+    402162: desk_with_bevel:drawer_5
+    402164: desk_with_bevel:drawer_6
+    402166: fireplaceClock1:pCube1
+    402168: fireplaceClock1:pCube2
+    402170: fireplaceClock1:pCylinder1
+    402172: tvSideBoard
+    402174: tvsideboard:doorHandle
+    402176: tvsideboard:doorHandle 1
+    402178: tvsideboard:doorHandle 2
+    402180: tvsideboard:doorHandle1
+    402182: tvsideboard:doorHandle1 1
+    402184: tvsideboard:doorHandle1 2
+    402186: tvsideboard:drawer
+    402188: tvsideboard:drawer 1
+    402190: tvsideboard:drawer 2
+    402192: tvsideboard:drawer 3
+    402194: tvsideboard:drawer1
+    402196: tvsideboard:drawer2
+    402198: tvsideboard:drawerDoor2
+    402200: tvsideboard:drawerDoor2 1
+    402202: tvsideboard:drawerDoor2 2
+    402204: tvsideboard:drawerDoor3
+    402206: tvsideboard:drawerDoor3 1
+    402208: tvsideboard:drawerDoor3 2
+    402210: tvsideboard:drawerDoors
+    402212: tvsideboard:drawerDoors1
+    402214: tvsideboard:drawerDoors2
+    402216: tvsideboard:drawerHandle
+    402218: tvsideboard:drawerHandle 1
+    402220: tvsideboard:drawerHandle 2
+    402222: tvsideboard:sideboard
     2000000: back
     2000002: bottom
     2000004: desk_with_bevel1:bottom
@@ -3013,6 +3121,47 @@ ModelImporter:
     2301770: window:pCube9 1
     2301772: window:pCylinder1
     2301774: window:pCylinder2
+    2301776: closet:closet
+    2301778: closet:closetDoor1
+    2301780: closet:closetDoor2
+    2301782: closet:drawer
+    2301784: closet:pCube4
+    2301786: closet:pCube5
+    2301788: closet:pCylinder1
+    2301790: closet:pCylinder1 1
+    2301792: closet:pCylinder2
+    2301794: closet:pCylinder3
+    2301796: closet:pCylinder4
+    2301798: desk
+    2301800: desk_with_bevel:drawer_1
+    2301802: desk_with_bevel:drawer_2
+    2301804: desk_with_bevel:drawer_3
+    2301806: desk_with_bevel:drawer_4
+    2301808: desk_with_bevel:drawer_5
+    2301810: desk_with_bevel:drawer_6
+    2301812: deskChair
+    2301814: fireplaceClock1:pCube1
+    2301816: fireplaceClock1:pCube2
+    2301818: fireplaceClock1:pCylinder1
+    2301820: tvsideboard:doorHandle
+    2301822: tvsideboard:doorHandle 1
+    2301824: tvsideboard:doorHandle 2
+    2301826: tvsideboard:doorHandle1
+    2301828: tvsideboard:doorHandle1 1
+    2301830: tvsideboard:doorHandle1 2
+    2301832: tvsideboard:drawer 1
+    2301834: tvsideboard:drawer 2
+    2301836: tvsideboard:drawer 3
+    2301838: tvsideboard:drawerDoor2
+    2301840: tvsideboard:drawerDoor2 1
+    2301842: tvsideboard:drawerDoor2 2
+    2301844: tvsideboard:drawerDoor3
+    2301846: tvsideboard:drawerDoor3 1
+    2301848: tvsideboard:drawerDoor3 2
+    2301850: tvsideboard:drawerHandle
+    2301852: tvsideboard:drawerHandle 1
+    2301854: tvsideboard:drawerHandle 2
+    2301856: tvsideboard:sideboard
     3300000: backRest
     3300002: bottomPart
     3300004: bottomPart2
@@ -3901,6 +4050,47 @@ ModelImporter:
     3301770: window:pCube9 1
     3301772: window:pCylinder1
     3301774: window:pCylinder2
+    3301776: closet:closet
+    3301778: closet:closetDoor1
+    3301780: closet:closetDoor2
+    3301782: closet:drawer
+    3301784: closet:pCube4
+    3301786: closet:pCube5
+    3301788: closet:pCylinder1
+    3301790: closet:pCylinder1 1
+    3301792: closet:pCylinder2
+    3301794: closet:pCylinder3
+    3301796: closet:pCylinder4
+    3301798: desk
+    3301800: desk_with_bevel:drawer_1
+    3301802: desk_with_bevel:drawer_2
+    3301804: desk_with_bevel:drawer_3
+    3301806: desk_with_bevel:drawer_4
+    3301808: desk_with_bevel:drawer_5
+    3301810: desk_with_bevel:drawer_6
+    3301812: deskChair
+    3301814: fireplaceClock1:pCube1
+    3301816: fireplaceClock1:pCube2
+    3301818: fireplaceClock1:pCylinder1
+    3301820: tvsideboard:doorHandle
+    3301822: tvsideboard:doorHandle 1
+    3301824: tvsideboard:doorHandle 2
+    3301826: tvsideboard:doorHandle1
+    3301828: tvsideboard:doorHandle1 1
+    3301830: tvsideboard:doorHandle1 2
+    3301832: tvsideboard:drawer 1
+    3301834: tvsideboard:drawer 2
+    3301836: tvsideboard:drawer 3
+    3301838: tvsideboard:drawerDoor2
+    3301840: tvsideboard:drawerDoor2 1
+    3301842: tvsideboard:drawerDoor2 2
+    3301844: tvsideboard:drawerDoor3
+    3301846: tvsideboard:drawerDoor3 1
+    3301848: tvsideboard:drawerDoor3 2
+    3301850: tvsideboard:drawerHandle
+    3301852: tvsideboard:drawerHandle 1
+    3301854: tvsideboard:drawerHandle 2
+    3301856: tvsideboard:sideboard
     4300000: pCube2
     4300002: pCube3
     4300004: pCube4
@@ -4789,6 +4979,47 @@ ModelImporter:
     4301770: closet1:pCylinder3
     4301772: closet1:closetDoor1
     4301774: closet1:pCylinder4
+    4301776: closet:closetDoor1
+    4301778: closet:pCylinder4
+    4301780: closet:pCylinder3
+    4301782: closet:closetDoor2
+    4301784: closet:pCylinder1
+    4301786: closet:drawer
+    4301788: closet:pCube5
+    4301790: closet:pCylinder1
+    4301792: closet:pCube4
+    4301794: closet:pCylinder2
+    4301796: closet:closet
+    4301798: tvsideboard:sideboard
+    4301800: tvsideboard:drawer
+    4301802: tvsideboard:drawerHandle
+    4301804: tvsideboard:drawer
+    4301806: tvsideboard:drawerHandle
+    4301808: tvsideboard:drawer
+    4301810: tvsideboard:drawerHandle
+    4301812: tvsideboard:doorHandle
+    4301814: tvsideboard:drawerDoor2
+    4301816: tvsideboard:doorHandle1
+    4301818: tvsideboard:drawerDoor3
+    4301820: tvsideboard:doorHandle
+    4301822: tvsideboard:drawerDoor2
+    4301824: tvsideboard:doorHandle1
+    4301826: tvsideboard:drawerDoor3
+    4301828: tvsideboard:doorHandle
+    4301830: tvsideboard:drawerDoor2
+    4301832: tvsideboard:doorHandle1
+    4301834: tvsideboard:drawerDoor3
+    4301836: deskChair
+    4301838: desk
+    4301840: desk_with_bevel:drawer_1
+    4301842: desk_with_bevel:drawer_2
+    4301844: desk_with_bevel:drawer_3
+    4301846: desk_with_bevel:drawer_4
+    4301848: desk_with_bevel:drawer_5
+    4301850: desk_with_bevel:drawer_6
+    4301852: fireplaceClock1:pCube1
+    4301854: fireplaceClock1:pCylinder1
+    4301856: fireplaceClock1:pCube2
     7400000: Take 001
     9500000: //RootNode
   externalObjects:
@@ -4857,6 +5088,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: fireplace1
     second: {fileID: 2100000, guid: bc2b9de19d97e6d40986923e1441c8b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fireplaceClock1_clock
+    second: {fileID: 2100000, guid: b5bca52c99cf9429a9359ff45befc984, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fireplaceClock1_fineWoodMedium
+    second: {fileID: 2100000, guid: 59c9de6bdf68a416cbf024558d3e0472, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
