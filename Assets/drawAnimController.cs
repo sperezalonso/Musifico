@@ -16,15 +16,16 @@ public class drawAnimController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("joystick button 0") && !isOpen)
-        {
-            anim.Play("drawerAnimation");
-            isOpen = true;
-        }
-        else if (Input.GetKeyDown("joystick button 0") && isOpen)
-        {
-            anim.Play("drawerAnimationReverse");
-            isOpen = false;
-        }
+		// for controller use GetKeyDown("joystick button 0") 
+//		if (Input.GetKeyDown("space") && !isOpen)
+//        {
+//            anim.Play("drawerAnimation");
+//            isOpen = true;
+//        }
+//        else if (Input.GetKeyDown("space") && isOpen)
+//        {
+//            anim.Play("drawerAnimationReverse");
+//            isOpen = false;
+//        }
     }
 }
