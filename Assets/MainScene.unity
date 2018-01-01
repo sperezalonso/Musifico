@@ -1251,7 +1251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57788a693085a4cd6a5ce2388399c3ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  whatDrawerAmI: 0
+  whatDrawerAmI: 4
 --- !u!1 &35232742
 GameObject:
   m_ObjectHideFlags: 0
@@ -5845,7 +5845,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   range: 40
-  anim: {fileID: 0}
 --- !u!120 &174483233
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -11320,7 +11319,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57788a693085a4cd6a5ce2388399c3ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  whatDrawerAmI: 0
+  whatDrawerAmI: 2
 --- !u!1 &319666399
 GameObject:
   m_ObjectHideFlags: 0
@@ -12888,6 +12887,7 @@ GameObject:
   - component: {fileID: 367048207}
   - component: {fileID: 367048206}
   - component: {fileID: 367048211}
+  - component: {fileID: 367048212}
   m_Layer: 0
   m_Name: drawerR1
   m_TagString: drawer
@@ -12992,6 +12992,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   whatDrawerAmI: 0
+--- !u!65 &367048212
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 367048205}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 40.37902, y: 16.239407, z: 32.03988}
+  m_Center: {x: 0.0000019073489, y: -0.000005722046, z: 0.87}
 --- !u!1 &367434468
 GameObject:
   m_ObjectHideFlags: 0
@@ -13721,6 +13733,9 @@ GameObject:
   - component: {fileID: 386705604}
   - component: {fileID: 386705603}
   - component: {fileID: 386705605}
+  - component: {fileID: 386705607}
+  - component: {fileID: 386705606}
+  - component: {fileID: 386705608}
   m_Layer: 0
   m_Name: drawerR2
   m_TagString: drawer
@@ -13795,7 +13810,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57788a693085a4cd6a5ce2388399c3ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  whatDrawerAmI: 0
+  whatDrawerAmI: 1
+--- !u!111 &386705606
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 386705601}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: dc262040b75f143d6920644953c10803, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: dc262040b75f143d6920644953c10803, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!65 &386705607
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 386705601}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 40.37902, y: 16.239407, z: 32.03988}
+  m_Center: {x: -0.00002861023, y: -0.000005722046, z: 0.9}
+--- !u!95 &386705608
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 386705601}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 736b5952bf3704eacb0bdcf885c50ed7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &387323496
 GameObject:
   m_ObjectHideFlags: 0
@@ -18147,7 +18206,7 @@ Animator:
   m_GameObject: {fileID: 534961997}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 3151d7ed88ce092479adcba6743459b9, type: 3}
-  m_Controller: {fileID: 9100000, guid: 7b2c066fb4d5547a3a513c1084369504, type: 2}
+  m_Controller: {fileID: 9100000, guid: 041484545bfdc4fccbcbcefbeb0660bf, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -18544,9 +18603,10 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 541539202}
+  - component: {fileID: 541539203}
   m_Layer: 0
   m_Name: bookshelf2
-  m_TagString: Untagged
+  m_TagString: Interaction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18570,6 +18630,18 @@ Transform:
   m_Father: {fileID: 1043122451}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &541539203
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 541539201}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 40, y: 10, z: 60}
+  m_Center: {x: -63.96, y: 0, z: 20.01}
 --- !u!1 &547124147
 GameObject:
   m_ObjectHideFlags: 0
@@ -36706,7 +36778,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57788a693085a4cd6a5ce2388399c3ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  whatDrawerAmI: 0
+  whatDrawerAmI: 5
 --- !u!1 &1141903193
 GameObject:
   m_ObjectHideFlags: 0
@@ -60114,7 +60186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57788a693085a4cd6a5ce2388399c3ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  whatDrawerAmI: 0
+  whatDrawerAmI: 3
 --- !u!1 &1885593300
 GameObject:
   m_ObjectHideFlags: 0

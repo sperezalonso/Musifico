@@ -10,7 +10,7 @@ public class PlayerRaycast : MonoBehaviour {
 	bool targetHit;
 	float timer = 0f;
 	bool isOpen = false;
-	public GameObject drawer;
+	//public GameObject drawer;
 
 	void Awake()
 	{
@@ -23,7 +23,6 @@ public class PlayerRaycast : MonoBehaviour {
 		// set ray to center of the screen/camera
 		Vector3 rayOrigin = cardboardCam.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, 0));
 		RaycastHit hit;
-
 		// set starting point of the laser
 		laserLine.SetPosition(0, cardboardCam.transform.position);
 
@@ -37,17 +36,29 @@ public class PlayerRaycast : MonoBehaviour {
 			{
 				targetHit = true;
 				Debug.Log("I hit something, " + hit.collider.gameObject.name);
-
+					
 				if (Input.GetKeyDown ("space") && !isOpen) {
-					drawer.GetComponent<Animator>().Play("drawerAnimation");
-					isOpen = true;
+					if (hit.collider.gameObject.GetComponent<DrawerManager> ().whatDrawerAmI == DrawerManager.Drawers.drawerR1) {
+						hit.collider.GetComponent<Animator> ().Play ("drawerAnimation");
+						isOpen = true;
+					}
+					if (hit.collider.gameObject.GetComponent<DrawerManager> ().whatDrawerAmI == DrawerManager.Drawers.drawerR2) {
+						hit.collider.GetComponent<Animator> ().Play ("drawerR2Open");
+						isOpen = true;
+					}
 				}
 				else if (Input.GetKeyDown("space") && isOpen)
 				{
-					drawer.GetComponent<Animator>().Play("drawerAnimationReverse");
-					isOpen = false;
+					if (hit.collider.gameObject.GetComponent<DrawerManager> ().whatDrawerAmI == DrawerManager.Drawers.drawerR1) {
+						hit.collider.GetComponent<Animator> ().Play ("drawerAnimationReverse");
+						isOpen = false;
+					}
+					if (hit.collider.gameObject.GetComponent<DrawerManager> ().whatDrawerAmI == DrawerManager.Drawers.drawerR2) {
+						hit.collider.GetComponent<Animator> ().Play ("drawerR2Close");
+						isOpen = false;
+					}
 				}
-				
+
 
 				//// count the time the user gazes at the target
 				//timer += Time.deltaTime;

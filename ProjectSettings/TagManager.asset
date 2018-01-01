@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - drawer
+  - Interaction
   layers:
   - Default
   - TransparentFX

@@ -28,4 +28,12 @@ public class drawAnimController : MonoBehaviour
 //            isOpen = false;
 //        }
     }
+
+	public void open(){
+		anim.Play("drawerAnimation");
+	}
+
+	public void close(){
+		anim.Play("drawerAnimationReverse");
+	}
 }
