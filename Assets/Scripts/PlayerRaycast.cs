@@ -10,7 +10,6 @@ public class PlayerRaycast : MonoBehaviour {
 	bool targetHit;
 	float timer = 0f;
 	bool isOpen = false;
-	//public GameObject drawer;
 
 	void Awake()
 	{
@@ -38,8 +37,9 @@ public class PlayerRaycast : MonoBehaviour {
 				Debug.Log("I hit something, " + hit.collider.gameObject.name);
 					
 				if (Input.GetKeyDown ("space") && !isOpen) {
+					
 					if (hit.collider.gameObject.GetComponent<DrawerManager> ().whatDrawerAmI == DrawerManager.Drawers.drawerR1) {
-						hit.collider.GetComponent<Animator> ().Play ("drawerAnimation");
+						hit.collider.GetComponent<Animator> ().Play ("drawerR1Open");
 						isOpen = true;
 					}
 					if (hit.collider.gameObject.GetComponent<DrawerManager> ().whatDrawerAmI == DrawerManager.Drawers.drawerR2) {
@@ -50,7 +50,7 @@ public class PlayerRaycast : MonoBehaviour {
 				else if (Input.GetKeyDown("space") && isOpen)
 				{
 					if (hit.collider.gameObject.GetComponent<DrawerManager> ().whatDrawerAmI == DrawerManager.Drawers.drawerR1) {
-						hit.collider.GetComponent<Animator> ().Play ("drawerAnimationReverse");
+						hit.collider.GetComponent<Animator> ().Play ("drawerR1Close");
 						isOpen = false;
 					}
 					if (hit.collider.gameObject.GetComponent<DrawerManager> ().whatDrawerAmI == DrawerManager.Drawers.drawerR2) {
