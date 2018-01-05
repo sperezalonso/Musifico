@@ -1,0 +1,4000 @@
+fileFormatVersion: 2
+guid: 340fc8dfc1e5a4c2aa902029814f2a9f
+timeCreated: 1515153186
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: back
+    100002: bottom
+    100004: fireplace
+    100006: guitar
+    100008: guitarBodyV02:body
+    100010: guitarBodyV02:bridge
+    100012: guitarBodyV02:button
+    100014: guitarBodyV02:button 1
+    100016: guitarBodyV02:button 2
+    100018: guitarBodyV02:button 3
+    100020: guitarBodyV02:button1
+    100022: guitarBodyV02:button2
+    100024: guitarBodyV02:button4
+    100026: guitarBodyV02:button5
+    100028: guitarBodyV02:button6
+    100030: guitarBodyV02:buttonBig
+    100032: guitarBodyV02:buttonRing
+    100034: guitarBodyV02:buttonRing 1
+    100036: guitarBodyV02:buttonRing 2
+    100038: guitarBodyV02:buttonRing 3
+    100040: guitarBodyV02:buttons
+    100042: guitarBodyV02:buttonSmall
+    100044: guitarBodyV02:fret1
+    100046: guitarBodyV02:fret10
+    100048: guitarBodyV02:fret11
+    100050: guitarBodyV02:fret12
+    100052: guitarBodyV02:fret13
+    100054: guitarBodyV02:fret14
+    100056: guitarBodyV02:fret15
+    100058: guitarBodyV02:fret16
+    100060: guitarBodyV02:fret17
+    100062: guitarBodyV02:fret18
+    100064: guitarBodyV02:fret19
+    100066: guitarBodyV02:fret2
+    100068: guitarBodyV02:fret20
+    100070: guitarBodyV02:fret21
+    100072: guitarBodyV02:fret22
+    100074: guitarBodyV02:fret3
+    100076: guitarBodyV02:fret4
+    100078: guitarBodyV02:fret5
+    100080: guitarBodyV02:fret6
+    100082: guitarBodyV02:fret7
+    100084: guitarBodyV02:fret8
+    100086: guitarBodyV02:fret9
+    100088: guitarBodyV02:fretMarkers
+    100090: guitarBodyV02:frets
+    100092: guitarBodyV02:guitar
+    100094: guitarBodyV02:guitarHolder
+    100096: guitarBodyV02:head
+    100098: guitarBodyV02:head1
+    100100: guitarBodyV02:neck
+    100102: guitarBodyV02:pCube10
+    100104: guitarBodyV02:pCube11
+    100106: guitarBodyV02:pCube12
+    100108: guitarBodyV02:pCube13
+    100110: guitarBodyV02:pCube14
+    100112: guitarBodyV02:pCube15
+    100114: guitarBodyV02:pCube16
+    100116: guitarBodyV02:pCube8
+    100118: guitarBodyV02:pCube9
+    100120: guitarBodyV02:pCylinder10
+    100122: guitarBodyV02:pCylinder10 1
+    100124: guitarBodyV02:pCylinder11
+    100126: guitarBodyV02:pCylinder11 1
+    100128: guitarBodyV02:pCylinder12
+    100130: guitarBodyV02:pCylinder12 1
+    100132: guitarBodyV02:pCylinder13
+    100134: guitarBodyV02:pCylinder13 1
+    100136: guitarBodyV02:pCylinder14
+    100138: guitarBodyV02:pCylinder14 1
+    100140: guitarBodyV02:pCylinder15
+    100142: guitarBodyV02:pCylinder15 1
+    100144: guitarBodyV02:pCylinder16
+    100146: guitarBodyV02:pCylinder17
+    100148: guitarBodyV02:pCylinder18
+    100150: guitarBodyV02:pCylinder18 1
+    100152: guitarBodyV02:pCylinder19
+    100154: guitarBodyV02:pCylinder19 1
+    100156: guitarBodyV02:pCylinder20
+    100158: guitarBodyV02:pCylinder20 1
+    100160: guitarBodyV02:pCylinder21
+    100162: guitarBodyV02:pCylinder21 1
+    100164: guitarBodyV02:pCylinder22
+    100166: guitarBodyV02:pCylinder22 1
+    100168: guitarBodyV02:pCylinder23
+    100170: guitarBodyV02:pCylinder23 1
+    100172: guitarBodyV02:pCylinder24
+    100174: guitarBodyV02:pCylinder24 1
+    100176: guitarBodyV02:pCylinder25
+    100178: guitarBodyV02:pCylinder26
+    100180: guitarBodyV02:pCylinder27
+    100182: guitarBodyV02:pCylinder28
+    100184: guitarBodyV02:pCylinder31
+    100186: guitarBodyV02:pCylinder32
+    100188: guitarBodyV02:pCylinder33
+    100190: guitarBodyV02:pCylinder34
+    100192: guitarBodyV02:pCylinder35
+    100194: guitarBodyV02:pCylinder36
+    100196: guitarBodyV02:pCylinder37
+    100198: guitarBodyV02:pCylinder38
+    100200: guitarBodyV02:pCylinder39
+    100202: guitarBodyV02:pCylinder40
+    100204: guitarBodyV02:pCylinder41
+    100206: guitarBodyV02:pCylinder41 1
+    100208: guitarBodyV02:pCylinder41 2
+    100210: guitarBodyV02:pCylinder41 3
+    100212: guitarBodyV02:pCylinder41 4
+    100214: guitarBodyV02:pCylinder41 5
+    100216: guitarBodyV02:pCylinder42
+    100218: guitarBodyV02:pCylinder42 1
+    100220: guitarBodyV02:pCylinder42 2
+    100222: guitarBodyV02:pCylinder42 3
+    100224: guitarBodyV02:pCylinder42 4
+    100226: guitarBodyV02:pCylinder42 5
+    100228: guitarBodyV02:pCylinder43
+    100230: guitarBodyV02:pCylinder43 1
+    100232: guitarBodyV02:pCylinder43 2
+    100234: guitarBodyV02:pCylinder43 3
+    100236: guitarBodyV02:pCylinder43 4
+    100238: guitarBodyV02:pCylinder43 5
+    100240: guitarBodyV02:pCylinder44
+    100242: guitarBodyV02:pCylinder44 1
+    100244: guitarBodyV02:pCylinder44 2
+    100246: guitarBodyV02:pCylinder44 3
+    100248: guitarBodyV02:pCylinder44 4
+    100250: guitarBodyV02:pCylinder44 5
+    100252: guitarBodyV02:pCylinder45
+    100254: guitarBodyV02:pCylinder45 1
+    100256: guitarBodyV02:pCylinder45 2
+    100258: guitarBodyV02:pCylinder45 3
+    100260: guitarBodyV02:pCylinder45 4
+    100262: guitarBodyV02:pCylinder45 5
+    100264: guitarBodyV02:pCylinder46
+    100266: guitarBodyV02:pCylinder47
+    100268: guitarBodyV02:pCylinder48
+    100270: guitarBodyV02:pCylinder49
+    100272: guitarBodyV02:pCylinder50
+    100274: guitarBodyV02:pCylinder51
+    100276: guitarBodyV02:pickGuard
+    100278: guitarBodyV02:pickGuard 1
+    100280: guitarBodyV02:pickup1
+    100282: guitarBodyV02:pickup2
+    100284: guitarBodyV02:pickupSwitch
+    100286: guitarBodyV02:saddles
+    100288: guitarBodyV02:screws
+    100290: guitarBodyV02:screws 1
+    100292: guitarBodyV02:screws1
+    100294: guitarBodyV02:screws1 1
+    100296: guitarBodyV02:strings
+    100298: guitarBodyV02:thing
+    100300: guitarBodyV02:thing 1
+    100302: guitarBodyV02:tunesPegs
+    100304: guitarBodyV02:tuningPegs1
+    100306: guitarBodyV02:tuningPegs2
+    100308: guitarBodyV02:tuningPegs3
+    100310: guitarBodyV02:tuningPegs4
+    100312: guitarBodyV02:tuningPegs5
+    100314: guitarBodyV02:tuningPegs6
+    100316: guitarBodyV02:tuningPost
+    100318: guitarBodyV02:tuningPost1
+    100320: guitarBodyV02:tuningPost2
+    100322: guitarBodyV02:tuningPost3
+    100324: guitarBodyV02:tuningPost4
+    100326: guitarBodyV02:tuningPost5
+    100328: guitarBodyV02:tuningPosts
+    100330: innerwall
+    100332: innerwall3
+    100334: pCube1
+    100336: pCube1 1
+    100338: pCube10
+    100340: pCube10 1
+    100342: pCube11
+    100344: pCube11 1
+    100346: pCube11 2
+    100348: pCube12
+    100350: pCube12 1
+    100352: pCube12 2
+    100354: pCube13
+    100356: pCube13 1
+    100358: pCube13 2
+    100360: pCube14
+    100362: pCube14 1
+    100364: pCube14 2
+    100366: pCube15
+    100368: pCube15 1
+    100370: pCube15 10
+    100372: pCube15 11
+    100374: pCube15 12
+    100376: pCube15 13
+    100378: pCube15 14
+    100380: pCube15 15
+    100382: pCube15 16
+    100384: pCube15 17
+    100386: pCube15 18
+    100388: pCube15 19
+    100390: pCube15 2
+    100392: pCube15 20
+    100394: pCube15 21
+    100396: pCube15 22
+    100398: pCube15 3
+    100400: pCube15 4
+    100402: pCube15 5
+    100404: pCube15 6
+    100406: pCube15 7
+    100408: pCube15 8
+    100410: pCube15 9
+    100412: pCube16
+    100414: pCube16 1
+    100416: pCube17
+    100418: pCube17 1
+    100420: pCube18
+    100422: pCube18 1
+    100424: pCube19
+    100426: pCube19 1
+    100428: pCube2
+    100430: pCube2 1
+    100432: pCube2 2
+    100434: pCube20
+    100436: pCube20 1
+    100438: pCube20 2
+    100440: pCube20 3
+    100442: pCube21
+    100444: pCube21 1
+    100446: pCube21 2
+    100448: pCube21 3
+    100450: pCube22
+    100452: pCube22 1
+    100454: pCube22 2
+    100456: pCube22 3
+    100458: pCube23
+    100460: pCube23 1
+    100462: pCube23 2
+    100464: pCube23 3
+    100466: pCube24
+    100468: pCube24 1
+    100470: pCube24 2
+    100472: pCube24 3
+    100474: pCube25
+    100476: pCube25 1
+    100478: pCube25 2
+    100480: pCube25 3
+    100482: pCube26
+    100484: pCube26 1
+    100486: pCube26 2
+    100488: pCube26 3
+    100490: pCube27
+    100492: pCube27 1
+    100494: pCube27 2
+    100496: pCube27 3
+    100498: pCube28
+    100500: pCube28 1
+    100502: pCube28 2
+    100504: pCube28 3
+    100506: pCube29
+    100508: pCube29 1
+    100510: pCube29 2
+    100512: pCube29 3
+    100514: pCube3
+    100516: pCube3 1
+    100518: pCube30
+    100520: pCube30 1
+    100522: pCube30 2
+    100524: pCube30 3
+    100526: pCube31
+    100528: pCube31 1
+    100530: pCube31 2
+    100532: pCube31 3
+    100534: pCube32
+    100536: pCube32 1
+    100538: pCube32 2
+    100540: pCube32 3
+    100542: pCube33
+    100544: pCube33 1
+    100546: pCube33 2
+    100548: pCube33 3
+    100550: pCube34
+    100552: pCube34 1
+    100554: pCube34 2
+    100556: pCube34 3
+    100558: pCube35
+    100560: pCube35 1
+    100562: pCube35 2
+    100564: pCube35 3
+    100566: pCube36
+    100568: pCube36 1
+    100570: pCube36 2
+    100572: pCube36 3
+    100574: pCube37
+    100576: pCube37 1
+    100578: pCube37 2
+    100580: pCube37 3
+    100582: pCube38
+    100584: pCube38 1
+    100586: pCube38 2
+    100588: pCube38 3
+    100590: pCube39
+    100592: pCube39 1
+    100594: pCube39 2
+    100596: pCube39 3
+    100598: pCube4
+    100600: pCube4 1
+    100602: pCube40
+    100604: pCube40 1
+    100606: pCube40 2
+    100608: pCube40 3
+    100610: pCube41
+    100612: pCube41 1
+    100614: pCube41 2
+    100616: pCube41 3
+    100618: pCube42
+    100620: pCube42 1
+    100622: pCube42 2
+    100624: pCube42 3
+    100626: pCube43
+    100628: pCube43 1
+    100630: pCube43 2
+    100632: pCube43 3
+    100634: pCube44
+    100636: pCube44 1
+    100638: pCube44 2
+    100640: pCube44 3
+    100642: pCube45
+    100644: pCube45 1
+    100646: pCube45 2
+    100648: pCube45 3
+    100650: pCube46
+    100652: pCube46 1
+    100654: pCube46 2
+    100656: pCube46 3
+    100658: pCube47
+    100660: pCube47 1
+    100662: pCube47 2
+    100664: pCube47 3
+    100666: pCube48
+    100668: pCube48 1
+    100670: pCube48 2
+    100672: pCube48 3
+    100674: pCube49
+    100676: pCube49 1
+    100678: pCube49 2
+    100680: pCube49 3
+    100682: pCube5
+    100684: pCube5 1
+    100686: pCube5 2
+    100688: pCube5 3
+    100690: pCube50
+    100692: pCube50 1
+    100694: pCube50 2
+    100696: pCube50 3
+    100698: pCube51
+    100700: pCube51 1
+    100702: pCube51 2
+    100704: pCube51 3
+    100706: pCube52
+    100708: pCube52 1
+    100710: pCube52 2
+    100712: pCube52 3
+    100714: pCube53
+    100716: pCube53 1
+    100718: pCube53 2
+    100720: pCube53 3
+    100722: pCube54
+    100724: pCube54 1
+    100726: pCube54 2
+    100728: pCube54 3
+    100730: pCube55
+    100732: pCube55 1
+    100734: pCube55 2
+    100736: pCube55 3
+    100738: pCube56
+    100740: pCube56 1
+    100742: pCube56 2
+    100744: pCube56 3
+    100746: pCube57
+    100748: pCube57 1
+    100750: pCube57 2
+    100752: pCube57 3
+    100754: pCube58
+    100756: pCube58 1
+    100758: pCube58 2
+    100760: pCube58 3
+    100762: pCube59
+    100764: pCube59 1
+    100766: pCube59 2
+    100768: pCube59 3
+    100770: pCube6
+    100772: pCube6 1
+    100774: pCube60
+    100776: pCube60 1
+    100778: pCube60 2
+    100780: pCube60 3
+    100782: pCube61
+    100784: pCube61 1
+    100786: pCube61 2
+    100788: pCube61 3
+    100790: pCube62
+    100792: pCube62 1
+    100794: pCube62 2
+    100796: pCube62 3
+    100798: pCube63
+    100800: pCube63 1
+    100802: pCube63 2
+    100804: pCube63 3
+    100806: pCube64
+    100808: pCube65
+    100810: pCube66
+    100812: pCube67
+    100814: pCube7
+    100816: pCube7 1
+    100818: pCube8
+    100820: pCube8 1
+    100822: pCube9
+    100824: pCube9 1
+    100826: pCylinder1
+    100828: pCylinder1 1
+    100830: pCylinder1 2
+    100832: pCylinder2
+    100834: pCylinder2 1
+    100836: pCylinder2 2
+    100838: pCylinder3
+    100840: pCylinder4
+    100842: pianoChair
+    100844: pianoeEnsemble
+    100846: PianoV07final:transform1
+    100848: PianoV07Texture:BlackKeys
+    100850: PianoV07Texture:board
+    100852: PianoV07Texture:body
+    100854: PianoV07Texture:body 1
+    100856: PianoV07Texture:chair
+    100858: PianoV07Texture:chair 1
+    100860: PianoV07Texture:damperPedal
+    100862: PianoV07Texture:fallBoard
+    100864: PianoV07Texture:hingeFallBoard1
+    100866: PianoV07Texture:hingeFallBoard2
+    100868: PianoV07Texture:hingeFallBoard3
+    100870: PianoV07Texture:hingeFallBoard4
+    100872: PianoV07Texture:hingeLid1
+    100874: PianoV07Texture:hingeLid2
+    100876: PianoV07Texture:hingeLid3
+    100878: PianoV07Texture:hingeLid4
+    100880: PianoV07Texture:hingeLow
+    100882: PianoV07Texture:hingeLowerLid
+    100884: PianoV07Texture:hingeMusicDesk1
+    100886: PianoV07Texture:hingeMusicDesk2
+    100888: PianoV07Texture:hingeMusicDesk3
+    100890: PianoV07Texture:hingeMusicDesk4
+    100892: PianoV07Texture:hingeUpperLid
+    100894: PianoV07Texture:key1
+    100896: PianoV07Texture:key10
+    100898: PianoV07Texture:key11
+    100900: PianoV07Texture:key12
+    100902: PianoV07Texture:key13
+    100904: PianoV07Texture:key14
+    100906: PianoV07Texture:key15
+    100908: PianoV07Texture:key16
+    100910: PianoV07Texture:key17
+    100912: PianoV07Texture:key18
+    100914: PianoV07Texture:key19
+    100916: PianoV07Texture:key2
+    100918: PianoV07Texture:key20
+    100920: PianoV07Texture:key21
+    100922: PianoV07Texture:key22
+    100924: PianoV07Texture:key23
+    100926: PianoV07Texture:key24
+    100928: PianoV07Texture:key25
+    100930: PianoV07Texture:key3
+    100932: PianoV07Texture:key4
+    100934: PianoV07Texture:key5
+    100936: PianoV07Texture:key6
+    100938: PianoV07Texture:key7
+    100940: PianoV07Texture:key8
+    100942: PianoV07Texture:key9
+    100944: PianoV07Texture:keyboard
+    100946: PianoV07Texture:leftLeg
+    100948: PianoV07Texture:leg
+    100950: PianoV07Texture:leg 1
+    100952: PianoV07Texture:leg 2
+    100954: PianoV07Texture:legChair
+    100956: PianoV07Texture:legChair 1
+    100958: PianoV07Texture:legChair1
+    100960: PianoV07Texture:legChair2
+    100962: PianoV07Texture:legChair3
+    100964: PianoV07Texture:legs
+    100966: PianoV07Texture:lid
+    100968: PianoV07Texture:lidLower
+    100970: PianoV07Texture:lidProp
+    100972: PianoV07Texture:LidPropCup
+    100974: PianoV07Texture:LidPropCup1
+    100976: PianoV07Texture:lidUpper
+    100978: PianoV07Texture:lowerLid
+    100980: PianoV07Texture:lyre
+    100982: PianoV07Texture:lyreBrake
+    100984: PianoV07Texture:lyreBrake1
+    100986: PianoV07Texture:lyrePost
+    100988: PianoV07Texture:middleLeg
+    100990: PianoV07Texture:musicDesk
+    100992: PianoV07Texture:musicStand
+    100994: PianoV07Texture:patterns1
+    100996: PianoV07Texture:pCube84
+    100998: PianoV07Texture:pCube84 1
+    101000: PianoV07Texture:pCube84 2
+    101002: PianoV07Texture:pCube84 3
+    101004: PianoV07Texture:pCube84 4
+    101006: PianoV07Texture:pCube84 5
+    101008: PianoV07Texture:pCylinder2
+    101010: PianoV07Texture:pCylinder2 1
+    101012: PianoV07Texture:pCylinder3
+    101014: PianoV07Texture:pCylinder3 1
+    101016: PianoV07Texture:pCylinder3 2
+    101018: PianoV07Texture:pCylinder3 3
+    101020: PianoV07Texture:pCylinder3 4
+    101022: PianoV07Texture:pCylinder3 5
+    101024: PianoV07Texture:pCylinder4
+    101026: PianoV07Texture:pCylinder4 1
+    101028: PianoV07Texture:pCylinder4 2
+    101030: PianoV07Texture:pCylinder4 3
+    101032: PianoV07Texture:pCylinder4 4
+    101034: PianoV07Texture:pCylinder4 5
+    101036: PianoV07Texture:pCylinder5
+    101038: PianoV07Texture:pCylinder5 1
+    101040: PianoV07Texture:pCylinder5 2
+    101042: PianoV07Texture:pCylinder5 3
+    101044: PianoV07Texture:pCylinder5 4
+    101046: PianoV07Texture:pCylinder5 5
+    101048: PianoV07Texture:pCylinder6
+    101050: PianoV07Texture:pCylinder6 1
+    101052: PianoV07Texture:pCylinder6 2
+    101054: PianoV07Texture:pCylinder6 3
+    101056: PianoV07Texture:pCylinder6 4
+    101058: PianoV07Texture:pCylinder6 5
+    101060: PianoV07Texture:pCylinder6 6
+    101062: PianoV07Texture:pCylinder7
+    101064: PianoV07Texture:pCylinder7 1
+    101066: PianoV07Texture:pCylinder7 2
+    101068: PianoV07Texture:pCylinder7 3
+    101070: PianoV07Texture:pedalBox
+    101072: PianoV07Texture:pedals
+    101074: PianoV07Texture:piano
+    101076: PianoV07Texture:PianoV06WithMusicDesk:pCube84
+    101078: PianoV07Texture:PianoV06WithMusicDesk:pCube84 1
+    101080: PianoV07Texture:PianoV06WithMusicDesk:pCylinder2
+    101082: PianoV07Texture:PianoV06WithMusicDesk:pCylinder2 1
+    101084: PianoV07Texture:PianoV06WithMusicDesk:pCylinder3
+    101086: PianoV07Texture:PianoV06WithMusicDesk:pCylinder3 1
+    101088: PianoV07Texture:PianoV06WithMusicDesk:pCylinder4
+    101090: PianoV07Texture:PianoV06WithMusicDesk:pCylinder4 1
+    101092: PianoV07Texture:PianoV06WithMusicDesk:pCylinder5
+    101094: PianoV07Texture:PianoV06WithMusicDesk:pCylinder5 1
+    101096: PianoV07Texture:PianoV06WithMusicDesk:pCylinder6
+    101098: PianoV07Texture:PianoV06WithMusicDesk:pCylinder6 1
+    101100: PianoV07Texture:PianoV06WithMusicDesk:pPipe5
+    101102: PianoV07Texture:PianoV06WithMusicDesk:pPipe5 1
+    101104: PianoV07Texture:PianoV06WithMusicDesk:pPipe7
+    101106: PianoV07Texture:PianoV06WithMusicDesk:pPipe7 1
+    101108: PianoV07Texture:plate
+    101110: PianoV07Texture:plate 1
+    101112: PianoV07Texture:plate 2
+    101114: PianoV07Texture:plate 3
+    101116: PianoV07Texture:plate 4
+    101118: PianoV07Texture:plate 5
+    101120: PianoV07Texture:plate 6
+    101122: PianoV07Texture:plate1
+    101124: PianoV07Texture:plate1 1
+    101126: PianoV07Texture:plate1 2
+    101128: PianoV07Texture:plate1 3
+    101130: PianoV07Texture:pPipe5
+    101132: PianoV07Texture:pPipe5 1
+    101134: PianoV07Texture:pPipe5 2
+    101136: PianoV07Texture:pPipe5 3
+    101138: PianoV07Texture:pPipe5 4
+    101140: PianoV07Texture:pPipe5 5
+    101142: PianoV07Texture:pPipe7
+    101144: PianoV07Texture:pPipe7 1
+    101146: PianoV07Texture:pPipe7 2
+    101148: PianoV07Texture:pPipe7 3
+    101150: PianoV07Texture:pPipe7 4
+    101152: PianoV07Texture:pPipe7 5
+    101154: PianoV07Texture:rightLeg
+    101156: PianoV07Texture:screw
+    101158: PianoV07Texture:screw 1
+    101160: PianoV07Texture:screw 2
+    101162: PianoV07Texture:screw 3
+    101164: PianoV07Texture:screw 4
+    101166: PianoV07Texture:screw 5
+    101168: PianoV07Texture:screw1
+    101170: PianoV07Texture:screw1 1
+    101172: PianoV07Texture:screw1 2
+    101174: PianoV07Texture:screw1 3
+    101176: PianoV07Texture:screw2
+    101178: PianoV07Texture:screw2 1
+    101180: PianoV07Texture:screw2 2
+    101182: PianoV07Texture:screw2 3
+    101184: PianoV07Texture:screw3
+    101186: PianoV07Texture:screw3 1
+    101188: PianoV07Texture:screw3 2
+    101190: PianoV07Texture:screw3 3
+    101192: PianoV07Texture:screw4
+    101194: PianoV07Texture:screw4 1
+    101196: PianoV07Texture:screw4 2
+    101198: PianoV07Texture:screw5
+    101200: PianoV07Texture:screw5 1
+    101202: PianoV07Texture:screw5 2
+    101204: PianoV07Texture:screw5 3
+    101206: PianoV07Texture:shell
+    101208: PianoV07Texture:shell 1
+    101210: PianoV07Texture:shell 2
+    101212: PianoV07Texture:shell1
+    101214: PianoV07Texture:shell1 1
+    101216: PianoV07Texture:shell1 2
+    101218: PianoV07Texture:shell1 3
+    101220: PianoV07Texture:shell2
+    101222: PianoV07Texture:shell2 1
+    101224: PianoV07Texture:shell2 2
+    101226: PianoV07Texture:shell2 3
+    101228: PianoV07Texture:shell3
+    101230: PianoV07Texture:shell3 1
+    101232: PianoV07Texture:shell3 2
+    101234: PianoV07Texture:shell3 3
+    101236: PianoV07Texture:sostunetoPedal
+    101238: PianoV07Texture:sustainPedal
+    101240: PianoV07Texture:transform1
+    101242: PianoV07Texture:upperLid
+    101244: PianoV07Texture:wheel
+    101246: PianoV07Texture:wheel 1
+    101248: PianoV07Texture:wheel 2
+    101250: PianoV07Texture:wheel 3
+    101252: PianoV07Texture:wheel 4
+    101254: PianoV07Texture:wheel 5
+    101256: PianoV07Texture:wheel1
+    101258: PianoV07Texture:wheel1 1
+    101260: PianoV07Texture:wheel1 2
+    101262: PianoV07Texture:wheel1 3
+    101264: PianoV07Texture:WhiteKeys
+    101266: PianoV07Texture:wKey1
+    101268: PianoV07Texture:wKey10
+    101270: PianoV07Texture:wKey11
+    101272: PianoV07Texture:wKey12
+    101274: PianoV07Texture:wKey13
+    101276: PianoV07Texture:wKey14
+    101278: PianoV07Texture:wKey15
+    101280: PianoV07Texture:wKey16
+    101282: PianoV07Texture:wKey17
+    101284: PianoV07Texture:wKey18
+    101286: PianoV07Texture:wKey19
+    101288: PianoV07Texture:wKey2
+    101290: PianoV07Texture:wKey20
+    101292: PianoV07Texture:wKey21
+    101294: PianoV07Texture:wKey22
+    101296: PianoV07Texture:wKey23
+    101298: PianoV07Texture:wKey24
+    101300: PianoV07Texture:wKey25
+    101302: PianoV07Texture:wKey26
+    101304: PianoV07Texture:wKey27
+    101306: PianoV07Texture:wKey28
+    101308: PianoV07Texture:wKey29
+    101310: PianoV07Texture:wKey30
+    101312: PianoV07Texture:wKey31
+    101314: PianoV07Texture:wKey32
+    101316: PianoV07Texture:wKey33
+    101318: PianoV07Texture:wKey34
+    101320: PianoV07Texture:wKey35
+    101322: PianoV07Texture:wKey36
+    101324: PianoV07Texture:wKey37
+    101326: PianoV07Texture:wKey38
+    101328: PianoV07Texture:wKey4
+    101330: PianoV07Texture:wKey5
+    101332: PianoV07Texture:wKey6
+    101334: PianoV07Texture:wKey7
+    101336: PianoV07Texture:wKey8
+    101338: PianoV07Texture:wKey9
+    101340: pSphere1
+    101342: pSphere1 1
+    101344: pSphere1 10
+    101346: pSphere1 11
+    101348: pSphere1 12
+    101350: pSphere1 13
+    101352: pSphere1 14
+    101354: pSphere1 15
+    101356: pSphere1 16
+    101358: pSphere1 17
+    101360: pSphere1 18
+    101362: pSphere1 19
+    101364: pSphere1 2
+    101366: pSphere1 20
+    101368: pSphere1 3
+    101370: pSphere1 4
+    101372: pSphere1 5
+    101374: pSphere1 6
+    101376: pSphere1 7
+    101378: pSphere1 8
+    101380: pSphere1 9
+    101382: railing
+    101384: railing1
+    101386: railing10
+    101388: railing11
+    101390: railing12
+    101392: railing13
+    101394: railing14
+    101396: railing15
+    101398: railing16
+    101400: railing17
+    101402: railing18
+    101404: railing19
+    101406: railing2
+    101408: railing20
+    101410: railing3
+    101412: railing4
+    101414: railing5
+    101416: railing6
+    101418: railing7
+    101420: railing8
+    101422: railing9
+    101424: //RootNode
+    101426: room
+    101428: window1
+    101430: window2
+    101432: window3
+    101434: window:pCube1
+    101436: window:pCube10
+    101438: window:pCube10 1
+    101440: window:pCube11
+    101442: window:pCube11 1
+    101444: window:pCube12
+    101446: window:pCube12 1
+    101448: window:pCube13
+    101450: window:pCube13 1
+    101452: window:pCube14
+    101454: window:pCube14 1
+    101456: window:pCube15
+    101458: window:pCube15 1
+    101460: window:pCube16
+    101462: window:pCube16 1
+    101464: window:pCube17
+    101466: window:pCube17 1
+    101468: window:pCube18
+    101470: window:pCube18 1
+    101472: window:pCube19
+    101474: window:pCube19 1
+    101476: window:pCube2
+    101478: window:pCube20
+    101480: window:pCube20 1
+    101482: window:pCube21
+    101484: window:pCube21 1
+    101486: window:pCube22
+    101488: window:pCube22 1
+    101490: window:pCube23
+    101492: window:pCube23 1
+    101494: window:pCube24
+    101496: window:pCube24 1
+    101498: window:pCube25
+    101500: window:pCube25 1
+    101502: window:pCube26
+    101504: window:pCube26 1
+    101506: window:pCube27
+    101508: window:pCube27 1
+    101510: window:pCube28
+    101512: window:pCube28 1
+    101514: window:pCube29
+    101516: window:pCube29 1
+    101518: window:pCube3
+    101520: window:pCube30
+    101522: window:pCube30 1
+    101524: window:pCube31
+    101526: window:pCube31 1
+    101528: window:pCube32
+    101530: window:pCube32 1
+    101532: window:pCube33
+    101534: window:pCube33 1
+    101536: window:pCube34
+    101538: window:pCube34 1
+    101540: window:pCube35
+    101542: window:pCube35 1
+    101544: window:pCube36
+    101546: window:pCube36 1
+    101548: window:pCube37
+    101550: window:pCube37 1
+    101552: window:pCube38
+    101554: window:pCube38 1
+    101556: window:pCube39
+    101558: window:pCube39 1
+    101560: window:pCube4
+    101562: window:pCube40
+    101564: window:pCube40 1
+    101566: window:pCube41
+    101568: window:pCube41 1
+    101570: window:pCube42
+    101572: window:pCube42 1
+    101574: window:pCube43
+    101576: window:pCube43 1
+    101578: window:pCube44
+    101580: window:pCube44 1
+    101582: window:pCube45
+    101584: window:pCube45 1
+    101586: window:pCube46
+    101588: window:pCube46 1
+    101590: window:pCube47
+    101592: window:pCube47 1
+    101594: window:pCube48
+    101596: window:pCube48 1
+    101598: window:pCube49
+    101600: window:pCube49 1
+    101602: window:pCube5
+    101604: window:pCube5 1
+    101606: window:pCube50
+    101608: window:pCube50 1
+    101610: window:pCube51
+    101612: window:pCube51 1
+    101614: window:pCube52
+    101616: window:pCube52 1
+    101618: window:pCube53
+    101620: window:pCube53 1
+    101622: window:pCube54
+    101624: window:pCube54 1
+    101626: window:pCube55
+    101628: window:pCube55 1
+    101630: window:pCube56
+    101632: window:pCube56 1
+    101634: window:pCube57
+    101636: window:pCube57 1
+    101638: window:pCube58
+    101640: window:pCube58 1
+    101642: window:pCube59
+    101644: window:pCube59 1
+    101646: window:pCube6
+    101648: window:pCube6 1
+    101650: window:pCube60
+    101652: window:pCube60 1
+    101654: window:pCube61
+    101656: window:pCube61 1
+    101658: window:pCube62
+    101660: window:pCube62 1
+    101662: window:pCube63
+    101664: window:pCube63 1
+    101666: window:pCube7
+    101668: window:pCube7 1
+    101670: window:pCube8
+    101672: window:pCube8 1
+    101674: window:pCube9
+    101676: window:pCube9 1
+    101678: window:pCylinder1
+    101680: window:pCylinder2
+    101682: window:windowDoor
+    101684: window:windowDoor1
+    101686: windowDoor
+    101688: windowDoor 1
+    101690: windowDoor1
+    101692: windowDoor1 1
+    101694: windows
+    400000: back
+    400002: bottom
+    400004: fireplace
+    400006: guitar
+    400008: guitarBodyV02:body
+    400010: guitarBodyV02:bridge
+    400012: guitarBodyV02:button
+    400014: guitarBodyV02:button 1
+    400016: guitarBodyV02:button 2
+    400018: guitarBodyV02:button 3
+    400020: guitarBodyV02:button1
+    400022: guitarBodyV02:button2
+    400024: guitarBodyV02:button4
+    400026: guitarBodyV02:button5
+    400028: guitarBodyV02:button6
+    400030: guitarBodyV02:buttonBig
+    400032: guitarBodyV02:buttonRing
+    400034: guitarBodyV02:buttonRing 1
+    400036: guitarBodyV02:buttonRing 2
+    400038: guitarBodyV02:buttonRing 3
+    400040: guitarBodyV02:buttons
+    400042: guitarBodyV02:buttonSmall
+    400044: guitarBodyV02:fret1
+    400046: guitarBodyV02:fret10
+    400048: guitarBodyV02:fret11
+    400050: guitarBodyV02:fret12
+    400052: guitarBodyV02:fret13
+    400054: guitarBodyV02:fret14
+    400056: guitarBodyV02:fret15
+    400058: guitarBodyV02:fret16
+    400060: guitarBodyV02:fret17
+    400062: guitarBodyV02:fret18
+    400064: guitarBodyV02:fret19
+    400066: guitarBodyV02:fret2
+    400068: guitarBodyV02:fret20
+    400070: guitarBodyV02:fret21
+    400072: guitarBodyV02:fret22
+    400074: guitarBodyV02:fret3
+    400076: guitarBodyV02:fret4
+    400078: guitarBodyV02:fret5
+    400080: guitarBodyV02:fret6
+    400082: guitarBodyV02:fret7
+    400084: guitarBodyV02:fret8
+    400086: guitarBodyV02:fret9
+    400088: guitarBodyV02:fretMarkers
+    400090: guitarBodyV02:frets
+    400092: guitarBodyV02:guitar
+    400094: guitarBodyV02:guitarHolder
+    400096: guitarBodyV02:head
+    400098: guitarBodyV02:head1
+    400100: guitarBodyV02:neck
+    400102: guitarBodyV02:pCube10
+    400104: guitarBodyV02:pCube11
+    400106: guitarBodyV02:pCube12
+    400108: guitarBodyV02:pCube13
+    400110: guitarBodyV02:pCube14
+    400112: guitarBodyV02:pCube15
+    400114: guitarBodyV02:pCube16
+    400116: guitarBodyV02:pCube8
+    400118: guitarBodyV02:pCube9
+    400120: guitarBodyV02:pCylinder10
+    400122: guitarBodyV02:pCylinder10 1
+    400124: guitarBodyV02:pCylinder11
+    400126: guitarBodyV02:pCylinder11 1
+    400128: guitarBodyV02:pCylinder12
+    400130: guitarBodyV02:pCylinder12 1
+    400132: guitarBodyV02:pCylinder13
+    400134: guitarBodyV02:pCylinder13 1
+    400136: guitarBodyV02:pCylinder14
+    400138: guitarBodyV02:pCylinder14 1
+    400140: guitarBodyV02:pCylinder15
+    400142: guitarBodyV02:pCylinder15 1
+    400144: guitarBodyV02:pCylinder16
+    400146: guitarBodyV02:pCylinder17
+    400148: guitarBodyV02:pCylinder18
+    400150: guitarBodyV02:pCylinder18 1
+    400152: guitarBodyV02:pCylinder19
+    400154: guitarBodyV02:pCylinder19 1
+    400156: guitarBodyV02:pCylinder20
+    400158: guitarBodyV02:pCylinder20 1
+    400160: guitarBodyV02:pCylinder21
+    400162: guitarBodyV02:pCylinder21 1
+    400164: guitarBodyV02:pCylinder22
+    400166: guitarBodyV02:pCylinder22 1
+    400168: guitarBodyV02:pCylinder23
+    400170: guitarBodyV02:pCylinder23 1
+    400172: guitarBodyV02:pCylinder24
+    400174: guitarBodyV02:pCylinder24 1
+    400176: guitarBodyV02:pCylinder25
+    400178: guitarBodyV02:pCylinder26
+    400180: guitarBodyV02:pCylinder27
+    400182: guitarBodyV02:pCylinder28
+    400184: guitarBodyV02:pCylinder31
+    400186: guitarBodyV02:pCylinder32
+    400188: guitarBodyV02:pCylinder33
+    400190: guitarBodyV02:pCylinder34
+    400192: guitarBodyV02:pCylinder35
+    400194: guitarBodyV02:pCylinder36
+    400196: guitarBodyV02:pCylinder37
+    400198: guitarBodyV02:pCylinder38
+    400200: guitarBodyV02:pCylinder39
+    400202: guitarBodyV02:pCylinder40
+    400204: guitarBodyV02:pCylinder41
+    400206: guitarBodyV02:pCylinder41 1
+    400208: guitarBodyV02:pCylinder41 2
+    400210: guitarBodyV02:pCylinder41 3
+    400212: guitarBodyV02:pCylinder41 4
+    400214: guitarBodyV02:pCylinder41 5
+    400216: guitarBodyV02:pCylinder42
+    400218: guitarBodyV02:pCylinder42 1
+    400220: guitarBodyV02:pCylinder42 2
+    400222: guitarBodyV02:pCylinder42 3
+    400224: guitarBodyV02:pCylinder42 4
+    400226: guitarBodyV02:pCylinder42 5
+    400228: guitarBodyV02:pCylinder43
+    400230: guitarBodyV02:pCylinder43 1
+    400232: guitarBodyV02:pCylinder43 2
+    400234: guitarBodyV02:pCylinder43 3
+    400236: guitarBodyV02:pCylinder43 4
+    400238: guitarBodyV02:pCylinder43 5
+    400240: guitarBodyV02:pCylinder44
+    400242: guitarBodyV02:pCylinder44 1
+    400244: guitarBodyV02:pCylinder44 2
+    400246: guitarBodyV02:pCylinder44 3
+    400248: guitarBodyV02:pCylinder44 4
+    400250: guitarBodyV02:pCylinder44 5
+    400252: guitarBodyV02:pCylinder45
+    400254: guitarBodyV02:pCylinder45 1
+    400256: guitarBodyV02:pCylinder45 2
+    400258: guitarBodyV02:pCylinder45 3
+    400260: guitarBodyV02:pCylinder45 4
+    400262: guitarBodyV02:pCylinder45 5
+    400264: guitarBodyV02:pCylinder46
+    400266: guitarBodyV02:pCylinder47
+    400268: guitarBodyV02:pCylinder48
+    400270: guitarBodyV02:pCylinder49
+    400272: guitarBodyV02:pCylinder50
+    400274: guitarBodyV02:pCylinder51
+    400276: guitarBodyV02:pickGuard
+    400278: guitarBodyV02:pickGuard 1
+    400280: guitarBodyV02:pickup1
+    400282: guitarBodyV02:pickup2
+    400284: guitarBodyV02:pickupSwitch
+    400286: guitarBodyV02:saddles
+    400288: guitarBodyV02:screws
+    400290: guitarBodyV02:screws 1
+    400292: guitarBodyV02:screws1
+    400294: guitarBodyV02:screws1 1
+    400296: guitarBodyV02:strings
+    400298: guitarBodyV02:thing
+    400300: guitarBodyV02:thing 1
+    400302: guitarBodyV02:tunesPegs
+    400304: guitarBodyV02:tuningPegs1
+    400306: guitarBodyV02:tuningPegs2
+    400308: guitarBodyV02:tuningPegs3
+    400310: guitarBodyV02:tuningPegs4
+    400312: guitarBodyV02:tuningPegs5
+    400314: guitarBodyV02:tuningPegs6
+    400316: guitarBodyV02:tuningPost
+    400318: guitarBodyV02:tuningPost1
+    400320: guitarBodyV02:tuningPost2
+    400322: guitarBodyV02:tuningPost3
+    400324: guitarBodyV02:tuningPost4
+    400326: guitarBodyV02:tuningPost5
+    400328: guitarBodyV02:tuningPosts
+    400330: innerwall
+    400332: innerwall3
+    400334: pCube1
+    400336: pCube1 1
+    400338: pCube10
+    400340: pCube10 1
+    400342: pCube11
+    400344: pCube11 1
+    400346: pCube11 2
+    400348: pCube12
+    400350: pCube12 1
+    400352: pCube12 2
+    400354: pCube13
+    400356: pCube13 1
+    400358: pCube13 2
+    400360: pCube14
+    400362: pCube14 1
+    400364: pCube14 2
+    400366: pCube15
+    400368: pCube15 1
+    400370: pCube15 10
+    400372: pCube15 11
+    400374: pCube15 12
+    400376: pCube15 13
+    400378: pCube15 14
+    400380: pCube15 15
+    400382: pCube15 16
+    400384: pCube15 17
+    400386: pCube15 18
+    400388: pCube15 19
+    400390: pCube15 2
+    400392: pCube15 20
+    400394: pCube15 21
+    400396: pCube15 22
+    400398: pCube15 3
+    400400: pCube15 4
+    400402: pCube15 5
+    400404: pCube15 6
+    400406: pCube15 7
+    400408: pCube15 8
+    400410: pCube15 9
+    400412: pCube16
+    400414: pCube16 1
+    400416: pCube17
+    400418: pCube17 1
+    400420: pCube18
+    400422: pCube18 1
+    400424: pCube19
+    400426: pCube19 1
+    400428: pCube2
+    400430: pCube2 1
+    400432: pCube2 2
+    400434: pCube20
+    400436: pCube20 1
+    400438: pCube20 2
+    400440: pCube20 3
+    400442: pCube21
+    400444: pCube21 1
+    400446: pCube21 2
+    400448: pCube21 3
+    400450: pCube22
+    400452: pCube22 1
+    400454: pCube22 2
+    400456: pCube22 3
+    400458: pCube23
+    400460: pCube23 1
+    400462: pCube23 2
+    400464: pCube23 3
+    400466: pCube24
+    400468: pCube24 1
+    400470: pCube24 2
+    400472: pCube24 3
+    400474: pCube25
+    400476: pCube25 1
+    400478: pCube25 2
+    400480: pCube25 3
+    400482: pCube26
+    400484: pCube26 1
+    400486: pCube26 2
+    400488: pCube26 3
+    400490: pCube27
+    400492: pCube27 1
+    400494: pCube27 2
+    400496: pCube27 3
+    400498: pCube28
+    400500: pCube28 1
+    400502: pCube28 2
+    400504: pCube28 3
+    400506: pCube29
+    400508: pCube29 1
+    400510: pCube29 2
+    400512: pCube29 3
+    400514: pCube3
+    400516: pCube3 1
+    400518: pCube30
+    400520: pCube30 1
+    400522: pCube30 2
+    400524: pCube30 3
+    400526: pCube31
+    400528: pCube31 1
+    400530: pCube31 2
+    400532: pCube31 3
+    400534: pCube32
+    400536: pCube32 1
+    400538: pCube32 2
+    400540: pCube32 3
+    400542: pCube33
+    400544: pCube33 1
+    400546: pCube33 2
+    400548: pCube33 3
+    400550: pCube34
+    400552: pCube34 1
+    400554: pCube34 2
+    400556: pCube34 3
+    400558: pCube35
+    400560: pCube35 1
+    400562: pCube35 2
+    400564: pCube35 3
+    400566: pCube36
+    400568: pCube36 1
+    400570: pCube36 2
+    400572: pCube36 3
+    400574: pCube37
+    400576: pCube37 1
+    400578: pCube37 2
+    400580: pCube37 3
+    400582: pCube38
+    400584: pCube38 1
+    400586: pCube38 2
+    400588: pCube38 3
+    400590: pCube39
+    400592: pCube39 1
+    400594: pCube39 2
+    400596: pCube39 3
+    400598: pCube4
+    400600: pCube4 1
+    400602: pCube40
+    400604: pCube40 1
+    400606: pCube40 2
+    400608: pCube40 3
+    400610: pCube41
+    400612: pCube41 1
+    400614: pCube41 2
+    400616: pCube41 3
+    400618: pCube42
+    400620: pCube42 1
+    400622: pCube42 2
+    400624: pCube42 3
+    400626: pCube43
+    400628: pCube43 1
+    400630: pCube43 2
+    400632: pCube43 3
+    400634: pCube44
+    400636: pCube44 1
+    400638: pCube44 2
+    400640: pCube44 3
+    400642: pCube45
+    400644: pCube45 1
+    400646: pCube45 2
+    400648: pCube45 3
+    400650: pCube46
+    400652: pCube46 1
+    400654: pCube46 2
+    400656: pCube46 3
+    400658: pCube47
+    400660: pCube47 1
+    400662: pCube47 2
+    400664: pCube47 3
+    400666: pCube48
+    400668: pCube48 1
+    400670: pCube48 2
+    400672: pCube48 3
+    400674: pCube49
+    400676: pCube49 1
+    400678: pCube49 2
+    400680: pCube49 3
+    400682: pCube5
+    400684: pCube5 1
+    400686: pCube5 2
+    400688: pCube5 3
+    400690: pCube50
+    400692: pCube50 1
+    400694: pCube50 2
+    400696: pCube50 3
+    400698: pCube51
+    400700: pCube51 1
+    400702: pCube51 2
+    400704: pCube51 3
+    400706: pCube52
+    400708: pCube52 1
+    400710: pCube52 2
+    400712: pCube52 3
+    400714: pCube53
+    400716: pCube53 1
+    400718: pCube53 2
+    400720: pCube53 3
+    400722: pCube54
+    400724: pCube54 1
+    400726: pCube54 2
+    400728: pCube54 3
+    400730: pCube55
+    400732: pCube55 1
+    400734: pCube55 2
+    400736: pCube55 3
+    400738: pCube56
+    400740: pCube56 1
+    400742: pCube56 2
+    400744: pCube56 3
+    400746: pCube57
+    400748: pCube57 1
+    400750: pCube57 2
+    400752: pCube57 3
+    400754: pCube58
+    400756: pCube58 1
+    400758: pCube58 2
+    400760: pCube58 3
+    400762: pCube59
+    400764: pCube59 1
+    400766: pCube59 2
+    400768: pCube59 3
+    400770: pCube6
+    400772: pCube6 1
+    400774: pCube60
+    400776: pCube60 1
+    400778: pCube60 2
+    400780: pCube60 3
+    400782: pCube61
+    400784: pCube61 1
+    400786: pCube61 2
+    400788: pCube61 3
+    400790: pCube62
+    400792: pCube62 1
+    400794: pCube62 2
+    400796: pCube62 3
+    400798: pCube63
+    400800: pCube63 1
+    400802: pCube63 2
+    400804: pCube63 3
+    400806: pCube64
+    400808: pCube65
+    400810: pCube66
+    400812: pCube67
+    400814: pCube7
+    400816: pCube7 1
+    400818: pCube8
+    400820: pCube8 1
+    400822: pCube9
+    400824: pCube9 1
+    400826: pCylinder1
+    400828: pCylinder1 1
+    400830: pCylinder1 2
+    400832: pCylinder2
+    400834: pCylinder2 1
+    400836: pCylinder2 2
+    400838: pCylinder3
+    400840: pCylinder4
+    400842: pianoChair
+    400844: pianoeEnsemble
+    400846: PianoV07final:transform1
+    400848: PianoV07Texture:BlackKeys
+    400850: PianoV07Texture:board
+    400852: PianoV07Texture:body
+    400854: PianoV07Texture:body 1
+    400856: PianoV07Texture:chair
+    400858: PianoV07Texture:chair 1
+    400860: PianoV07Texture:damperPedal
+    400862: PianoV07Texture:fallBoard
+    400864: PianoV07Texture:hingeFallBoard1
+    400866: PianoV07Texture:hingeFallBoard2
+    400868: PianoV07Texture:hingeFallBoard3
+    400870: PianoV07Texture:hingeFallBoard4
+    400872: PianoV07Texture:hingeLid1
+    400874: PianoV07Texture:hingeLid2
+    400876: PianoV07Texture:hingeLid3
+    400878: PianoV07Texture:hingeLid4
+    400880: PianoV07Texture:hingeLow
+    400882: PianoV07Texture:hingeLowerLid
+    400884: PianoV07Texture:hingeMusicDesk1
+    400886: PianoV07Texture:hingeMusicDesk2
+    400888: PianoV07Texture:hingeMusicDesk3
+    400890: PianoV07Texture:hingeMusicDesk4
+    400892: PianoV07Texture:hingeUpperLid
+    400894: PianoV07Texture:key1
+    400896: PianoV07Texture:key10
+    400898: PianoV07Texture:key11
+    400900: PianoV07Texture:key12
+    400902: PianoV07Texture:key13
+    400904: PianoV07Texture:key14
+    400906: PianoV07Texture:key15
+    400908: PianoV07Texture:key16
+    400910: PianoV07Texture:key17
+    400912: PianoV07Texture:key18
+    400914: PianoV07Texture:key19
+    400916: PianoV07Texture:key2
+    400918: PianoV07Texture:key20
+    400920: PianoV07Texture:key21
+    400922: PianoV07Texture:key22
+    400924: PianoV07Texture:key23
+    400926: PianoV07Texture:key24
+    400928: PianoV07Texture:key25
+    400930: PianoV07Texture:key3
+    400932: PianoV07Texture:key4
+    400934: PianoV07Texture:key5
+    400936: PianoV07Texture:key6
+    400938: PianoV07Texture:key7
+    400940: PianoV07Texture:key8
+    400942: PianoV07Texture:key9
+    400944: PianoV07Texture:keyboard
+    400946: PianoV07Texture:leftLeg
+    400948: PianoV07Texture:leg
+    400950: PianoV07Texture:leg 1
+    400952: PianoV07Texture:leg 2
+    400954: PianoV07Texture:legChair
+    400956: PianoV07Texture:legChair 1
+    400958: PianoV07Texture:legChair1
+    400960: PianoV07Texture:legChair2
+    400962: PianoV07Texture:legChair3
+    400964: PianoV07Texture:legs
+    400966: PianoV07Texture:lid
+    400968: PianoV07Texture:lidLower
+    400970: PianoV07Texture:lidProp
+    400972: PianoV07Texture:LidPropCup
+    400974: PianoV07Texture:LidPropCup1
+    400976: PianoV07Texture:lidUpper
+    400978: PianoV07Texture:lowerLid
+    400980: PianoV07Texture:lyre
+    400982: PianoV07Texture:lyreBrake
+    400984: PianoV07Texture:lyreBrake1
+    400986: PianoV07Texture:lyrePost
+    400988: PianoV07Texture:middleLeg
+    400990: PianoV07Texture:musicDesk
+    400992: PianoV07Texture:musicStand
+    400994: PianoV07Texture:patterns1
+    400996: PianoV07Texture:pCube84
+    400998: PianoV07Texture:pCube84 1
+    401000: PianoV07Texture:pCube84 2
+    401002: PianoV07Texture:pCube84 3
+    401004: PianoV07Texture:pCube84 4
+    401006: PianoV07Texture:pCube84 5
+    401008: PianoV07Texture:pCylinder2
+    401010: PianoV07Texture:pCylinder2 1
+    401012: PianoV07Texture:pCylinder3
+    401014: PianoV07Texture:pCylinder3 1
+    401016: PianoV07Texture:pCylinder3 2
+    401018: PianoV07Texture:pCylinder3 3
+    401020: PianoV07Texture:pCylinder3 4
+    401022: PianoV07Texture:pCylinder3 5
+    401024: PianoV07Texture:pCylinder4
+    401026: PianoV07Texture:pCylinder4 1
+    401028: PianoV07Texture:pCylinder4 2
+    401030: PianoV07Texture:pCylinder4 3
+    401032: PianoV07Texture:pCylinder4 4
+    401034: PianoV07Texture:pCylinder4 5
+    401036: PianoV07Texture:pCylinder5
+    401038: PianoV07Texture:pCylinder5 1
+    401040: PianoV07Texture:pCylinder5 2
+    401042: PianoV07Texture:pCylinder5 3
+    401044: PianoV07Texture:pCylinder5 4
+    401046: PianoV07Texture:pCylinder5 5
+    401048: PianoV07Texture:pCylinder6
+    401050: PianoV07Texture:pCylinder6 1
+    401052: PianoV07Texture:pCylinder6 2
+    401054: PianoV07Texture:pCylinder6 3
+    401056: PianoV07Texture:pCylinder6 4
+    401058: PianoV07Texture:pCylinder6 5
+    401060: PianoV07Texture:pCylinder6 6
+    401062: PianoV07Texture:pCylinder7
+    401064: PianoV07Texture:pCylinder7 1
+    401066: PianoV07Texture:pCylinder7 2
+    401068: PianoV07Texture:pCylinder7 3
+    401070: PianoV07Texture:pedalBox
+    401072: PianoV07Texture:pedals
+    401074: PianoV07Texture:piano
+    401076: PianoV07Texture:PianoV06WithMusicDesk:pCube84
+    401078: PianoV07Texture:PianoV06WithMusicDesk:pCube84 1
+    401080: PianoV07Texture:PianoV06WithMusicDesk:pCylinder2
+    401082: PianoV07Texture:PianoV06WithMusicDesk:pCylinder2 1
+    401084: PianoV07Texture:PianoV06WithMusicDesk:pCylinder3
+    401086: PianoV07Texture:PianoV06WithMusicDesk:pCylinder3 1
+    401088: PianoV07Texture:PianoV06WithMusicDesk:pCylinder4
+    401090: PianoV07Texture:PianoV06WithMusicDesk:pCylinder4 1
+    401092: PianoV07Texture:PianoV06WithMusicDesk:pCylinder5
+    401094: PianoV07Texture:PianoV06WithMusicDesk:pCylinder5 1
+    401096: PianoV07Texture:PianoV06WithMusicDesk:pCylinder6
+    401098: PianoV07Texture:PianoV06WithMusicDesk:pCylinder6 1
+    401100: PianoV07Texture:PianoV06WithMusicDesk:pPipe5
+    401102: PianoV07Texture:PianoV06WithMusicDesk:pPipe5 1
+    401104: PianoV07Texture:PianoV06WithMusicDesk:pPipe7
+    401106: PianoV07Texture:PianoV06WithMusicDesk:pPipe7 1
+    401108: PianoV07Texture:plate
+    401110: PianoV07Texture:plate 1
+    401112: PianoV07Texture:plate 2
+    401114: PianoV07Texture:plate 3
+    401116: PianoV07Texture:plate 4
+    401118: PianoV07Texture:plate 5
+    401120: PianoV07Texture:plate 6
+    401122: PianoV07Texture:plate1
+    401124: PianoV07Texture:plate1 1
+    401126: PianoV07Texture:plate1 2
+    401128: PianoV07Texture:plate1 3
+    401130: PianoV07Texture:pPipe5
+    401132: PianoV07Texture:pPipe5 1
+    401134: PianoV07Texture:pPipe5 2
+    401136: PianoV07Texture:pPipe5 3
+    401138: PianoV07Texture:pPipe5 4
+    401140: PianoV07Texture:pPipe5 5
+    401142: PianoV07Texture:pPipe7
+    401144: PianoV07Texture:pPipe7 1
+    401146: PianoV07Texture:pPipe7 2
+    401148: PianoV07Texture:pPipe7 3
+    401150: PianoV07Texture:pPipe7 4
+    401152: PianoV07Texture:pPipe7 5
+    401154: PianoV07Texture:rightLeg
+    401156: PianoV07Texture:screw
+    401158: PianoV07Texture:screw 1
+    401160: PianoV07Texture:screw 2
+    401162: PianoV07Texture:screw 3
+    401164: PianoV07Texture:screw 4
+    401166: PianoV07Texture:screw 5
+    401168: PianoV07Texture:screw1
+    401170: PianoV07Texture:screw1 1
+    401172: PianoV07Texture:screw1 2
+    401174: PianoV07Texture:screw1 3
+    401176: PianoV07Texture:screw2
+    401178: PianoV07Texture:screw2 1
+    401180: PianoV07Texture:screw2 2
+    401182: PianoV07Texture:screw2 3
+    401184: PianoV07Texture:screw3
+    401186: PianoV07Texture:screw3 1
+    401188: PianoV07Texture:screw3 2
+    401190: PianoV07Texture:screw3 3
+    401192: PianoV07Texture:screw4
+    401194: PianoV07Texture:screw4 1
+    401196: PianoV07Texture:screw4 2
+    401198: PianoV07Texture:screw5
+    401200: PianoV07Texture:screw5 1
+    401202: PianoV07Texture:screw5 2
+    401204: PianoV07Texture:screw5 3
+    401206: PianoV07Texture:shell
+    401208: PianoV07Texture:shell 1
+    401210: PianoV07Texture:shell 2
+    401212: PianoV07Texture:shell1
+    401214: PianoV07Texture:shell1 1
+    401216: PianoV07Texture:shell1 2
+    401218: PianoV07Texture:shell1 3
+    401220: PianoV07Texture:shell2
+    401222: PianoV07Texture:shell2 1
+    401224: PianoV07Texture:shell2 2
+    401226: PianoV07Texture:shell2 3
+    401228: PianoV07Texture:shell3
+    401230: PianoV07Texture:shell3 1
+    401232: PianoV07Texture:shell3 2
+    401234: PianoV07Texture:shell3 3
+    401236: PianoV07Texture:sostunetoPedal
+    401238: PianoV07Texture:sustainPedal
+    401240: PianoV07Texture:transform1
+    401242: PianoV07Texture:upperLid
+    401244: PianoV07Texture:wheel
+    401246: PianoV07Texture:wheel 1
+    401248: PianoV07Texture:wheel 2
+    401250: PianoV07Texture:wheel 3
+    401252: PianoV07Texture:wheel 4
+    401254: PianoV07Texture:wheel 5
+    401256: PianoV07Texture:wheel1
+    401258: PianoV07Texture:wheel1 1
+    401260: PianoV07Texture:wheel1 2
+    401262: PianoV07Texture:wheel1 3
+    401264: PianoV07Texture:WhiteKeys
+    401266: PianoV07Texture:wKey1
+    401268: PianoV07Texture:wKey10
+    401270: PianoV07Texture:wKey11
+    401272: PianoV07Texture:wKey12
+    401274: PianoV07Texture:wKey13
+    401276: PianoV07Texture:wKey14
+    401278: PianoV07Texture:wKey15
+    401280: PianoV07Texture:wKey16
+    401282: PianoV07Texture:wKey17
+    401284: PianoV07Texture:wKey18
+    401286: PianoV07Texture:wKey19
+    401288: PianoV07Texture:wKey2
+    401290: PianoV07Texture:wKey20
+    401292: PianoV07Texture:wKey21
+    401294: PianoV07Texture:wKey22
+    401296: PianoV07Texture:wKey23
+    401298: PianoV07Texture:wKey24
+    401300: PianoV07Texture:wKey25
+    401302: PianoV07Texture:wKey26
+    401304: PianoV07Texture:wKey27
+    401306: PianoV07Texture:wKey28
+    401308: PianoV07Texture:wKey29
+    401310: PianoV07Texture:wKey30
+    401312: PianoV07Texture:wKey31
+    401314: PianoV07Texture:wKey32
+    401316: PianoV07Texture:wKey33
+    401318: PianoV07Texture:wKey34
+    401320: PianoV07Texture:wKey35
+    401322: PianoV07Texture:wKey36
+    401324: PianoV07Texture:wKey37
+    401326: PianoV07Texture:wKey38
+    401328: PianoV07Texture:wKey4
+    401330: PianoV07Texture:wKey5
+    401332: PianoV07Texture:wKey6
+    401334: PianoV07Texture:wKey7
+    401336: PianoV07Texture:wKey8
+    401338: PianoV07Texture:wKey9
+    401340: pSphere1
+    401342: pSphere1 1
+    401344: pSphere1 10
+    401346: pSphere1 11
+    401348: pSphere1 12
+    401350: pSphere1 13
+    401352: pSphere1 14
+    401354: pSphere1 15
+    401356: pSphere1 16
+    401358: pSphere1 17
+    401360: pSphere1 18
+    401362: pSphere1 19
+    401364: pSphere1 2
+    401366: pSphere1 20
+    401368: pSphere1 3
+    401370: pSphere1 4
+    401372: pSphere1 5
+    401374: pSphere1 6
+    401376: pSphere1 7
+    401378: pSphere1 8
+    401380: pSphere1 9
+    401382: railing
+    401384: railing1
+    401386: railing10
+    401388: railing11
+    401390: railing12
+    401392: railing13
+    401394: railing14
+    401396: railing15
+    401398: railing16
+    401400: railing17
+    401402: railing18
+    401404: railing19
+    401406: railing2
+    401408: railing20
+    401410: railing3
+    401412: railing4
+    401414: railing5
+    401416: railing6
+    401418: railing7
+    401420: railing8
+    401422: railing9
+    401424: room
+    401426: //RootNode
+    401428: window1
+    401430: window2
+    401432: window3
+    401434: window:pCube1
+    401436: window:pCube10
+    401438: window:pCube10 1
+    401440: window:pCube11
+    401442: window:pCube11 1
+    401444: window:pCube12
+    401446: window:pCube12 1
+    401448: window:pCube13
+    401450: window:pCube13 1
+    401452: window:pCube14
+    401454: window:pCube14 1
+    401456: window:pCube15
+    401458: window:pCube15 1
+    401460: window:pCube16
+    401462: window:pCube16 1
+    401464: window:pCube17
+    401466: window:pCube17 1
+    401468: window:pCube18
+    401470: window:pCube18 1
+    401472: window:pCube19
+    401474: window:pCube19 1
+    401476: window:pCube2
+    401478: window:pCube20
+    401480: window:pCube20 1
+    401482: window:pCube21
+    401484: window:pCube21 1
+    401486: window:pCube22
+    401488: window:pCube22 1
+    401490: window:pCube23
+    401492: window:pCube23 1
+    401494: window:pCube24
+    401496: window:pCube24 1
+    401498: window:pCube25
+    401500: window:pCube25 1
+    401502: window:pCube26
+    401504: window:pCube26 1
+    401506: window:pCube27
+    401508: window:pCube27 1
+    401510: window:pCube28
+    401512: window:pCube28 1
+    401514: window:pCube29
+    401516: window:pCube29 1
+    401518: window:pCube3
+    401520: window:pCube30
+    401522: window:pCube30 1
+    401524: window:pCube31
+    401526: window:pCube31 1
+    401528: window:pCube32
+    401530: window:pCube32 1
+    401532: window:pCube33
+    401534: window:pCube33 1
+    401536: window:pCube34
+    401538: window:pCube34 1
+    401540: window:pCube35
+    401542: window:pCube35 1
+    401544: window:pCube36
+    401546: window:pCube36 1
+    401548: window:pCube37
+    401550: window:pCube37 1
+    401552: window:pCube38
+    401554: window:pCube38 1
+    401556: window:pCube39
+    401558: window:pCube39 1
+    401560: window:pCube4
+    401562: window:pCube40
+    401564: window:pCube40 1
+    401566: window:pCube41
+    401568: window:pCube41 1
+    401570: window:pCube42
+    401572: window:pCube42 1
+    401574: window:pCube43
+    401576: window:pCube43 1
+    401578: window:pCube44
+    401580: window:pCube44 1
+    401582: window:pCube45
+    401584: window:pCube45 1
+    401586: window:pCube46
+    401588: window:pCube46 1
+    401590: window:pCube47
+    401592: window:pCube47 1
+    401594: window:pCube48
+    401596: window:pCube48 1
+    401598: window:pCube49
+    401600: window:pCube49 1
+    401602: window:pCube5
+    401604: window:pCube5 1
+    401606: window:pCube50
+    401608: window:pCube50 1
+    401610: window:pCube51
+    401612: window:pCube51 1
+    401614: window:pCube52
+    401616: window:pCube52 1
+    401618: window:pCube53
+    401620: window:pCube53 1
+    401622: window:pCube54
+    401624: window:pCube54 1
+    401626: window:pCube55
+    401628: window:pCube55 1
+    401630: window:pCube56
+    401632: window:pCube56 1
+    401634: window:pCube57
+    401636: window:pCube57 1
+    401638: window:pCube58
+    401640: window:pCube58 1
+    401642: window:pCube59
+    401644: window:pCube59 1
+    401646: window:pCube6
+    401648: window:pCube6 1
+    401650: window:pCube60
+    401652: window:pCube60 1
+    401654: window:pCube61
+    401656: window:pCube61 1
+    401658: window:pCube62
+    401660: window:pCube62 1
+    401662: window:pCube63
+    401664: window:pCube63 1
+    401666: window:pCube7
+    401668: window:pCube7 1
+    401670: window:pCube8
+    401672: window:pCube8 1
+    401674: window:pCube9
+    401676: window:pCube9 1
+    401678: window:pCylinder1
+    401680: window:pCylinder2
+    401682: window:windowDoor
+    401684: window:windowDoor1
+    401686: windowDoor
+    401688: windowDoor 1
+    401690: windowDoor1
+    401692: windowDoor1 1
+    401694: windows
+    2000000: back
+    2000002: bottom
+    2100000: walls_shader
+    2100002: floor_shader
+    2100004: fireplace_innerwall
+    2100006: windows_shader
+    2100008: PianoV07Texture_chesterfield
+    2100010: PianoV07Texture_body1
+    2100012: PianoV07Texture_phong3
+    2100014: PianoV07Texture_keys
+    2100016: guitarBodyV02_body1
+    2100018: guitarBodyV02_metallicStuff
+    2100020: guitarBodyV02_neckOutline
+    2100022: guitarBodyV02_phong14
+    2100024: lambert1
+    2100026: guitarBodyV02_neckWood
+    2100028: guitarBodyV02_switchButton
+    2100030: guitarBodyV02_pickGuard1
+    2100032: guitarBodyV02_phong13
+    2100034: fireplace_railing
+    2100036: fireplace1
+    2100038: log_texture
+    2300000: guitarBodyV02:body
+    2300002: guitarBodyV02:bridge
+    2300004: guitarBodyV02:button
+    2300006: guitarBodyV02:button 1
+    2300008: guitarBodyV02:button 2
+    2300010: guitarBodyV02:button 3
+    2300012: guitarBodyV02:buttonBig
+    2300014: guitarBodyV02:buttonRing
+    2300016: guitarBodyV02:buttonRing 1
+    2300018: guitarBodyV02:buttonRing 2
+    2300020: guitarBodyV02:buttonRing 3
+    2300022: guitarBodyV02:buttonSmall
+    2300024: guitarBodyV02:fret1
+    2300026: guitarBodyV02:fret10
+    2300028: guitarBodyV02:fret11
+    2300030: guitarBodyV02:fret12
+    2300032: guitarBodyV02:fret13
+    2300034: guitarBodyV02:fret14
+    2300036: guitarBodyV02:fret15
+    2300038: guitarBodyV02:fret16
+    2300040: guitarBodyV02:fret17
+    2300042: guitarBodyV02:fret18
+    2300044: guitarBodyV02:fret19
+    2300046: guitarBodyV02:fret2
+    2300048: guitarBodyV02:fret20
+    2300050: guitarBodyV02:fret21
+    2300052: guitarBodyV02:fret22
+    2300054: guitarBodyV02:fret3
+    2300056: guitarBodyV02:fret4
+    2300058: guitarBodyV02:fret5
+    2300060: guitarBodyV02:fret6
+    2300062: guitarBodyV02:fret7
+    2300064: guitarBodyV02:fret8
+    2300066: guitarBodyV02:fret9
+    2300068: guitarBodyV02:head
+    2300070: guitarBodyV02:neck
+    2300072: guitarBodyV02:pCube10
+    2300074: guitarBodyV02:pCube11
+    2300076: guitarBodyV02:pCube12
+    2300078: guitarBodyV02:pCube13
+    2300080: guitarBodyV02:pCube14
+    2300082: guitarBodyV02:pCube15
+    2300084: guitarBodyV02:pCube16
+    2300086: guitarBodyV02:pCube8
+    2300088: guitarBodyV02:pCube9
+    2300090: guitarBodyV02:pCylinder10
+    2300092: guitarBodyV02:pCylinder10 1
+    2300094: guitarBodyV02:pCylinder11
+    2300096: guitarBodyV02:pCylinder11 1
+    2300098: guitarBodyV02:pCylinder12
+    2300100: guitarBodyV02:pCylinder12 1
+    2300102: guitarBodyV02:pCylinder13
+    2300104: guitarBodyV02:pCylinder13 1
+    2300106: guitarBodyV02:pCylinder14
+    2300108: guitarBodyV02:pCylinder14 1
+    2300110: guitarBodyV02:pCylinder15
+    2300112: guitarBodyV02:pCylinder15 1
+    2300114: guitarBodyV02:pCylinder16
+    2300116: guitarBodyV02:pCylinder17
+    2300118: guitarBodyV02:pCylinder18
+    2300120: guitarBodyV02:pCylinder18 1
+    2300122: guitarBodyV02:pCylinder19
+    2300124: guitarBodyV02:pCylinder19 1
+    2300126: guitarBodyV02:pCylinder20
+    2300128: guitarBodyV02:pCylinder20 1
+    2300130: guitarBodyV02:pCylinder21
+    2300132: guitarBodyV02:pCylinder21 1
+    2300134: guitarBodyV02:pCylinder22
+    2300136: guitarBodyV02:pCylinder22 1
+    2300138: guitarBodyV02:pCylinder23
+    2300140: guitarBodyV02:pCylinder23 1
+    2300142: guitarBodyV02:pCylinder24
+    2300144: guitarBodyV02:pCylinder24 1
+    2300146: guitarBodyV02:pCylinder25
+    2300148: guitarBodyV02:pCylinder26
+    2300150: guitarBodyV02:pCylinder27
+    2300152: guitarBodyV02:pCylinder28
+    2300154: guitarBodyV02:pCylinder31
+    2300156: guitarBodyV02:pCylinder32
+    2300158: guitarBodyV02:pCylinder33
+    2300160: guitarBodyV02:pCylinder34
+    2300162: guitarBodyV02:pCylinder35
+    2300164: guitarBodyV02:pCylinder36
+    2300166: guitarBodyV02:pCylinder37
+    2300168: guitarBodyV02:pCylinder38
+    2300170: guitarBodyV02:pCylinder39
+    2300172: guitarBodyV02:pCylinder40
+    2300174: guitarBodyV02:pCylinder41
+    2300176: guitarBodyV02:pCylinder41 1
+    2300178: guitarBodyV02:pCylinder41 2
+    2300180: guitarBodyV02:pCylinder41 3
+    2300182: guitarBodyV02:pCylinder41 4
+    2300184: guitarBodyV02:pCylinder41 5
+    2300186: guitarBodyV02:pCylinder42
+    2300188: guitarBodyV02:pCylinder42 1
+    2300190: guitarBodyV02:pCylinder42 2
+    2300192: guitarBodyV02:pCylinder42 3
+    2300194: guitarBodyV02:pCylinder42 4
+    2300196: guitarBodyV02:pCylinder42 5
+    2300198: guitarBodyV02:pCylinder43
+    2300200: guitarBodyV02:pCylinder43 1
+    2300202: guitarBodyV02:pCylinder43 2
+    2300204: guitarBodyV02:pCylinder43 3
+    2300206: guitarBodyV02:pCylinder43 4
+    2300208: guitarBodyV02:pCylinder43 5
+    2300210: guitarBodyV02:pCylinder44
+    2300212: guitarBodyV02:pCylinder44 1
+    2300214: guitarBodyV02:pCylinder44 2
+    2300216: guitarBodyV02:pCylinder44 3
+    2300218: guitarBodyV02:pCylinder44 4
+    2300220: guitarBodyV02:pCylinder44 5
+    2300222: guitarBodyV02:pCylinder45
+    2300224: guitarBodyV02:pCylinder45 1
+    2300226: guitarBodyV02:pCylinder45 2
+    2300228: guitarBodyV02:pCylinder45 3
+    2300230: guitarBodyV02:pCylinder45 4
+    2300232: guitarBodyV02:pCylinder45 5
+    2300234: guitarBodyV02:pCylinder46
+    2300236: guitarBodyV02:pCylinder47
+    2300238: guitarBodyV02:pCylinder48
+    2300240: guitarBodyV02:pCylinder49
+    2300242: guitarBodyV02:pCylinder50
+    2300244: guitarBodyV02:pCylinder51
+    2300246: guitarBodyV02:pickGuard 1
+    2300248: guitarBodyV02:saddles
+    2300250: guitarBodyV02:thing
+    2300252: guitarBodyV02:thing 1
+    2300254: innerwall
+    2300256: innerwall3
+    2300258: pCube1
+    2300260: pCube1 1
+    2300262: pCube10
+    2300264: pCube10 1
+    2300266: pCube11
+    2300268: pCube11 1
+    2300270: pCube11 2
+    2300272: pCube12
+    2300274: pCube12 1
+    2300276: pCube12 2
+    2300278: pCube13
+    2300280: pCube13 1
+    2300282: pCube13 2
+    2300284: pCube14
+    2300286: pCube14 1
+    2300288: pCube14 2
+    2300290: pCube15
+    2300292: pCube15 1
+    2300294: pCube15 10
+    2300296: pCube15 11
+    2300298: pCube15 12
+    2300300: pCube15 13
+    2300302: pCube15 14
+    2300304: pCube15 15
+    2300306: pCube15 16
+    2300308: pCube15 17
+    2300310: pCube15 18
+    2300312: pCube15 19
+    2300314: pCube15 2
+    2300316: pCube15 20
+    2300318: pCube15 21
+    2300320: pCube15 22
+    2300322: pCube15 3
+    2300324: pCube15 4
+    2300326: pCube15 5
+    2300328: pCube15 6
+    2300330: pCube15 7
+    2300332: pCube15 8
+    2300334: pCube15 9
+    2300336: pCube16
+    2300338: pCube16 1
+    2300340: pCube17
+    2300342: pCube17 1
+    2300344: pCube18
+    2300346: pCube18 1
+    2300348: pCube19
+    2300350: pCube19 1
+    2300352: pCube2 1
+    2300354: pCube2 2
+    2300356: pCube20
+    2300358: pCube20 1
+    2300360: pCube20 2
+    2300362: pCube20 3
+    2300364: pCube21
+    2300366: pCube21 1
+    2300368: pCube21 2
+    2300370: pCube21 3
+    2300372: pCube22
+    2300374: pCube22 1
+    2300376: pCube22 2
+    2300378: pCube22 3
+    2300380: pCube23
+    2300382: pCube23 1
+    2300384: pCube23 2
+    2300386: pCube23 3
+    2300388: pCube24
+    2300390: pCube24 1
+    2300392: pCube24 2
+    2300394: pCube24 3
+    2300396: pCube25
+    2300398: pCube25 1
+    2300400: pCube25 2
+    2300402: pCube25 3
+    2300404: pCube26
+    2300406: pCube26 1
+    2300408: pCube26 2
+    2300410: pCube26 3
+    2300412: pCube27
+    2300414: pCube27 1
+    2300416: pCube27 2
+    2300418: pCube27 3
+    2300420: pCube28
+    2300422: pCube28 1
+    2300424: pCube28 2
+    2300426: pCube28 3
+    2300428: pCube29
+    2300430: pCube29 1
+    2300432: pCube29 2
+    2300434: pCube29 3
+    2300436: pCube3
+    2300438: pCube3 1
+    2300440: pCube30
+    2300442: pCube30 1
+    2300444: pCube30 2
+    2300446: pCube30 3
+    2300448: pCube31
+    2300450: pCube31 1
+    2300452: pCube31 2
+    2300454: pCube31 3
+    2300456: pCube32
+    2300458: pCube32 1
+    2300460: pCube32 2
+    2300462: pCube32 3
+    2300464: pCube33
+    2300466: pCube33 1
+    2300468: pCube33 2
+    2300470: pCube33 3
+    2300472: pCube34
+    2300474: pCube34 1
+    2300476: pCube34 2
+    2300478: pCube34 3
+    2300480: pCube35
+    2300482: pCube35 1
+    2300484: pCube35 2
+    2300486: pCube35 3
+    2300488: pCube36
+    2300490: pCube36 1
+    2300492: pCube36 2
+    2300494: pCube36 3
+    2300496: pCube37
+    2300498: pCube37 1
+    2300500: pCube37 2
+    2300502: pCube37 3
+    2300504: pCube38
+    2300506: pCube38 1
+    2300508: pCube38 2
+    2300510: pCube38 3
+    2300512: pCube39
+    2300514: pCube39 1
+    2300516: pCube39 2
+    2300518: pCube39 3
+    2300520: pCube4
+    2300522: pCube4 1
+    2300524: pCube40
+    2300526: pCube40 1
+    2300528: pCube40 2
+    2300530: pCube40 3
+    2300532: pCube41
+    2300534: pCube41 1
+    2300536: pCube41 2
+    2300538: pCube41 3
+    2300540: pCube42
+    2300542: pCube42 1
+    2300544: pCube42 2
+    2300546: pCube42 3
+    2300548: pCube43
+    2300550: pCube43 1
+    2300552: pCube43 2
+    2300554: pCube43 3
+    2300556: pCube44
+    2300558: pCube44 1
+    2300560: pCube44 2
+    2300562: pCube44 3
+    2300564: pCube45
+    2300566: pCube45 1
+    2300568: pCube45 2
+    2300570: pCube45 3
+    2300572: pCube46
+    2300574: pCube46 1
+    2300576: pCube46 2
+    2300578: pCube46 3
+    2300580: pCube47
+    2300582: pCube47 1
+    2300584: pCube47 2
+    2300586: pCube47 3
+    2300588: pCube48
+    2300590: pCube48 1
+    2300592: pCube48 2
+    2300594: pCube48 3
+    2300596: pCube49
+    2300598: pCube49 1
+    2300600: pCube49 2
+    2300602: pCube49 3
+    2300604: pCube5
+    2300606: pCube5 1
+    2300608: pCube5 2
+    2300610: pCube5 3
+    2300612: pCube50
+    2300614: pCube50 1
+    2300616: pCube50 2
+    2300618: pCube50 3
+    2300620: pCube51
+    2300622: pCube51 1
+    2300624: pCube51 2
+    2300626: pCube51 3
+    2300628: pCube52
+    2300630: pCube52 1
+    2300632: pCube52 2
+    2300634: pCube52 3
+    2300636: pCube53
+    2300638: pCube53 1
+    2300640: pCube53 2
+    2300642: pCube53 3
+    2300644: pCube54
+    2300646: pCube54 1
+    2300648: pCube54 2
+    2300650: pCube54 3
+    2300652: pCube55
+    2300654: pCube55 1
+    2300656: pCube55 2
+    2300658: pCube55 3
+    2300660: pCube56
+    2300662: pCube56 1
+    2300664: pCube56 2
+    2300666: pCube56 3
+    2300668: pCube57
+    2300670: pCube57 1
+    2300672: pCube57 2
+    2300674: pCube57 3
+    2300676: pCube58
+    2300678: pCube58 1
+    2300680: pCube58 2
+    2300682: pCube58 3
+    2300684: pCube59
+    2300686: pCube59 1
+    2300688: pCube59 2
+    2300690: pCube59 3
+    2300692: pCube6
+    2300694: pCube6 1
+    2300696: pCube60
+    2300698: pCube60 1
+    2300700: pCube60 2
+    2300702: pCube60 3
+    2300704: pCube61
+    2300706: pCube61 1
+    2300708: pCube61 2
+    2300710: pCube61 3
+    2300712: pCube62
+    2300714: pCube62 1
+    2300716: pCube62 2
+    2300718: pCube62 3
+    2300720: pCube63
+    2300722: pCube63 1
+    2300724: pCube63 2
+    2300726: pCube63 3
+    2300728: pCube7
+    2300730: pCube7 1
+    2300732: pCube8
+    2300734: pCube8 1
+    2300736: pCube9
+    2300738: pCube9 1
+    2300740: pCylinder1
+    2300742: pCylinder1 1
+    2300744: pCylinder1 2
+    2300746: pCylinder2
+    2300748: pCylinder2 1
+    2300750: pCylinder2 2
+    2300752: pCylinder3
+    2300754: pCylinder4
+    2300756: PianoV07Texture:board
+    2300758: PianoV07Texture:body 1
+    2300760: PianoV07Texture:chair 1
+    2300762: PianoV07Texture:damperPedal
+    2300764: PianoV07Texture:hingeLow
+    2300766: PianoV07Texture:hingeLowerLid
+    2300768: PianoV07Texture:key1
+    2300770: PianoV07Texture:key10
+    2300772: PianoV07Texture:key11
+    2300774: PianoV07Texture:key12
+    2300776: PianoV07Texture:key13
+    2300778: PianoV07Texture:key14
+    2300780: PianoV07Texture:key15
+    2300782: PianoV07Texture:key16
+    2300784: PianoV07Texture:key17
+    2300786: PianoV07Texture:key18
+    2300788: PianoV07Texture:key19
+    2300790: PianoV07Texture:key2
+    2300792: PianoV07Texture:key20
+    2300794: PianoV07Texture:key21
+    2300796: PianoV07Texture:key22
+    2300798: PianoV07Texture:key23
+    2300800: PianoV07Texture:key24
+    2300802: PianoV07Texture:key25
+    2300804: PianoV07Texture:key3
+    2300806: PianoV07Texture:key4
+    2300808: PianoV07Texture:key5
+    2300810: PianoV07Texture:key6
+    2300812: PianoV07Texture:key7
+    2300814: PianoV07Texture:key8
+    2300816: PianoV07Texture:key9
+    2300818: PianoV07Texture:leg
+    2300820: PianoV07Texture:leg 1
+    2300822: PianoV07Texture:leg 2
+    2300824: PianoV07Texture:lidLower
+    2300826: PianoV07Texture:lidProp
+    2300828: PianoV07Texture:LidPropCup
+    2300830: PianoV07Texture:LidPropCup1
+    2300832: PianoV07Texture:lidUpper
+    2300834: PianoV07Texture:lyreBrake
+    2300836: PianoV07Texture:lyreBrake1
+    2300838: PianoV07Texture:lyrePost
+    2300840: PianoV07Texture:musicDesk
+    2300842: PianoV07Texture:patterns1
+    2300844: PianoV07Texture:pCube84
+    2300846: PianoV07Texture:pCube84 1
+    2300848: PianoV07Texture:pCube84 2
+    2300850: PianoV07Texture:pCube84 3
+    2300852: PianoV07Texture:pCube84 4
+    2300854: PianoV07Texture:pCube84 5
+    2300856: PianoV07Texture:pCylinder2
+    2300858: PianoV07Texture:pCylinder2 1
+    2300860: PianoV07Texture:pCylinder3
+    2300862: PianoV07Texture:pCylinder3 1
+    2300864: PianoV07Texture:pCylinder3 2
+    2300866: PianoV07Texture:pCylinder3 3
+    2300868: PianoV07Texture:pCylinder3 4
+    2300870: PianoV07Texture:pCylinder3 5
+    2300872: PianoV07Texture:pCylinder4
+    2300874: PianoV07Texture:pCylinder4 1
+    2300876: PianoV07Texture:pCylinder4 2
+    2300878: PianoV07Texture:pCylinder4 3
+    2300880: PianoV07Texture:pCylinder4 4
+    2300882: PianoV07Texture:pCylinder4 5
+    2300884: PianoV07Texture:pCylinder5
+    2300886: PianoV07Texture:pCylinder5 1
+    2300888: PianoV07Texture:pCylinder5 2
+    2300890: PianoV07Texture:pCylinder5 3
+    2300892: PianoV07Texture:pCylinder5 4
+    2300894: PianoV07Texture:pCylinder5 5
+    2300896: PianoV07Texture:pCylinder6
+    2300898: PianoV07Texture:pCylinder6 1
+    2300900: PianoV07Texture:pCylinder6 2
+    2300902: PianoV07Texture:pCylinder6 3
+    2300904: PianoV07Texture:pCylinder6 4
+    2300906: PianoV07Texture:pCylinder6 5
+    2300908: PianoV07Texture:pCylinder6 6
+    2300910: PianoV07Texture:pCylinder7
+    2300912: PianoV07Texture:pCylinder7 1
+    2300914: PianoV07Texture:pCylinder7 2
+    2300916: PianoV07Texture:pCylinder7 3
+    2300918: PianoV07Texture:pedalBox
+    2300920: PianoV07Texture:PianoV06WithMusicDesk:pCube84
+    2300922: PianoV07Texture:PianoV06WithMusicDesk:pCube84 1
+    2300924: PianoV07Texture:PianoV06WithMusicDesk:pCylinder2
+    2300926: PianoV07Texture:PianoV06WithMusicDesk:pCylinder2 1
+    2300928: PianoV07Texture:PianoV06WithMusicDesk:pCylinder3
+    2300930: PianoV07Texture:PianoV06WithMusicDesk:pCylinder3 1
+    2300932: PianoV07Texture:PianoV06WithMusicDesk:pCylinder4
+    2300934: PianoV07Texture:PianoV06WithMusicDesk:pCylinder4 1
+    2300936: PianoV07Texture:PianoV06WithMusicDesk:pCylinder5
+    2300938: PianoV07Texture:PianoV06WithMusicDesk:pCylinder5 1
+    2300940: PianoV07Texture:PianoV06WithMusicDesk:pCylinder6
+    2300942: PianoV07Texture:PianoV06WithMusicDesk:pCylinder6 1
+    2300944: PianoV07Texture:PianoV06WithMusicDesk:pPipe5
+    2300946: PianoV07Texture:PianoV06WithMusicDesk:pPipe5 1
+    2300948: PianoV07Texture:PianoV06WithMusicDesk:pPipe7
+    2300950: PianoV07Texture:PianoV06WithMusicDesk:pPipe7 1
+    2300952: PianoV07Texture:plate
+    2300954: PianoV07Texture:plate 1
+    2300956: PianoV07Texture:plate 2
+    2300958: PianoV07Texture:plate 3
+    2300960: PianoV07Texture:plate 4
+    2300962: PianoV07Texture:plate 5
+    2300964: PianoV07Texture:plate 6
+    2300966: PianoV07Texture:plate1
+    2300968: PianoV07Texture:plate1 1
+    2300970: PianoV07Texture:plate1 2
+    2300972: PianoV07Texture:plate1 3
+    2300974: PianoV07Texture:pPipe5
+    2300976: PianoV07Texture:pPipe5 1
+    2300978: PianoV07Texture:pPipe5 2
+    2300980: PianoV07Texture:pPipe5 3
+    2300982: PianoV07Texture:pPipe5 4
+    2300984: PianoV07Texture:pPipe5 5
+    2300986: PianoV07Texture:pPipe7
+    2300988: PianoV07Texture:pPipe7 1
+    2300990: PianoV07Texture:pPipe7 2
+    2300992: PianoV07Texture:pPipe7 3
+    2300994: PianoV07Texture:pPipe7 4
+    2300996: PianoV07Texture:pPipe7 5
+    2300998: PianoV07Texture:screw
+    2301000: PianoV07Texture:screw 1
+    2301002: PianoV07Texture:screw 2
+    2301004: PianoV07Texture:screw 3
+    2301006: PianoV07Texture:screw 4
+    2301008: PianoV07Texture:screw 5
+    2301010: PianoV07Texture:screw1
+    2301012: PianoV07Texture:screw1 1
+    2301014: PianoV07Texture:screw1 2
+    2301016: PianoV07Texture:screw1 3
+    2301018: PianoV07Texture:screw2
+    2301020: PianoV07Texture:screw2 1
+    2301022: PianoV07Texture:screw2 2
+    2301024: PianoV07Texture:screw2 3
+    2301026: PianoV07Texture:screw3
+    2301028: PianoV07Texture:screw3 1
+    2301030: PianoV07Texture:screw3 2
+    2301032: PianoV07Texture:screw3 3
+    2301034: PianoV07Texture:screw4
+    2301036: PianoV07Texture:screw4 1
+    2301038: PianoV07Texture:screw4 2
+    2301040: PianoV07Texture:screw5
+    2301042: PianoV07Texture:screw5 1
+    2301044: PianoV07Texture:screw5 2
+    2301046: PianoV07Texture:screw5 3
+    2301048: PianoV07Texture:shell
+    2301050: PianoV07Texture:shell 1
+    2301052: PianoV07Texture:shell 2
+    2301054: PianoV07Texture:shell1
+    2301056: PianoV07Texture:shell1 1
+    2301058: PianoV07Texture:shell1 2
+    2301060: PianoV07Texture:shell1 3
+    2301062: PianoV07Texture:shell2
+    2301064: PianoV07Texture:shell2 1
+    2301066: PianoV07Texture:shell2 2
+    2301068: PianoV07Texture:shell2 3
+    2301070: PianoV07Texture:shell3
+    2301072: PianoV07Texture:shell3 1
+    2301074: PianoV07Texture:shell3 2
+    2301076: PianoV07Texture:shell3 3
+    2301078: PianoV07Texture:sostunetoPedal
+    2301080: PianoV07Texture:sustainPedal
+    2301082: PianoV07Texture:wheel 3
+    2301084: PianoV07Texture:wheel 4
+    2301086: PianoV07Texture:wheel 5
+    2301088: PianoV07Texture:wheel1
+    2301090: PianoV07Texture:wheel1 1
+    2301092: PianoV07Texture:wheel1 2
+    2301094: PianoV07Texture:wheel1 3
+    2301096: PianoV07Texture:wKey1
+    2301098: PianoV07Texture:wKey10
+    2301100: PianoV07Texture:wKey11
+    2301102: PianoV07Texture:wKey12
+    2301104: PianoV07Texture:wKey13
+    2301106: PianoV07Texture:wKey14
+    2301108: PianoV07Texture:wKey15
+    2301110: PianoV07Texture:wKey16
+    2301112: PianoV07Texture:wKey17
+    2301114: PianoV07Texture:wKey18
+    2301116: PianoV07Texture:wKey19
+    2301118: PianoV07Texture:wKey2
+    2301120: PianoV07Texture:wKey20
+    2301122: PianoV07Texture:wKey21
+    2301124: PianoV07Texture:wKey22
+    2301126: PianoV07Texture:wKey23
+    2301128: PianoV07Texture:wKey24
+    2301130: PianoV07Texture:wKey25
+    2301132: PianoV07Texture:wKey26
+    2301134: PianoV07Texture:wKey27
+    2301136: PianoV07Texture:wKey28
+    2301138: PianoV07Texture:wKey29
+    2301140: PianoV07Texture:wKey30
+    2301142: PianoV07Texture:wKey31
+    2301144: PianoV07Texture:wKey32
+    2301146: PianoV07Texture:wKey33
+    2301148: PianoV07Texture:wKey34
+    2301150: PianoV07Texture:wKey35
+    2301152: PianoV07Texture:wKey36
+    2301154: PianoV07Texture:wKey37
+    2301156: PianoV07Texture:wKey38
+    2301158: PianoV07Texture:wKey4
+    2301160: PianoV07Texture:wKey5
+    2301162: PianoV07Texture:wKey6
+    2301164: PianoV07Texture:wKey7
+    2301166: PianoV07Texture:wKey8
+    2301168: PianoV07Texture:wKey9
+    2301170: pSphere1
+    2301172: pSphere1 1
+    2301174: pSphere1 10
+    2301176: pSphere1 11
+    2301178: pSphere1 12
+    2301180: pSphere1 13
+    2301182: pSphere1 14
+    2301184: pSphere1 15
+    2301186: pSphere1 16
+    2301188: pSphere1 17
+    2301190: pSphere1 18
+    2301192: pSphere1 19
+    2301194: pSphere1 2
+    2301196: pSphere1 20
+    2301198: pSphere1 3
+    2301200: pSphere1 4
+    2301202: pSphere1 5
+    2301204: pSphere1 6
+    2301206: pSphere1 7
+    2301208: pSphere1 8
+    2301210: pSphere1 9
+    2301212: room
+    2301214: window:pCube1
+    2301216: window:pCube10
+    2301218: window:pCube10 1
+    2301220: window:pCube11
+    2301222: window:pCube11 1
+    2301224: window:pCube12
+    2301226: window:pCube12 1
+    2301228: window:pCube13
+    2301230: window:pCube13 1
+    2301232: window:pCube14
+    2301234: window:pCube14 1
+    2301236: window:pCube15
+    2301238: window:pCube15 1
+    2301240: window:pCube16
+    2301242: window:pCube16 1
+    2301244: window:pCube17
+    2301246: window:pCube17 1
+    2301248: window:pCube18
+    2301250: window:pCube18 1
+    2301252: window:pCube19
+    2301254: window:pCube19 1
+    2301256: window:pCube2
+    2301258: window:pCube20
+    2301260: window:pCube20 1
+    2301262: window:pCube21
+    2301264: window:pCube21 1
+    2301266: window:pCube22
+    2301268: window:pCube22 1
+    2301270: window:pCube23
+    2301272: window:pCube23 1
+    2301274: window:pCube24
+    2301276: window:pCube24 1
+    2301278: window:pCube25
+    2301280: window:pCube25 1
+    2301282: window:pCube26
+    2301284: window:pCube26 1
+    2301286: window:pCube27
+    2301288: window:pCube27 1
+    2301290: window:pCube28
+    2301292: window:pCube28 1
+    2301294: window:pCube29
+    2301296: window:pCube29 1
+    2301298: window:pCube3
+    2301300: window:pCube30
+    2301302: window:pCube30 1
+    2301304: window:pCube31
+    2301306: window:pCube31 1
+    2301308: window:pCube32
+    2301310: window:pCube32 1
+    2301312: window:pCube33
+    2301314: window:pCube33 1
+    2301316: window:pCube34
+    2301318: window:pCube34 1
+    2301320: window:pCube35
+    2301322: window:pCube35 1
+    2301324: window:pCube36
+    2301326: window:pCube36 1
+    2301328: window:pCube37
+    2301330: window:pCube37 1
+    2301332: window:pCube38
+    2301334: window:pCube38 1
+    2301336: window:pCube39
+    2301338: window:pCube39 1
+    2301340: window:pCube4
+    2301342: window:pCube40
+    2301344: window:pCube40 1
+    2301346: window:pCube41
+    2301348: window:pCube41 1
+    2301350: window:pCube42
+    2301352: window:pCube42 1
+    2301354: window:pCube43
+    2301356: window:pCube43 1
+    2301358: window:pCube44
+    2301360: window:pCube44 1
+    2301362: window:pCube45
+    2301364: window:pCube45 1
+    2301366: window:pCube46
+    2301368: window:pCube46 1
+    2301370: window:pCube47
+    2301372: window:pCube47 1
+    2301374: window:pCube48
+    2301376: window:pCube48 1
+    2301378: window:pCube49
+    2301380: window:pCube49 1
+    2301382: window:pCube5
+    2301384: window:pCube5 1
+    2301386: window:pCube50
+    2301388: window:pCube50 1
+    2301390: window:pCube51
+    2301392: window:pCube51 1
+    2301394: window:pCube52
+    2301396: window:pCube52 1
+    2301398: window:pCube53
+    2301400: window:pCube53 1
+    2301402: window:pCube54
+    2301404: window:pCube54 1
+    2301406: window:pCube55
+    2301408: window:pCube55 1
+    2301410: window:pCube56
+    2301412: window:pCube56 1
+    2301414: window:pCube57
+    2301416: window:pCube57 1
+    2301418: window:pCube58
+    2301420: window:pCube58 1
+    2301422: window:pCube59
+    2301424: window:pCube59 1
+    2301426: window:pCube6
+    2301428: window:pCube6 1
+    2301430: window:pCube60
+    2301432: window:pCube60 1
+    2301434: window:pCube61
+    2301436: window:pCube61 1
+    2301438: window:pCube62
+    2301440: window:pCube62 1
+    2301442: window:pCube63
+    2301444: window:pCube63 1
+    2301446: window:pCube7
+    2301448: window:pCube7 1
+    2301450: window:pCube8
+    2301452: window:pCube8 1
+    2301454: window:pCube9
+    2301456: window:pCube9 1
+    2301458: window:pCylinder1
+    2301460: window:pCylinder2
+    3300000: guitarBodyV02:body
+    3300002: guitarBodyV02:bridge
+    3300004: guitarBodyV02:button
+    3300006: guitarBodyV02:button 1
+    3300008: guitarBodyV02:button 2
+    3300010: guitarBodyV02:button 3
+    3300012: guitarBodyV02:buttonBig
+    3300014: guitarBodyV02:buttonRing
+    3300016: guitarBodyV02:buttonRing 1
+    3300018: guitarBodyV02:buttonRing 2
+    3300020: guitarBodyV02:buttonRing 3
+    3300022: guitarBodyV02:buttonSmall
+    3300024: guitarBodyV02:fret1
+    3300026: guitarBodyV02:fret10
+    3300028: guitarBodyV02:fret11
+    3300030: guitarBodyV02:fret12
+    3300032: guitarBodyV02:fret13
+    3300034: guitarBodyV02:fret14
+    3300036: guitarBodyV02:fret15
+    3300038: guitarBodyV02:fret16
+    3300040: guitarBodyV02:fret17
+    3300042: guitarBodyV02:fret18
+    3300044: guitarBodyV02:fret19
+    3300046: guitarBodyV02:fret2
+    3300048: guitarBodyV02:fret20
+    3300050: guitarBodyV02:fret21
+    3300052: guitarBodyV02:fret22
+    3300054: guitarBodyV02:fret3
+    3300056: guitarBodyV02:fret4
+    3300058: guitarBodyV02:fret5
+    3300060: guitarBodyV02:fret6
+    3300062: guitarBodyV02:fret7
+    3300064: guitarBodyV02:fret8
+    3300066: guitarBodyV02:fret9
+    3300068: guitarBodyV02:head
+    3300070: guitarBodyV02:neck
+    3300072: guitarBodyV02:pCube10
+    3300074: guitarBodyV02:pCube11
+    3300076: guitarBodyV02:pCube12
+    3300078: guitarBodyV02:pCube13
+    3300080: guitarBodyV02:pCube14
+    3300082: guitarBodyV02:pCube15
+    3300084: guitarBodyV02:pCube16
+    3300086: guitarBodyV02:pCube8
+    3300088: guitarBodyV02:pCube9
+    3300090: guitarBodyV02:pCylinder10
+    3300092: guitarBodyV02:pCylinder10 1
+    3300094: guitarBodyV02:pCylinder11
+    3300096: guitarBodyV02:pCylinder11 1
+    3300098: guitarBodyV02:pCylinder12
+    3300100: guitarBodyV02:pCylinder12 1
+    3300102: guitarBodyV02:pCylinder13
+    3300104: guitarBodyV02:pCylinder13 1
+    3300106: guitarBodyV02:pCylinder14
+    3300108: guitarBodyV02:pCylinder14 1
+    3300110: guitarBodyV02:pCylinder15
+    3300112: guitarBodyV02:pCylinder15 1
+    3300114: guitarBodyV02:pCylinder16
+    3300116: guitarBodyV02:pCylinder17
+    3300118: guitarBodyV02:pCylinder18
+    3300120: guitarBodyV02:pCylinder18 1
+    3300122: guitarBodyV02:pCylinder19
+    3300124: guitarBodyV02:pCylinder19 1
+    3300126: guitarBodyV02:pCylinder20
+    3300128: guitarBodyV02:pCylinder20 1
+    3300130: guitarBodyV02:pCylinder21
+    3300132: guitarBodyV02:pCylinder21 1
+    3300134: guitarBodyV02:pCylinder22
+    3300136: guitarBodyV02:pCylinder22 1
+    3300138: guitarBodyV02:pCylinder23
+    3300140: guitarBodyV02:pCylinder23 1
+    3300142: guitarBodyV02:pCylinder24
+    3300144: guitarBodyV02:pCylinder24 1
+    3300146: guitarBodyV02:pCylinder25
+    3300148: guitarBodyV02:pCylinder26
+    3300150: guitarBodyV02:pCylinder27
+    3300152: guitarBodyV02:pCylinder28
+    3300154: guitarBodyV02:pCylinder31
+    3300156: guitarBodyV02:pCylinder32
+    3300158: guitarBodyV02:pCylinder33
+    3300160: guitarBodyV02:pCylinder34
+    3300162: guitarBodyV02:pCylinder35
+    3300164: guitarBodyV02:pCylinder36
+    3300166: guitarBodyV02:pCylinder37
+    3300168: guitarBodyV02:pCylinder38
+    3300170: guitarBodyV02:pCylinder39
+    3300172: guitarBodyV02:pCylinder40
+    3300174: guitarBodyV02:pCylinder41
+    3300176: guitarBodyV02:pCylinder41 1
+    3300178: guitarBodyV02:pCylinder41 2
+    3300180: guitarBodyV02:pCylinder41 3
+    3300182: guitarBodyV02:pCylinder41 4
+    3300184: guitarBodyV02:pCylinder41 5
+    3300186: guitarBodyV02:pCylinder42
+    3300188: guitarBodyV02:pCylinder42 1
+    3300190: guitarBodyV02:pCylinder42 2
+    3300192: guitarBodyV02:pCylinder42 3
+    3300194: guitarBodyV02:pCylinder42 4
+    3300196: guitarBodyV02:pCylinder42 5
+    3300198: guitarBodyV02:pCylinder43
+    3300200: guitarBodyV02:pCylinder43 1
+    3300202: guitarBodyV02:pCylinder43 2
+    3300204: guitarBodyV02:pCylinder43 3
+    3300206: guitarBodyV02:pCylinder43 4
+    3300208: guitarBodyV02:pCylinder43 5
+    3300210: guitarBodyV02:pCylinder44
+    3300212: guitarBodyV02:pCylinder44 1
+    3300214: guitarBodyV02:pCylinder44 2
+    3300216: guitarBodyV02:pCylinder44 3
+    3300218: guitarBodyV02:pCylinder44 4
+    3300220: guitarBodyV02:pCylinder44 5
+    3300222: guitarBodyV02:pCylinder45
+    3300224: guitarBodyV02:pCylinder45 1
+    3300226: guitarBodyV02:pCylinder45 2
+    3300228: guitarBodyV02:pCylinder45 3
+    3300230: guitarBodyV02:pCylinder45 4
+    3300232: guitarBodyV02:pCylinder45 5
+    3300234: guitarBodyV02:pCylinder46
+    3300236: guitarBodyV02:pCylinder47
+    3300238: guitarBodyV02:pCylinder48
+    3300240: guitarBodyV02:pCylinder49
+    3300242: guitarBodyV02:pCylinder50
+    3300244: guitarBodyV02:pCylinder51
+    3300246: guitarBodyV02:pickGuard 1
+    3300248: guitarBodyV02:saddles
+    3300250: guitarBodyV02:thing
+    3300252: guitarBodyV02:thing 1
+    3300254: innerwall
+    3300256: innerwall3
+    3300258: pCube1
+    3300260: pCube1 1
+    3300262: pCube10
+    3300264: pCube10 1
+    3300266: pCube11
+    3300268: pCube11 1
+    3300270: pCube11 2
+    3300272: pCube12
+    3300274: pCube12 1
+    3300276: pCube12 2
+    3300278: pCube13
+    3300280: pCube13 1
+    3300282: pCube13 2
+    3300284: pCube14
+    3300286: pCube14 1
+    3300288: pCube14 2
+    3300290: pCube15
+    3300292: pCube15 1
+    3300294: pCube15 10
+    3300296: pCube15 11
+    3300298: pCube15 12
+    3300300: pCube15 13
+    3300302: pCube15 14
+    3300304: pCube15 15
+    3300306: pCube15 16
+    3300308: pCube15 17
+    3300310: pCube15 18
+    3300312: pCube15 19
+    3300314: pCube15 2
+    3300316: pCube15 20
+    3300318: pCube15 21
+    3300320: pCube15 22
+    3300322: pCube15 3
+    3300324: pCube15 4
+    3300326: pCube15 5
+    3300328: pCube15 6
+    3300330: pCube15 7
+    3300332: pCube15 8
+    3300334: pCube15 9
+    3300336: pCube16
+    3300338: pCube16 1
+    3300340: pCube17
+    3300342: pCube17 1
+    3300344: pCube18
+    3300346: pCube18 1
+    3300348: pCube19
+    3300350: pCube19 1
+    3300352: pCube2 1
+    3300354: pCube2 2
+    3300356: pCube20
+    3300358: pCube20 1
+    3300360: pCube20 2
+    3300362: pCube20 3
+    3300364: pCube21
+    3300366: pCube21 1
+    3300368: pCube21 2
+    3300370: pCube21 3
+    3300372: pCube22
+    3300374: pCube22 1
+    3300376: pCube22 2
+    3300378: pCube22 3
+    3300380: pCube23
+    3300382: pCube23 1
+    3300384: pCube23 2
+    3300386: pCube23 3
+    3300388: pCube24
+    3300390: pCube24 1
+    3300392: pCube24 2
+    3300394: pCube24 3
+    3300396: pCube25
+    3300398: pCube25 1
+    3300400: pCube25 2
+    3300402: pCube25 3
+    3300404: pCube26
+    3300406: pCube26 1
+    3300408: pCube26 2
+    3300410: pCube26 3
+    3300412: pCube27
+    3300414: pCube27 1
+    3300416: pCube27 2
+    3300418: pCube27 3
+    3300420: pCube28
+    3300422: pCube28 1
+    3300424: pCube28 2
+    3300426: pCube28 3
+    3300428: pCube29
+    3300430: pCube29 1
+    3300432: pCube29 2
+    3300434: pCube29 3
+    3300436: pCube3
+    3300438: pCube3 1
+    3300440: pCube30
+    3300442: pCube30 1
+    3300444: pCube30 2
+    3300446: pCube30 3
+    3300448: pCube31
+    3300450: pCube31 1
+    3300452: pCube31 2
+    3300454: pCube31 3
+    3300456: pCube32
+    3300458: pCube32 1
+    3300460: pCube32 2
+    3300462: pCube32 3
+    3300464: pCube33
+    3300466: pCube33 1
+    3300468: pCube33 2
+    3300470: pCube33 3
+    3300472: pCube34
+    3300474: pCube34 1
+    3300476: pCube34 2
+    3300478: pCube34 3
+    3300480: pCube35
+    3300482: pCube35 1
+    3300484: pCube35 2
+    3300486: pCube35 3
+    3300488: pCube36
+    3300490: pCube36 1
+    3300492: pCube36 2
+    3300494: pCube36 3
+    3300496: pCube37
+    3300498: pCube37 1
+    3300500: pCube37 2
+    3300502: pCube37 3
+    3300504: pCube38
+    3300506: pCube38 1
+    3300508: pCube38 2
+    3300510: pCube38 3
+    3300512: pCube39
+    3300514: pCube39 1
+    3300516: pCube39 2
+    3300518: pCube39 3
+    3300520: pCube4
+    3300522: pCube4 1
+    3300524: pCube40
+    3300526: pCube40 1
+    3300528: pCube40 2
+    3300530: pCube40 3
+    3300532: pCube41
+    3300534: pCube41 1
+    3300536: pCube41 2
+    3300538: pCube41 3
+    3300540: pCube42
+    3300542: pCube42 1
+    3300544: pCube42 2
+    3300546: pCube42 3
+    3300548: pCube43
+    3300550: pCube43 1
+    3300552: pCube43 2
+    3300554: pCube43 3
+    3300556: pCube44
+    3300558: pCube44 1
+    3300560: pCube44 2
+    3300562: pCube44 3
+    3300564: pCube45
+    3300566: pCube45 1
+    3300568: pCube45 2
+    3300570: pCube45 3
+    3300572: pCube46
+    3300574: pCube46 1
+    3300576: pCube46 2
+    3300578: pCube46 3
+    3300580: pCube47
+    3300582: pCube47 1
+    3300584: pCube47 2
+    3300586: pCube47 3
+    3300588: pCube48
+    3300590: pCube48 1
+    3300592: pCube48 2
+    3300594: pCube48 3
+    3300596: pCube49
+    3300598: pCube49 1
+    3300600: pCube49 2
+    3300602: pCube49 3
+    3300604: pCube5
+    3300606: pCube5 1
+    3300608: pCube5 2
+    3300610: pCube5 3
+    3300612: pCube50
+    3300614: pCube50 1
+    3300616: pCube50 2
+    3300618: pCube50 3
+    3300620: pCube51
+    3300622: pCube51 1
+    3300624: pCube51 2
+    3300626: pCube51 3
+    3300628: pCube52
+    3300630: pCube52 1
+    3300632: pCube52 2
+    3300634: pCube52 3
+    3300636: pCube53
+    3300638: pCube53 1
+    3300640: pCube53 2
+    3300642: pCube53 3
+    3300644: pCube54
+    3300646: pCube54 1
+    3300648: pCube54 2
+    3300650: pCube54 3
+    3300652: pCube55
+    3300654: pCube55 1
+    3300656: pCube55 2
+    3300658: pCube55 3
+    3300660: pCube56
+    3300662: pCube56 1
+    3300664: pCube56 2
+    3300666: pCube56 3
+    3300668: pCube57
+    3300670: pCube57 1
+    3300672: pCube57 2
+    3300674: pCube57 3
+    3300676: pCube58
+    3300678: pCube58 1
+    3300680: pCube58 2
+    3300682: pCube58 3
+    3300684: pCube59
+    3300686: pCube59 1
+    3300688: pCube59 2
+    3300690: pCube59 3
+    3300692: pCube6
+    3300694: pCube6 1
+    3300696: pCube60
+    3300698: pCube60 1
+    3300700: pCube60 2
+    3300702: pCube60 3
+    3300704: pCube61
+    3300706: pCube61 1
+    3300708: pCube61 2
+    3300710: pCube61 3
+    3300712: pCube62
+    3300714: pCube62 1
+    3300716: pCube62 2
+    3300718: pCube62 3
+    3300720: pCube63
+    3300722: pCube63 1
+    3300724: pCube63 2
+    3300726: pCube63 3
+    3300728: pCube7
+    3300730: pCube7 1
+    3300732: pCube8
+    3300734: pCube8 1
+    3300736: pCube9
+    3300738: pCube9 1
+    3300740: pCylinder1
+    3300742: pCylinder1 1
+    3300744: pCylinder1 2
+    3300746: pCylinder2
+    3300748: pCylinder2 1
+    3300750: pCylinder2 2
+    3300752: pCylinder3
+    3300754: pCylinder4
+    3300756: PianoV07Texture:board
+    3300758: PianoV07Texture:body 1
+    3300760: PianoV07Texture:chair 1
+    3300762: PianoV07Texture:damperPedal
+    3300764: PianoV07Texture:hingeLow
+    3300766: PianoV07Texture:hingeLowerLid
+    3300768: PianoV07Texture:key1
+    3300770: PianoV07Texture:key10
+    3300772: PianoV07Texture:key11
+    3300774: PianoV07Texture:key12
+    3300776: PianoV07Texture:key13
+    3300778: PianoV07Texture:key14
+    3300780: PianoV07Texture:key15
+    3300782: PianoV07Texture:key16
+    3300784: PianoV07Texture:key17
+    3300786: PianoV07Texture:key18
+    3300788: PianoV07Texture:key19
+    3300790: PianoV07Texture:key2
+    3300792: PianoV07Texture:key20
+    3300794: PianoV07Texture:key21
+    3300796: PianoV07Texture:key22
+    3300798: PianoV07Texture:key23
+    3300800: PianoV07Texture:key24
+    3300802: PianoV07Texture:key25
+    3300804: PianoV07Texture:key3
+    3300806: PianoV07Texture:key4
+    3300808: PianoV07Texture:key5
+    3300810: PianoV07Texture:key6
+    3300812: PianoV07Texture:key7
+    3300814: PianoV07Texture:key8
+    3300816: PianoV07Texture:key9
+    3300818: PianoV07Texture:leg
+    3300820: PianoV07Texture:leg 1
+    3300822: PianoV07Texture:leg 2
+    3300824: PianoV07Texture:lidLower
+    3300826: PianoV07Texture:lidProp
+    3300828: PianoV07Texture:LidPropCup
+    3300830: PianoV07Texture:LidPropCup1
+    3300832: PianoV07Texture:lidUpper
+    3300834: PianoV07Texture:lyreBrake
+    3300836: PianoV07Texture:lyreBrake1
+    3300838: PianoV07Texture:lyrePost
+    3300840: PianoV07Texture:musicDesk
+    3300842: PianoV07Texture:patterns1
+    3300844: PianoV07Texture:pCube84
+    3300846: PianoV07Texture:pCube84 1
+    3300848: PianoV07Texture:pCube84 2
+    3300850: PianoV07Texture:pCube84 3
+    3300852: PianoV07Texture:pCube84 4
+    3300854: PianoV07Texture:pCube84 5
+    3300856: PianoV07Texture:pCylinder2
+    3300858: PianoV07Texture:pCylinder2 1
+    3300860: PianoV07Texture:pCylinder3
+    3300862: PianoV07Texture:pCylinder3 1
+    3300864: PianoV07Texture:pCylinder3 2
+    3300866: PianoV07Texture:pCylinder3 3
+    3300868: PianoV07Texture:pCylinder3 4
+    3300870: PianoV07Texture:pCylinder3 5
+    3300872: PianoV07Texture:pCylinder4
+    3300874: PianoV07Texture:pCylinder4 1
+    3300876: PianoV07Texture:pCylinder4 2
+    3300878: PianoV07Texture:pCylinder4 3
+    3300880: PianoV07Texture:pCylinder4 4
+    3300882: PianoV07Texture:pCylinder4 5
+    3300884: PianoV07Texture:pCylinder5
+    3300886: PianoV07Texture:pCylinder5 1
+    3300888: PianoV07Texture:pCylinder5 2
+    3300890: PianoV07Texture:pCylinder5 3
+    3300892: PianoV07Texture:pCylinder5 4
+    3300894: PianoV07Texture:pCylinder5 5
+    3300896: PianoV07Texture:pCylinder6
+    3300898: PianoV07Texture:pCylinder6 1
+    3300900: PianoV07Texture:pCylinder6 2
+    3300902: PianoV07Texture:pCylinder6 3
+    3300904: PianoV07Texture:pCylinder6 4
+    3300906: PianoV07Texture:pCylinder6 5
+    3300908: PianoV07Texture:pCylinder6 6
+    3300910: PianoV07Texture:pCylinder7
+    3300912: PianoV07Texture:pCylinder7 1
+    3300914: PianoV07Texture:pCylinder7 2
+    3300916: PianoV07Texture:pCylinder7 3
+    3300918: PianoV07Texture:pedalBox
+    3300920: PianoV07Texture:PianoV06WithMusicDesk:pCube84
+    3300922: PianoV07Texture:PianoV06WithMusicDesk:pCube84 1
+    3300924: PianoV07Texture:PianoV06WithMusicDesk:pCylinder2
+    3300926: PianoV07Texture:PianoV06WithMusicDesk:pCylinder2 1
+    3300928: PianoV07Texture:PianoV06WithMusicDesk:pCylinder3
+    3300930: PianoV07Texture:PianoV06WithMusicDesk:pCylinder3 1
+    3300932: PianoV07Texture:PianoV06WithMusicDesk:pCylinder4
+    3300934: PianoV07Texture:PianoV06WithMusicDesk:pCylinder4 1
+    3300936: PianoV07Texture:PianoV06WithMusicDesk:pCylinder5
+    3300938: PianoV07Texture:PianoV06WithMusicDesk:pCylinder5 1
+    3300940: PianoV07Texture:PianoV06WithMusicDesk:pCylinder6
+    3300942: PianoV07Texture:PianoV06WithMusicDesk:pCylinder6 1
+    3300944: PianoV07Texture:PianoV06WithMusicDesk:pPipe5
+    3300946: PianoV07Texture:PianoV06WithMusicDesk:pPipe5 1
+    3300948: PianoV07Texture:PianoV06WithMusicDesk:pPipe7
+    3300950: PianoV07Texture:PianoV06WithMusicDesk:pPipe7 1
+    3300952: PianoV07Texture:plate
+    3300954: PianoV07Texture:plate 1
+    3300956: PianoV07Texture:plate 2
+    3300958: PianoV07Texture:plate 3
+    3300960: PianoV07Texture:plate 4
+    3300962: PianoV07Texture:plate 5
+    3300964: PianoV07Texture:plate 6
+    3300966: PianoV07Texture:plate1
+    3300968: PianoV07Texture:plate1 1
+    3300970: PianoV07Texture:plate1 2
+    3300972: PianoV07Texture:plate1 3
+    3300974: PianoV07Texture:pPipe5
+    3300976: PianoV07Texture:pPipe5 1
+    3300978: PianoV07Texture:pPipe5 2
+    3300980: PianoV07Texture:pPipe5 3
+    3300982: PianoV07Texture:pPipe5 4
+    3300984: PianoV07Texture:pPipe5 5
+    3300986: PianoV07Texture:pPipe7
+    3300988: PianoV07Texture:pPipe7 1
+    3300990: PianoV07Texture:pPipe7 2
+    3300992: PianoV07Texture:pPipe7 3
+    3300994: PianoV07Texture:pPipe7 4
+    3300996: PianoV07Texture:pPipe7 5
+    3300998: PianoV07Texture:screw
+    3301000: PianoV07Texture:screw 1
+    3301002: PianoV07Texture:screw 2
+    3301004: PianoV07Texture:screw 3
+    3301006: PianoV07Texture:screw 4
+    3301008: PianoV07Texture:screw 5
+    3301010: PianoV07Texture:screw1
+    3301012: PianoV07Texture:screw1 1
+    3301014: PianoV07Texture:screw1 2
+    3301016: PianoV07Texture:screw1 3
+    3301018: PianoV07Texture:screw2
+    3301020: PianoV07Texture:screw2 1
+    3301022: PianoV07Texture:screw2 2
+    3301024: PianoV07Texture:screw2 3
+    3301026: PianoV07Texture:screw3
+    3301028: PianoV07Texture:screw3 1
+    3301030: PianoV07Texture:screw3 2
+    3301032: PianoV07Texture:screw3 3
+    3301034: PianoV07Texture:screw4
+    3301036: PianoV07Texture:screw4 1
+    3301038: PianoV07Texture:screw4 2
+    3301040: PianoV07Texture:screw5
+    3301042: PianoV07Texture:screw5 1
+    3301044: PianoV07Texture:screw5 2
+    3301046: PianoV07Texture:screw5 3
+    3301048: PianoV07Texture:shell
+    3301050: PianoV07Texture:shell 1
+    3301052: PianoV07Texture:shell 2
+    3301054: PianoV07Texture:shell1
+    3301056: PianoV07Texture:shell1 1
+    3301058: PianoV07Texture:shell1 2
+    3301060: PianoV07Texture:shell1 3
+    3301062: PianoV07Texture:shell2
+    3301064: PianoV07Texture:shell2 1
+    3301066: PianoV07Texture:shell2 2
+    3301068: PianoV07Texture:shell2 3
+    3301070: PianoV07Texture:shell3
+    3301072: PianoV07Texture:shell3 1
+    3301074: PianoV07Texture:shell3 2
+    3301076: PianoV07Texture:shell3 3
+    3301078: PianoV07Texture:sostunetoPedal
+    3301080: PianoV07Texture:sustainPedal
+    3301082: PianoV07Texture:wheel 3
+    3301084: PianoV07Texture:wheel 4
+    3301086: PianoV07Texture:wheel 5
+    3301088: PianoV07Texture:wheel1
+    3301090: PianoV07Texture:wheel1 1
+    3301092: PianoV07Texture:wheel1 2
+    3301094: PianoV07Texture:wheel1 3
+    3301096: PianoV07Texture:wKey1
+    3301098: PianoV07Texture:wKey10
+    3301100: PianoV07Texture:wKey11
+    3301102: PianoV07Texture:wKey12
+    3301104: PianoV07Texture:wKey13
+    3301106: PianoV07Texture:wKey14
+    3301108: PianoV07Texture:wKey15
+    3301110: PianoV07Texture:wKey16
+    3301112: PianoV07Texture:wKey17
+    3301114: PianoV07Texture:wKey18
+    3301116: PianoV07Texture:wKey19
+    3301118: PianoV07Texture:wKey2
+    3301120: PianoV07Texture:wKey20
+    3301122: PianoV07Texture:wKey21
+    3301124: PianoV07Texture:wKey22
+    3301126: PianoV07Texture:wKey23
+    3301128: PianoV07Texture:wKey24
+    3301130: PianoV07Texture:wKey25
+    3301132: PianoV07Texture:wKey26
+    3301134: PianoV07Texture:wKey27
+    3301136: PianoV07Texture:wKey28
+    3301138: PianoV07Texture:wKey29
+    3301140: PianoV07Texture:wKey30
+    3301142: PianoV07Texture:wKey31
+    3301144: PianoV07Texture:wKey32
+    3301146: PianoV07Texture:wKey33
+    3301148: PianoV07Texture:wKey34
+    3301150: PianoV07Texture:wKey35
+    3301152: PianoV07Texture:wKey36
+    3301154: PianoV07Texture:wKey37
+    3301156: PianoV07Texture:wKey38
+    3301158: PianoV07Texture:wKey4
+    3301160: PianoV07Texture:wKey5
+    3301162: PianoV07Texture:wKey6
+    3301164: PianoV07Texture:wKey7
+    3301166: PianoV07Texture:wKey8
+    3301168: PianoV07Texture:wKey9
+    3301170: pSphere1
+    3301172: pSphere1 1
+    3301174: pSphere1 10
+    3301176: pSphere1 11
+    3301178: pSphere1 12
+    3301180: pSphere1 13
+    3301182: pSphere1 14
+    3301184: pSphere1 15
+    3301186: pSphere1 16
+    3301188: pSphere1 17
+    3301190: pSphere1 18
+    3301192: pSphere1 19
+    3301194: pSphere1 2
+    3301196: pSphere1 20
+    3301198: pSphere1 3
+    3301200: pSphere1 4
+    3301202: pSphere1 5
+    3301204: pSphere1 6
+    3301206: pSphere1 7
+    3301208: pSphere1 8
+    3301210: pSphere1 9
+    3301212: room
+    3301214: window:pCube1
+    3301216: window:pCube10
+    3301218: window:pCube10 1
+    3301220: window:pCube11
+    3301222: window:pCube11 1
+    3301224: window:pCube12
+    3301226: window:pCube12 1
+    3301228: window:pCube13
+    3301230: window:pCube13 1
+    3301232: window:pCube14
+    3301234: window:pCube14 1
+    3301236: window:pCube15
+    3301238: window:pCube15 1
+    3301240: window:pCube16
+    3301242: window:pCube16 1
+    3301244: window:pCube17
+    3301246: window:pCube17 1
+    3301248: window:pCube18
+    3301250: window:pCube18 1
+    3301252: window:pCube19
+    3301254: window:pCube19 1
+    3301256: window:pCube2
+    3301258: window:pCube20
+    3301260: window:pCube20 1
+    3301262: window:pCube21
+    3301264: window:pCube21 1
+    3301266: window:pCube22
+    3301268: window:pCube22 1
+    3301270: window:pCube23
+    3301272: window:pCube23 1
+    3301274: window:pCube24
+    3301276: window:pCube24 1
+    3301278: window:pCube25
+    3301280: window:pCube25 1
+    3301282: window:pCube26
+    3301284: window:pCube26 1
+    3301286: window:pCube27
+    3301288: window:pCube27 1
+    3301290: window:pCube28
+    3301292: window:pCube28 1
+    3301294: window:pCube29
+    3301296: window:pCube29 1
+    3301298: window:pCube3
+    3301300: window:pCube30
+    3301302: window:pCube30 1
+    3301304: window:pCube31
+    3301306: window:pCube31 1
+    3301308: window:pCube32
+    3301310: window:pCube32 1
+    3301312: window:pCube33
+    3301314: window:pCube33 1
+    3301316: window:pCube34
+    3301318: window:pCube34 1
+    3301320: window:pCube35
+    3301322: window:pCube35 1
+    3301324: window:pCube36
+    3301326: window:pCube36 1
+    3301328: window:pCube37
+    3301330: window:pCube37 1
+    3301332: window:pCube38
+    3301334: window:pCube38 1
+    3301336: window:pCube39
+    3301338: window:pCube39 1
+    3301340: window:pCube4
+    3301342: window:pCube40
+    3301344: window:pCube40 1
+    3301346: window:pCube41
+    3301348: window:pCube41 1
+    3301350: window:pCube42
+    3301352: window:pCube42 1
+    3301354: window:pCube43
+    3301356: window:pCube43 1
+    3301358: window:pCube44
+    3301360: window:pCube44 1
+    3301362: window:pCube45
+    3301364: window:pCube45 1
+    3301366: window:pCube46
+    3301368: window:pCube46 1
+    3301370: window:pCube47
+    3301372: window:pCube47 1
+    3301374: window:pCube48
+    3301376: window:pCube48 1
+    3301378: window:pCube49
+    3301380: window:pCube49 1
+    3301382: window:pCube5
+    3301384: window:pCube5 1
+    3301386: window:pCube50
+    3301388: window:pCube50 1
+    3301390: window:pCube51
+    3301392: window:pCube51 1
+    3301394: window:pCube52
+    3301396: window:pCube52 1
+    3301398: window:pCube53
+    3301400: window:pCube53 1
+    3301402: window:pCube54
+    3301404: window:pCube54 1
+    3301406: window:pCube55
+    3301408: window:pCube55 1
+    3301410: window:pCube56
+    3301412: window:pCube56 1
+    3301414: window:pCube57
+    3301416: window:pCube57 1
+    3301418: window:pCube58
+    3301420: window:pCube58 1
+    3301422: window:pCube59
+    3301424: window:pCube59 1
+    3301426: window:pCube6
+    3301428: window:pCube6 1
+    3301430: window:pCube60
+    3301432: window:pCube60 1
+    3301434: window:pCube61
+    3301436: window:pCube61 1
+    3301438: window:pCube62
+    3301440: window:pCube62 1
+    3301442: window:pCube63
+    3301444: window:pCube63 1
+    3301446: window:pCube7
+    3301448: window:pCube7 1
+    3301450: window:pCube8
+    3301452: window:pCube8 1
+    3301454: window:pCube9
+    3301456: window:pCube9 1
+    3301458: window:pCylinder1
+    3301460: window:pCylinder2
+    4300000: room
+    4300002: window:pCube1
+    4300004: window:pCube2
+    4300006: window:pCube3
+    4300008: window:pCylinder1
+    4300010: window:pCylinder2
+    4300012: window:pCube4
+    4300014: window:pCube5
+    4300016: window:pCube6
+    4300018: window:pCube7
+    4300020: window:pCube8
+    4300022: window:pCube9
+    4300024: window:pCube10
+    4300026: window:pCube11
+    4300028: window:pCube12
+    4300030: window:pCube13
+    4300032: window:pCube14
+    4300034: window:pCube15
+    4300036: window:pCube16
+    4300038: window:pCube17
+    4300040: window:pCube18
+    4300042: window:pCube19
+    4300044: window:pCube20
+    4300046: window:pCube21
+    4300048: window:pCube22
+    4300050: window:pCube23
+    4300052: window:pCube24
+    4300054: window:pCube25
+    4300056: window:pCube26
+    4300058: window:pCube27
+    4300060: window:pCube28
+    4300062: window:pCube29
+    4300064: window:pCube30
+    4300066: window:pCube31
+    4300068: window:pCube32
+    4300070: window:pCube33
+    4300072: window:pCube34
+    4300074: window:pCube35
+    4300076: window:pCube36
+    4300078: window:pCube37
+    4300080: window:pCube38
+    4300082: window:pCube39
+    4300084: window:pCube40
+    4300086: window:pCube41
+    4300088: window:pCube42
+    4300090: window:pCube43
+    4300092: window:pCube44
+    4300094: window:pCube45
+    4300096: window:pCube46
+    4300098: window:pCube47
+    4300100: window:pCube48
+    4300102: window:pCube49
+    4300104: window:pCube50
+    4300106: window:pCube51
+    4300108: window:pCube52
+    4300110: window:pCube53
+    4300112: window:pCube54
+    4300114: window:pCube55
+    4300116: window:pCube56
+    4300118: window:pCube57
+    4300120: window:pCube58
+    4300122: window:pCube59
+    4300124: window:pCube60
+    4300126: window:pCube61
+    4300128: window:pCube62
+    4300130: window:pCube63
+    4300132: window:pCube5
+    4300134: window:pCube6
+    4300136: window:pCube7
+    4300138: window:pCube8
+    4300140: window:pCube9
+    4300142: window:pCube10
+    4300144: window:pCube11
+    4300146: window:pCube12
+    4300148: window:pCube13
+    4300150: window:pCube14
+    4300152: window:pCube15
+    4300154: window:pCube16
+    4300156: window:pCube17
+    4300158: window:pCube18
+    4300160: window:pCube19
+    4300162: window:pCube20
+    4300164: window:pCube21
+    4300166: window:pCube22
+    4300168: window:pCube23
+    4300170: window:pCube24
+    4300172: window:pCube25
+    4300174: window:pCube26
+    4300176: window:pCube27
+    4300178: window:pCube28
+    4300180: window:pCube29
+    4300182: window:pCube30
+    4300184: window:pCube31
+    4300186: window:pCube32
+    4300188: window:pCube33
+    4300190: window:pCube34
+    4300192: window:pCube35
+    4300194: window:pCube36
+    4300196: window:pCube37
+    4300198: window:pCube38
+    4300200: window:pCube39
+    4300202: window:pCube40
+    4300204: window:pCube41
+    4300206: window:pCube42
+    4300208: window:pCube43
+    4300210: window:pCube44
+    4300212: window:pCube45
+    4300214: window:pCube46
+    4300216: window:pCube47
+    4300218: window:pCube48
+    4300220: window:pCube49
+    4300222: window:pCube50
+    4300224: window:pCube51
+    4300226: window:pCube52
+    4300228: window:pCube53
+    4300230: window:pCube54
+    4300232: window:pCube55
+    4300234: window:pCube56
+    4300236: window:pCube57
+    4300238: window:pCube58
+    4300240: window:pCube59
+    4300242: window:pCube60
+    4300244: window:pCube61
+    4300246: window:pCube62
+    4300248: window:pCube63
+    4300250: pCube1
+    4300252: pCube2
+    4300254: pCube3
+    4300256: pCylinder1
+    4300258: pCylinder2
+    4300260: pCube4
+    4300262: pCube5
+    4300264: pCube20
+    4300266: pCube21
+    4300268: pCube22
+    4300270: pCube23
+    4300272: pCube24
+    4300274: pCube25
+    4300276: pCube26
+    4300278: pCube27
+    4300280: pCube28
+    4300282: pCube29
+    4300284: pCube30
+    4300286: pCube31
+    4300288: pCube32
+    4300290: pCube33
+    4300292: pCube34
+    4300294: pCube35
+    4300296: pCube36
+    4300298: pCube37
+    4300300: pCube38
+    4300302: pCube39
+    4300304: pCube40
+    4300306: pCube41
+    4300308: pCube42
+    4300310: pCube43
+    4300312: pCube44
+    4300314: pCube45
+    4300316: pCube46
+    4300318: pCube47
+    4300320: pCube48
+    4300322: pCube49
+    4300324: pCube50
+    4300326: pCube51
+    4300328: pCube52
+    4300330: pCube53
+    4300332: pCube54
+    4300334: pCube55
+    4300336: pCube56
+    4300338: pCube57
+    4300340: pCube58
+    4300342: pCube59
+    4300344: pCube60
+    4300346: pCube61
+    4300348: pCube62
+    4300350: pCube63
+    4300352: pCube5
+    4300354: pCube20
+    4300356: pCube21
+    4300358: pCube22
+    4300360: pCube23
+    4300362: pCube24
+    4300364: pCube25
+    4300366: pCube26
+    4300368: pCube27
+    4300370: pCube28
+    4300372: pCube29
+    4300374: pCube30
+    4300376: pCube31
+    4300378: pCube32
+    4300380: pCube33
+    4300382: pCube34
+    4300384: pCube35
+    4300386: pCube36
+    4300388: pCube37
+    4300390: pCube38
+    4300392: pCube39
+    4300394: pCube40
+    4300396: pCube41
+    4300398: pCube42
+    4300400: pCube43
+    4300402: pCube44
+    4300404: pCube45
+    4300406: pCube46
+    4300408: pCube47
+    4300410: pCube48
+    4300412: pCube49
+    4300414: pCube50
+    4300416: pCube51
+    4300418: pCube52
+    4300420: pCube53
+    4300422: pCube54
+    4300424: pCube55
+    4300426: pCube56
+    4300428: pCube57
+    4300430: pCube58
+    4300432: pCube59
+    4300434: pCube60
+    4300436: pCube61
+    4300438: pCube62
+    4300440: pCube63
+    4300442: pCube1
+    4300444: pCube2
+    4300446: pCube3
+    4300448: pCylinder1
+    4300450: pCylinder2
+    4300452: pCube4
+    4300454: pCube5
+    4300456: pCube6
+    4300458: pCube7
+    4300460: pCube8
+    4300462: pCube9
+    4300464: pCube10
+    4300466: pCube11
+    4300468: pCube12
+    4300470: pCube13
+    4300472: pCube14
+    4300474: pCube15
+    4300476: pCube16
+    4300478: pCube17
+    4300480: pCube18
+    4300482: pCube19
+    4300484: pCube20
+    4300486: pCube21
+    4300488: pCube22
+    4300490: pCube23
+    4300492: pCube24
+    4300494: pCube25
+    4300496: pCube26
+    4300498: pCube27
+    4300500: pCube28
+    4300502: pCube29
+    4300504: pCube30
+    4300506: pCube31
+    4300508: pCube32
+    4300510: pCube33
+    4300512: pCube34
+    4300514: pCube35
+    4300516: pCube36
+    4300518: pCube37
+    4300520: pCube38
+    4300522: pCube39
+    4300524: pCube40
+    4300526: pCube41
+    4300528: pCube42
+    4300530: pCube43
+    4300532: pCube44
+    4300534: pCube45
+    4300536: pCube46
+    4300538: pCube47
+    4300540: pCube48
+    4300542: pCube49
+    4300544: pCube50
+    4300546: pCube51
+    4300548: pCube52
+    4300550: pCube53
+    4300552: pCube54
+    4300554: pCube55
+    4300556: pCube56
+    4300558: pCube57
+    4300560: pCube58
+    4300562: pCube59
+    4300564: pCube60
+    4300566: pCube61
+    4300568: pCube62
+    4300570: pCube63
+    4300572: pCube5
+    4300574: pCube6
+    4300576: pCube7
+    4300578: pCube8
+    4300580: pCube9
+    4300582: pCube10
+    4300584: pCube11
+    4300586: pCube12
+    4300588: pCube13
+    4300590: pCube14
+    4300592: pCube15
+    4300594: pCube16
+    4300596: pCube17
+    4300598: pCube18
+    4300600: pCube19
+    4300602: pCube20
+    4300604: pCube21
+    4300606: pCube22
+    4300608: pCube23
+    4300610: pCube24
+    4300612: pCube25
+    4300614: pCube26
+    4300616: pCube27
+    4300618: pCube28
+    4300620: pCube29
+    4300622: pCube30
+    4300624: pCube31
+    4300626: pCube32
+    4300628: pCube33
+    4300630: pCube34
+    4300632: pCube35
+    4300634: pCube36
+    4300636: pCube37
+    4300638: pCube38
+    4300640: pCube39
+    4300642: pCube40
+    4300644: pCube41
+    4300646: pCube42
+    4300648: pCube43
+    4300650: pCube44
+    4300652: pCube45
+    4300654: pCube46
+    4300656: pCube47
+    4300658: pCube48
+    4300660: pCube49
+    4300662: pCube50
+    4300664: pCube51
+    4300666: pCube52
+    4300668: pCube53
+    4300670: pCube54
+    4300672: pCube55
+    4300674: pCube56
+    4300676: pCube57
+    4300678: pCube58
+    4300680: pCube59
+    4300682: pCube60
+    4300684: pCube61
+    4300686: pCube62
+    4300688: pCube63
+    4300690: PianoV07Texture:patterns1
+    4300692: PianoV07Texture:board
+    4300694: PianoV07Texture:screw
+    4300696: PianoV07Texture:shell1
+    4300698: PianoV07Texture:shell2
+    4300700: PianoV07Texture:plate
+    4300702: PianoV07Texture:screw1
+    4300704: PianoV07Texture:screw2
+    4300706: PianoV07Texture:screw3
+    4300708: PianoV07Texture:screw4
+    4300710: PianoV07Texture:screw
+    4300712: PianoV07Texture:shell1
+    4300714: PianoV07Texture:shell2
+    4300716: PianoV07Texture:plate
+    4300718: PianoV07Texture:screw1
+    4300720: PianoV07Texture:screw2
+    4300722: PianoV07Texture:screw3
+    4300724: PianoV07Texture:pCylinder6
+    4300726: PianoV07Texture:lyreBrake1
+    4300728: PianoV07Texture:lyreBrake
+    4300730: PianoV07Texture:lyrePost
+    4300732: PianoV07Texture:pedalBox
+    4300734: PianoV07Texture:damperPedal
+    4300736: PianoV07Texture:sostunetoPedal
+    4300738: PianoV07Texture:sustainPedal
+    4300740: PianoV07Texture:musicDesk
+    4300742: PianoV07Texture:plate
+    4300744: PianoV07Texture:screw1
+    4300746: PianoV07Texture:screw2
+    4300748: PianoV07Texture:screw3
+    4300750: PianoV07Texture:screw4
+    4300752: PianoV07Texture:shell1
+    4300754: PianoV07Texture:shell2
+    4300756: PianoV07Texture:plate
+    4300758: PianoV07Texture:screw1
+    4300760: PianoV07Texture:screw2
+    4300762: PianoV07Texture:screw3
+    4300764: PianoV07Texture:screw4
+    4300766: PianoV07Texture:shell1
+    4300768: PianoV07Texture:shell2
+    4300770: PianoV07Texture:key1
+    4300772: PianoV07Texture:key2
+    4300774: PianoV07Texture:key3
+    4300776: PianoV07Texture:key4
+    4300778: PianoV07Texture:key5
+    4300780: PianoV07Texture:key6
+    4300782: PianoV07Texture:key7
+    4300784: PianoV07Texture:key8
+    4300786: PianoV07Texture:key9
+    4300788: PianoV07Texture:key10
+    4300790: PianoV07Texture:key11
+    4300792: PianoV07Texture:key12
+    4300794: PianoV07Texture:key13
+    4300796: PianoV07Texture:key14
+    4300798: PianoV07Texture:key15
+    4300800: PianoV07Texture:key16
+    4300802: PianoV07Texture:key17
+    4300804: PianoV07Texture:key18
+    4300806: PianoV07Texture:key19
+    4300808: PianoV07Texture:key20
+    4300810: PianoV07Texture:key21
+    4300812: PianoV07Texture:key22
+    4300814: PianoV07Texture:key23
+    4300816: PianoV07Texture:key24
+    4300818: PianoV07Texture:key25
+    4300820: PianoV07Texture:wKey1
+    4300822: PianoV07Texture:wKey2
+    4300824: PianoV07Texture:wKey4
+    4300826: PianoV07Texture:wKey5
+    4300828: PianoV07Texture:wKey6
+    4300830: PianoV07Texture:wKey7
+    4300832: PianoV07Texture:wKey8
+    4300834: PianoV07Texture:wKey9
+    4300836: PianoV07Texture:wKey10
+    4300838: PianoV07Texture:wKey11
+    4300840: PianoV07Texture:wKey12
+    4300842: PianoV07Texture:wKey13
+    4300844: PianoV07Texture:wKey14
+    4300846: PianoV07Texture:wKey15
+    4300848: PianoV07Texture:wKey16
+    4300850: PianoV07Texture:wKey17
+    4300852: PianoV07Texture:wKey18
+    4300854: PianoV07Texture:wKey19
+    4300856: PianoV07Texture:wKey20
+    4300858: PianoV07Texture:wKey21
+    4300860: PianoV07Texture:wKey22
+    4300862: PianoV07Texture:wKey23
+    4300864: PianoV07Texture:wKey24
+    4300866: PianoV07Texture:wKey25
+    4300868: PianoV07Texture:wKey26
+    4300870: PianoV07Texture:wKey27
+    4300872: PianoV07Texture:wKey28
+    4300874: PianoV07Texture:wKey29
+    4300876: PianoV07Texture:wKey30
+    4300878: PianoV07Texture:wKey31
+    4300880: PianoV07Texture:wKey32
+    4300882: PianoV07Texture:wKey33
+    4300884: PianoV07Texture:wKey34
+    4300886: PianoV07Texture:wKey35
+    4300888: PianoV07Texture:wKey36
+    4300890: PianoV07Texture:wKey37
+    4300892: PianoV07Texture:wKey38
+    4300894: PianoV07Texture:body
+    4300896: PianoV07Texture:pCylinder2
+    4300898: PianoV07Texture:pPipe5
+    4300900: PianoV07Texture:pPipe7
+    4300902: PianoV07Texture:pCube84
+    4300904: PianoV07Texture:pCylinder3
+    4300906: PianoV07Texture:pCylinder4
+    4300908: PianoV07Texture:pCylinder5
+    4300910: PianoV07Texture:pCylinder6
+    4300912: PianoV07Texture:pCylinder2
+    4300914: PianoV07Texture:pPipe5
+    4300916: PianoV07Texture:pPipe7
+    4300918: PianoV07Texture:pCube84
+    4300920: PianoV07Texture:pCylinder3
+    4300922: PianoV07Texture:pCylinder4
+    4300924: PianoV07Texture:pCylinder5
+    4300926: PianoV07Texture:pCylinder6
+    4300928: PianoV07Texture:PianoV06WithMusicDesk:pCylinder2
+    4300930: PianoV07Texture:PianoV06WithMusicDesk:pPipe5
+    4300932: PianoV07Texture:PianoV06WithMusicDesk:pPipe7
+    4300934: PianoV07Texture:PianoV06WithMusicDesk:pCube84
+    4300936: PianoV07Texture:PianoV06WithMusicDesk:pCylinder3
+    4300938: PianoV07Texture:PianoV06WithMusicDesk:pCylinder4
+    4300940: PianoV07Texture:PianoV06WithMusicDesk:pCylinder5
+    4300942: PianoV07Texture:PianoV06WithMusicDesk:pCylinder6
+    4300944: PianoV07Texture:PianoV06WithMusicDesk:pCylinder2
+    4300946: PianoV07Texture:PianoV06WithMusicDesk:pPipe5
+    4300948: PianoV07Texture:PianoV06WithMusicDesk:pPipe7
+    4300950: PianoV07Texture:PianoV06WithMusicDesk:pCube84
+    4300952: PianoV07Texture:PianoV06WithMusicDesk:pCylinder3
+    4300954: PianoV07Texture:PianoV06WithMusicDesk:pCylinder4
+    4300956: PianoV07Texture:PianoV06WithMusicDesk:pCylinder5
+    4300958: PianoV07Texture:PianoV06WithMusicDesk:pCylinder6
+    4300960: PianoV07Texture:pCube84
+    4300962: PianoV07Texture:pCylinder3
+    4300964: PianoV07Texture:pCylinder4
+    4300966: PianoV07Texture:pCylinder5
+    4300968: PianoV07Texture:pCylinder6
+    4300970: PianoV07Texture:pPipe5
+    4300972: PianoV07Texture:pPipe7
+    4300974: PianoV07Texture:pCube84
+    4300976: PianoV07Texture:pCylinder3
+    4300978: PianoV07Texture:pCylinder4
+    4300980: PianoV07Texture:pCylinder5
+    4300982: PianoV07Texture:pCylinder6
+    4300984: PianoV07Texture:pPipe5
+    4300986: PianoV07Texture:pPipe7
+    4300988: PianoV07Texture:lidProp
+    4300990: PianoV07Texture:wheel
+    4300992: PianoV07Texture:plate
+    4300994: PianoV07Texture:screw
+    4300996: PianoV07Texture:shell
+    4300998: PianoV07Texture:leg
+    4301000: PianoV07Texture:wheel
+    4301002: PianoV07Texture:plate
+    4301004: PianoV07Texture:screw
+    4301006: PianoV07Texture:shell
+    4301008: PianoV07Texture:leg
+    4301010: PianoV07Texture:wheel
+    4301012: PianoV07Texture:plate
+    4301014: PianoV07Texture:screw
+    4301016: PianoV07Texture:shell
+    4301018: PianoV07Texture:leg
+    4301020: PianoV07Texture:lidUpper
+    4301022: PianoV07Texture:pCube84
+    4301024: PianoV07Texture:pCylinder3
+    4301026: PianoV07Texture:pCylinder4
+    4301028: PianoV07Texture:pCylinder5
+    4301030: PianoV07Texture:pCylinder6
+    4301032: PianoV07Texture:pPipe5
+    4301034: PianoV07Texture:pPipe7
+    4301036: PianoV07Texture:pCube84
+    4301038: PianoV07Texture:pCylinder3
+    4301040: PianoV07Texture:pCylinder4
+    4301042: PianoV07Texture:pCylinder5
+    4301044: PianoV07Texture:pCylinder6
+    4301046: PianoV07Texture:pPipe5
+    4301048: PianoV07Texture:pPipe7
+    4301050: PianoV07Texture:hingeLow
+    4301052: PianoV07Texture:screw
+    4301054: PianoV07Texture:lidLower
+    4301056: PianoV07Texture:hingeLowerLid
+    4301058: PianoV07Texture:LidPropCup
+    4301060: PianoV07Texture:LidPropCup1
+    4301062: PianoV07Texture:chair
+    4301064: PianoV07Texture:pCylinder7
+    4301066: PianoV07Texture:shell3
+    4301068: PianoV07Texture:screw5
+    4301070: PianoV07Texture:plate1
+    4301072: PianoV07Texture:wheel1
+    4301074: PianoV07Texture:pCylinder7
+    4301076: PianoV07Texture:shell3
+    4301078: PianoV07Texture:screw5
+    4301080: PianoV07Texture:plate1
+    4301082: PianoV07Texture:wheel1
+    4301084: PianoV07Texture:pCylinder7
+    4301086: PianoV07Texture:shell3
+    4301088: PianoV07Texture:screw5
+    4301090: PianoV07Texture:plate1
+    4301092: PianoV07Texture:wheel1
+    4301094: PianoV07Texture:pCylinder7
+    4301096: PianoV07Texture:shell3
+    4301098: PianoV07Texture:screw5
+    4301100: PianoV07Texture:plate1
+    4301102: PianoV07Texture:wheel1
+    4301104: guitarBodyV02:body
+    4301106: guitarBodyV02:fret1
+    4301108: guitarBodyV02:fret2
+    4301110: guitarBodyV02:fret3
+    4301112: guitarBodyV02:fret4
+    4301114: guitarBodyV02:fret5
+    4301116: guitarBodyV02:fret6
+    4301118: guitarBodyV02:fret7
+    4301120: guitarBodyV02:fret8
+    4301122: guitarBodyV02:fret9
+    4301124: guitarBodyV02:fret10
+    4301126: guitarBodyV02:fret11
+    4301128: guitarBodyV02:fret12
+    4301130: guitarBodyV02:fret13
+    4301132: guitarBodyV02:fret14
+    4301134: guitarBodyV02:fret15
+    4301136: guitarBodyV02:fret16
+    4301138: guitarBodyV02:fret17
+    4301140: guitarBodyV02:fret18
+    4301142: guitarBodyV02:fret19
+    4301144: guitarBodyV02:fret20
+    4301146: guitarBodyV02:fret21
+    4301148: guitarBodyV02:fret22
+    4301150: guitarBodyV02:pCylinder42
+    4301152: guitarBodyV02:pCylinder41
+    4301154: guitarBodyV02:pCylinder42
+    4301156: guitarBodyV02:pCylinder41
+    4301158: guitarBodyV02:pCylinder42
+    4301160: guitarBodyV02:pCylinder41
+    4301162: guitarBodyV02:pCylinder42
+    4301164: guitarBodyV02:pCylinder41
+    4301166: guitarBodyV02:pCylinder42
+    4301168: guitarBodyV02:pCylinder41
+    4301170: guitarBodyV02:pCylinder42
+    4301172: guitarBodyV02:pCylinder41
+    4301174: guitarBodyV02:pCylinder43
+    4301176: guitarBodyV02:pCylinder44
+    4301178: guitarBodyV02:pCylinder45
+    4301180: guitarBodyV02:pCylinder43
+    4301182: guitarBodyV02:pCylinder44
+    4301184: guitarBodyV02:pCylinder45
+    4301186: guitarBodyV02:pCylinder43
+    4301188: guitarBodyV02:pCylinder44
+    4301190: guitarBodyV02:pCylinder45
+    4301192: guitarBodyV02:pCylinder43
+    4301194: guitarBodyV02:pCylinder44
+    4301196: guitarBodyV02:pCylinder45
+    4301198: guitarBodyV02:pCylinder43
+    4301200: guitarBodyV02:pCylinder44
+    4301202: guitarBodyV02:pCylinder45
+    4301204: guitarBodyV02:pCylinder43
+    4301206: guitarBodyV02:pCylinder44
+    4301208: guitarBodyV02:pCylinder45
+    4301210: guitarBodyV02:head
+    4301212: guitarBodyV02:button
+    4301214: guitarBodyV02:buttonRing
+    4301216: guitarBodyV02:button
+    4301218: guitarBodyV02:buttonRing
+    4301220: guitarBodyV02:buttonSmall
+    4301222: guitarBodyV02:buttonBig
+    4301224: guitarBodyV02:button
+    4301226: guitarBodyV02:buttonRing
+    4301228: guitarBodyV02:button
+    4301230: guitarBodyV02:buttonRing
+    4301232: guitarBodyV02:pCube15
+    4301234: guitarBodyV02:pCube14
+    4301236: guitarBodyV02:pCube13
+    4301238: guitarBodyV02:pCube12
+    4301240: guitarBodyV02:pCube11
+    4301242: guitarBodyV02:pCube10
+    4301244: guitarBodyV02:pCube9
+    4301246: guitarBodyV02:pCube8
+    4301248: guitarBodyV02:pCylinder35
+    4301250: guitarBodyV02:pCylinder36
+    4301252: guitarBodyV02:pCylinder37
+    4301254: guitarBodyV02:pCylinder38
+    4301256: guitarBodyV02:pCylinder39
+    4301258: guitarBodyV02:pCylinder40
+    4301260: guitarBodyV02:bridge
+    4301262: guitarBodyV02:pCylinder31
+    4301264: guitarBodyV02:pCylinder32
+    4301266: guitarBodyV02:pCylinder33
+    4301268: guitarBodyV02:pCylinder34
+    4301270: guitarBodyV02:neck
+    4301272: guitarBodyV02:pCylinder46
+    4301274: guitarBodyV02:pCylinder47
+    4301276: guitarBodyV02:pCylinder25
+    4301278: guitarBodyV02:pCylinder26
+    4301280: guitarBodyV02:pCylinder28
+    4301282: guitarBodyV02:pCylinder27
+    4301284: guitarBodyV02:pickGuard
+    4301286: guitarBodyV02:pCylinder10
+    4301288: guitarBodyV02:pCylinder11
+    4301290: guitarBodyV02:pCylinder12
+    4301292: guitarBodyV02:pCylinder13
+    4301294: guitarBodyV02:pCylinder14
+    4301296: guitarBodyV02:pCylinder15
+    4301298: guitarBodyV02:thing
+    4301300: guitarBodyV02:pCylinder18
+    4301302: guitarBodyV02:pCylinder19
+    4301304: guitarBodyV02:pCylinder20
+    4301306: guitarBodyV02:pCylinder21
+    4301308: guitarBodyV02:pCylinder22
+    4301310: guitarBodyV02:pCylinder23
+    4301312: guitarBodyV02:pCylinder24
+    4301314: guitarBodyV02:pCylinder10
+    4301316: guitarBodyV02:pCylinder11
+    4301318: guitarBodyV02:pCylinder12
+    4301320: guitarBodyV02:pCylinder13
+    4301322: guitarBodyV02:pCylinder14
+    4301324: guitarBodyV02:pCylinder15
+    4301326: guitarBodyV02:thing
+    4301328: guitarBodyV02:pCylinder18
+    4301330: guitarBodyV02:pCylinder19
+    4301332: guitarBodyV02:pCylinder20
+    4301334: guitarBodyV02:pCylinder21
+    4301336: guitarBodyV02:pCylinder22
+    4301338: guitarBodyV02:pCylinder23
+    4301340: guitarBodyV02:pCylinder24
+    4301342: guitarBodyV02:saddles
+    4301344: guitarBodyV02:pCylinder16
+    4301346: guitarBodyV02:pCylinder17
+    4301348: guitarBodyV02:pCylinder51
+    4301350: guitarBodyV02:pCylinder50
+    4301352: guitarBodyV02:pCylinder49
+    4301354: guitarBodyV02:pCylinder48
+    4301356: guitarBodyV02:pCube16
+    4301358: pCube11
+    4301360: pCube12
+    4301362: pCube13
+    4301364: pCube14
+    4301366: pSphere1
+    4301368: pCube15
+    4301370: pSphere1
+    4301372: pCube15
+    4301374: pSphere1
+    4301376: pCube15
+    4301378: pSphere1
+    4301380: pCube15
+    4301382: pSphere1
+    4301384: pCube15
+    4301386: pSphere1
+    4301388: pCube15
+    4301390: pSphere1
+    4301392: pCube15
+    4301394: pSphere1
+    4301396: pCube15
+    4301398: pSphere1
+    4301400: pCube15
+    4301402: pSphere1
+    4301404: pCube15
+    4301406: pSphere1
+    4301408: pCube15
+    4301410: pSphere1
+    4301412: pCube15
+    4301414: pSphere1
+    4301416: pCube15
+    4301418: pSphere1
+    4301420: pCube15
+    4301422: pSphere1
+    4301424: pCube15
+    4301426: pSphere1
+    4301428: pCube15
+    4301430: pSphere1
+    4301432: pCube15
+    4301434: pSphere1
+    4301436: pCube15
+    4301438: pSphere1
+    4301440: pCube15
+    4301442: pSphere1
+    4301444: pCube15
+    4301446: pSphere1
+    4301448: pCube15
+    4301450: pCylinder1
+    4301452: pCylinder2
+    4301454: pCylinder3
+    4301456: pCylinder4
+    4301458: innerwall
+    4301460: innerwall3
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
