@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 328d630793f66424f9e32318a2ef55c7
-timeCreated: 1515161080
+guid: f0fee4be276104e5ca69eddaad356e3b
+timeCreated: 1515169451
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -68,11 +68,11 @@ ModelImporter:
     4300006: pCube5
     4300008: pCylinder1
     4300010: pCylinder1
-    4300012: closetDoor2
-    4300014: pCylinder3
-    4300016: closetDoor1
-    4300018: pCylinder4
-    4300020: drawer
+    4300012: drawer
+    4300014: closetDoor2
+    4300016: pCylinder3
+    4300018: closetDoor1
+    4300020: pCylinder4
     9500000: //RootNode
   externalObjects: {}
   materials:
