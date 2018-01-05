@@ -31,32 +31,48 @@ public class PlayerRaycast : MonoBehaviour {
 			laserLine.SetPosition(1, hit.point);
 
 			// check if hit object is the test starter
-			if (hit.collider.tag == "drawer")
+			if (hit.collider.tag == "Interaction")
 			{
 				targetHit = true;
 				Debug.Log("I hit something, " + hit.collider.gameObject.name);
 					
 				if (Input.GetKeyDown ("space") && !isOpen) {
-					
-					if (hit.collider.gameObject.GetComponent<DrawerManager> ().whatDrawerAmI == DrawerManager.Drawers.drawerR1) {
-						hit.collider.GetComponent<Animator> ().Play ("drawerR1Open");
-						isOpen = true;
-					}
-					if (hit.collider.gameObject.GetComponent<DrawerManager> ().whatDrawerAmI == DrawerManager.Drawers.drawerR2) {
-						hit.collider.GetComponent<Animator> ().Play ("drawerR2Open");
-						isOpen = true;
-					}
+
+					//drawer animations
+//					if (hit.collider.gameObject.GetComponent<DrawerManager> ().whatDrawerAmI == DrawerManager.Drawers.drawerR1) {
+//						hit.collider.GetComponent<Animator> ().Play ("drawerR1Open");
+//						isOpen = true;
+//					}
+//					if (hit.collider.gameObject.GetComponent<DrawerManager> ().whatDrawerAmI == DrawerManager.Drawers.drawerR2) {
+//						hit.collider.GetComponent<Animator> ().Play ("drawerR2Open");
+//						isOpen = true;
+//					}
+//					if (hit.collider.gameObject.GetComponent<DrawerManager> ().whatDrawerAmI == DrawerManager.Drawers.drawerR3) {
+//						hit.collider.GetComponent<Animator> ().Play (hit.transform.name + "Open");
+//						isOpen = true;
+//					}
+					hit.collider.GetComponent<Animator>().Play(hit.transform.name + "Open");
+					isOpen = true;
+
+					//hidden door animation
+
 				}
 				else if (Input.GetKeyDown("space") && isOpen)
 				{
-					if (hit.collider.gameObject.GetComponent<DrawerManager> ().whatDrawerAmI == DrawerManager.Drawers.drawerR1) {
-						hit.collider.GetComponent<Animator> ().Play ("drawerR1Close");
-						isOpen = false;
-					}
-					if (hit.collider.gameObject.GetComponent<DrawerManager> ().whatDrawerAmI == DrawerManager.Drawers.drawerR2) {
-						hit.collider.GetComponent<Animator> ().Play ("drawerR2Close");
-						isOpen = false;
-					}
+//					if (hit.collider.gameObject.GetComponent<DrawerManager> ().whatDrawerAmI == DrawerManager.Drawers.drawerR1) {
+//						hit.collider.GetComponent<Animator> ().Play ("drawerR1Close");
+//						isOpen = false;
+//					}
+//					if (hit.collider.gameObject.GetComponent<DrawerManager> ().whatDrawerAmI == DrawerManager.Drawers.drawerR2) {
+//						hit.collider.GetComponent<Animator> ().Play ("drawerR2Close");
+//						isOpen = false;
+//					}
+//					if (hit.collider.gameObject.GetComponent<DrawerManager> ().whatDrawerAmI == DrawerManager.Drawers.drawerR3) {
+//						hit.collider.GetComponent<Animator> ().Play ("drawerR3Close");
+//						isOpen = false;
+//					}
+					hit.collider.GetComponent<Animator>().Play(hit.transform.name + "Close");
+					isOpen = false;
 				}
 
 

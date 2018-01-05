@@ -6,6 +6,7 @@ TagManager:
   tags:
   - drawer
   - Interaction
+  - bookshelf
   layers:
   - Default
   - TransparentFX
