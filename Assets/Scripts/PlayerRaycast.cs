@@ -7,7 +7,7 @@ public class PlayerRaycast : MonoBehaviour {
 	Camera cardboardCam;
 	LineRenderer laserLine;
 	public float range = 60f;
-	bool targetHit;
+	//bool targetHit;
 	float timer = 0f;
 	bool isOpen = false;
 
@@ -33,67 +33,24 @@ public class PlayerRaycast : MonoBehaviour {
 			// check if hit object is the test starter
 			if (hit.collider.tag == "Interaction")
 			{
-				targetHit = true;
-				Debug.Log("I hit something, " + hit.collider.gameObject.name);
+                //Debug.Log("I hit something, " + hit.collider.gameObject.name);
+
+                //Component halo = hit.transform.GetComponent("Halo");
+                //halo.GetType().GetProperty("enabled").SetValue(halo, true, null);
 					
 				if (Input.GetKeyDown ("space") && !isOpen) {
-
-					//drawer animations
-//					if (hit.collider.gameObject.GetComponent<DrawerManager> ().whatDrawerAmI == DrawerManager.Drawers.drawerR1) {
-//						hit.collider.GetComponent<Animator> ().Play ("drawerR1Open");
-//						isOpen = true;
-//					}
-//					if (hit.collider.gameObject.GetComponent<DrawerManager> ().whatDrawerAmI == DrawerManager.Drawers.drawerR2) {
-//						hit.collider.GetComponent<Animator> ().Play ("drawerR2Open");
-//						isOpen = true;
-//					}
-//					if (hit.collider.gameObject.GetComponent<DrawerManager> ().whatDrawerAmI == DrawerManager.Drawers.drawerR3) {
-//						hit.collider.GetComponent<Animator> ().Play (hit.transform.name + "Open");
-//						isOpen = true;
-//					}
 					hit.collider.GetComponent<Animator>().Play(hit.transform.name + "Open");
 					isOpen = true;
-
 					//hidden door animation
-
 				}
 				else if (Input.GetKeyDown("space") && isOpen)
 				{
-//					if (hit.collider.gameObject.GetComponent<DrawerManager> ().whatDrawerAmI == DrawerManager.Drawers.drawerR1) {
-//						hit.collider.GetComponent<Animator> ().Play ("drawerR1Close");
-//						isOpen = false;
-//					}
-//					if (hit.collider.gameObject.GetComponent<DrawerManager> ().whatDrawerAmI == DrawerManager.Drawers.drawerR2) {
-//						hit.collider.GetComponent<Animator> ().Play ("drawerR2Close");
-//						isOpen = false;
-//					}
-//					if (hit.collider.gameObject.GetComponent<DrawerManager> ().whatDrawerAmI == DrawerManager.Drawers.drawerR3) {
-//						hit.collider.GetComponent<Animator> ().Play ("drawerR3Close");
-//						isOpen = false;
-//					}
 					hit.collider.GetComponent<Animator>().Play(hit.transform.name + "Close");
 					isOpen = false;
 				}
-
-
-				//// count the time the user gazes at the target
-				//timer += Time.deltaTime;
-
-				//// User has to see the target for 2 seconds to load scene
-				//if (targetHit && timer > 2)
-				//{
-				//    //restart both the regular and the round timer for the new test round
-				//    timer = 0;
-				//    roundTimer = 0;
-
-				//    // change the scenario
-				//    SetMeshesState(true);
-				//    SetTargetState(false);
-				//    scenario = "Test";
-				//}
 			}
-			else targetHit = false;
 		}
+
 		// if the raycast doesn't hit anything
 		else
 		{
