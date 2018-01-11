@@ -15,14 +15,9 @@ public class CassetteManager : MonoBehaviour {
         cassetteSpots = GameObject.FindGameObjectsWithTag("SpotTest");
         Debug.Log(cassetteSpots.Length);
 
-
         for (int i = 0; i < 5; i++)
         {
-            //GameObject newCassette = Instantiate(cassette);
-            //index = Random.Range(0, cassetteSpots.Length);
-
             SpawnRandomly();
-
         }
     }
 	

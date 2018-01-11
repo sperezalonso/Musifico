@@ -34,6 +34,9 @@ public class PlayerRaycast : MonoBehaviour {
 			if (hit.collider.tag == "Interaction")
 			{
                 //Debug.Log("I hit something, " + hit.collider.gameObject.name);
+                if (hit.transform.GetComponent("Halo")) {
+                    StartCoroutine(Glow(hit.transform));
+                }
 
                 //Component halo = hit.transform.GetComponent("Halo");
                 //halo.GetType().GetProperty("enabled").SetValue(halo, true, null);
@@ -58,4 +61,28 @@ public class PlayerRaycast : MonoBehaviour {
 			timer = 0;
 		}
 	}
+
+    IEnumerator Glow(Transform hit)
+    {
+        Component halo = hit.GetComponent("Halo");
+        halo.GetType().GetProperty("enabled").SetValue(halo, true, null);
+        yield return new WaitForSeconds(.8f);
+        halo.GetType().GetProperty("enabled").SetValue(halo, false, null);
+    }
+
+    //void FadeText()
+    //{
+    //    if (displayInfo)
+    //    {
+    //        myText.text = myString;
+    //        myText.color = Color.Lerp(myText.color, Color.white, fadeTime * Time.deltaTime);
+    //    }
+
+    //    else
+    //    {
+    //        myText.color = Color.Lerp(myText.color, Color.clear, fadeTime * Time.deltaTime);
+    //    }
+    //}
+
+
 }
