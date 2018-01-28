@@ -7,11 +7,14 @@ public class PlayerRaycast : MonoBehaviour {
 	Camera cardboardCam;
 	LineRenderer laserLine;
 	public float range = 60f;
-	bool targetHit;
 	float timer = 0f;
 	bool isOpen = false;
+    Material mat;
 
-	void Awake()
+	public static bool targetHit;
+    public static Transform hitObject;
+
+    void Awake()
 	{
 		cardboardCam = GetComponent<Camera>();
 		laserLine = GetComponent<LineRenderer>();
@@ -29,28 +32,18 @@ public class PlayerRaycast : MonoBehaviour {
 		if (Physics.Raycast(rayOrigin, cardboardCam.transform.forward, out hit, range))
 		{
 			laserLine.SetPosition(1, hit.point);
+            //mat = hit.collider.GetComponent<Renderer>().material;
+            hitObject = hit.collider.transform;
 
-			// check if hit object is the test starter
+			// check if hit object is an interactable object
 			if (hit.collider.tag == "Interaction")
 			{
-				targetHit = true;
+                targetHit = true;
 				Debug.Log("I hit something, " + hit.collider.gameObject.name);
 					
 				if (Input.GetKeyDown ("space") && !isOpen) {
 
 					//drawer animations
-//					if (hit.collider.gameObject.GetComponent<DrawerManager> ().whatDrawerAmI == DrawerManager.Drawers.drawerR1) {
-//						hit.collider.GetComponent<Animator> ().Play ("drawerR1Open");
-//						isOpen = true;
-//					}
-//					if (hit.collider.gameObject.GetComponent<DrawerManager> ().whatDrawerAmI == DrawerManager.Drawers.drawerR2) {
-//						hit.collider.GetComponent<Animator> ().Play ("drawerR2Open");
-//						isOpen = true;
-//					}
-//					if (hit.collider.gameObject.GetComponent<DrawerManager> ().whatDrawerAmI == DrawerManager.Drawers.drawerR3) {
-//						hit.collider.GetComponent<Animator> ().Play (hit.transform.name + "Open");
-//						isOpen = true;
-//					}
 					hit.collider.GetComponent<Animator>().Play(hit.transform.name + "Open");
 					isOpen = true;
 
@@ -59,46 +52,52 @@ public class PlayerRaycast : MonoBehaviour {
 				}
 				else if (Input.GetKeyDown("space") && isOpen)
 				{
-//					if (hit.collider.gameObject.GetComponent<DrawerManager> ().whatDrawerAmI == DrawerManager.Drawers.drawerR1) {
-//						hit.collider.GetComponent<Animator> ().Play ("drawerR1Close");
-//						isOpen = false;
-//					}
-//					if (hit.collider.gameObject.GetComponent<DrawerManager> ().whatDrawerAmI == DrawerManager.Drawers.drawerR2) {
-//						hit.collider.GetComponent<Animator> ().Play ("drawerR2Close");
-//						isOpen = false;
-//					}
-//					if (hit.collider.gameObject.GetComponent<DrawerManager> ().whatDrawerAmI == DrawerManager.Drawers.drawerR3) {
-//						hit.collider.GetComponent<Animator> ().Play ("drawerR3Close");
-//						isOpen = false;
-//					}
 					hit.collider.GetComponent<Animator>().Play(hit.transform.name + "Close");
 					isOpen = false;
 				}
-
-
-				//// count the time the user gazes at the target
-				//timer += Time.deltaTime;
-
-				//// User has to see the target for 2 seconds to load scene
-				//if (targetHit && timer > 2)
-				//{
-				//    //restart both the regular and the round timer for the new test round
-				//    timer = 0;
-				//    roundTimer = 0;
-
-				//    // change the scenario
-				//    SetMeshesState(true);
-				//    SetTargetState(false);
-				//    scenario = "Test";
-				//}
 			}
-			else targetHit = false;
+            if (hit.collider.tag == "OutlineTest")
+            {
+                //mat.SetFloat("_Outline", 0.026f);
+                targetHit = true;
+
+                if (Input.GetKeyDown("space") && !isOpen)
+                {
+
+                    //drawer animations
+                    hit.collider.GetComponent<Animator>().Play(hit.transform.name + "Open");
+                    isOpen = true;
+
+                    //hidden door animation
+
+                }
+                else if (Input.GetKeyDown("space") && isOpen)
+                {
+                    hit.collider.GetComponent<Animator>().Play(hit.transform.name + "Close");
+                    isOpen = false;
+                }
+            }
+            else targetHit = false;
 		}
-		// if the raycast doesn't hit anything
+        // if the raycast doesn't hit anything
 		else
 		{
 			laserLine.SetPosition(1, rayOrigin + (cardboardCam.transform.forward * range));
 			timer = 0;
 		}
 	}
+
+    //void FadeText()
+    //{
+    //    if (displayInfo)
+    //    {
+    //        myText.text = myString;
+    //        myText.color = Color.Lerp(myText.color, Color.white, fadeTime * Time.deltaTime);
+    //    }
+
+    //    else
+    //    {
+    //        myText.color = Color.Lerp(myText.color, Color.clear, fadeTime * Time.deltaTime);
+    //    }
+    //}
 }
