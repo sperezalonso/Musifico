@@ -8,6 +8,8 @@ TagManager:
   - Interaction
   - bookshelf
   - OutlineTest
+  - lamp
+  - licht
   layers:
   - Default
   - TransparentFX

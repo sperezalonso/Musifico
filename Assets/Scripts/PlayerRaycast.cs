@@ -2,60 +2,62 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerRaycast : MonoBehaviour {
+public class PlayerRaycast : MonoBehaviour
+{
 
 	Camera cardboardCam;
 	LineRenderer laserLine;
 	public float range = 60f;
 	float timer = 0f;
 	bool isOpen = false;
-    Material mat;
-
+	Material mat;
+    public GameObject flashlight;
 	public static bool targetHit;
-    public static Transform hitObject;
+	public static Transform hitObject;
 
-    void Awake()
+	void Awake()
 	{
 		cardboardCam = GetComponent<Camera>();
 		laserLine = GetComponent<LineRenderer>();
 	}
 
-	void Update()
-	{
-		// set ray to center of the screen/camera
-		Vector3 rayOrigin = cardboardCam.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, 0));
-		RaycastHit hit;
-		// set starting point of the laser
-		laserLine.SetPosition(0, cardboardCam.transform.position);
+    void Update()
+    {
+        // set ray to center of the screen/camera
+        Vector3 rayOrigin = cardboardCam.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, 0));
+        RaycastHit hit;
+        // set starting point of the laser
+        laserLine.SetPosition(0, cardboardCam.transform.position);
 
-		// if the raycast hits an object
-		if (Physics.Raycast(rayOrigin, cardboardCam.transform.forward, out hit, range))
-		{
-			laserLine.SetPosition(1, hit.point);
+        // if the raycast hits an object
+        if (Physics.Raycast(rayOrigin, cardboardCam.transform.forward, out hit, range))
+        {
+            laserLine.SetPosition(1, hit.point);
             //mat = hit.collider.GetComponent<Renderer>().material;
             hitObject = hit.collider.transform;
 
-			// check if hit object is an interactable object
-			if (hit.collider.tag == "Interaction")
-			{
+            // check if hit object is an interactable object
+            if (hit.collider.tag == "Interaction")
+            {
                 targetHit = true;
-				Debug.Log("I hit something, " + hit.collider.gameObject.name);
-					
-				if (Input.GetKeyDown ("space") && !isOpen) {
+                Debug.Log("I hit something, " + hit.collider.gameObject.name);
 
-					//drawer animations
-					hit.collider.GetComponent<Animator>().Play(hit.transform.name + "Open");
-					isOpen = true;
+                if (Input.GetKeyDown("space") && !isOpen)
+                {
 
-					//hidden door animation
+                    //drawer animations
+                    hit.collider.GetComponent<Animator>().Play(hit.transform.name + "Open");
+                    isOpen = true;
 
-				}
-				else if (Input.GetKeyDown("space") && isOpen)
-				{
-					hit.collider.GetComponent<Animator>().Play(hit.transform.name + "Close");
-					isOpen = false;
-				}
-			}
+                    //hidden door animation
+
+                }
+                else if (Input.GetKeyDown("space") && isOpen)
+                {
+                    hit.collider.GetComponent<Animator>().Play(hit.transform.name + "Close");
+                    isOpen = false;
+                }
+            }
             if (hit.collider.tag == "OutlineTest")
             {
                 //mat.SetFloat("_Outline", 0.026f);
@@ -78,8 +80,9 @@ public class PlayerRaycast : MonoBehaviour {
                 }
             }
             else targetHit = false;
-		}
-        // if the raycast doesn't hit anything
+        }
+       
+		// if the raycast doesn't hit anything
 		else
 		{
 			laserLine.SetPosition(1, rayOrigin + (cardboardCam.transform.forward * range));
@@ -87,17 +90,17 @@ public class PlayerRaycast : MonoBehaviour {
 		}
 	}
 
-    //void FadeText()
-    //{
-    //    if (displayInfo)
-    //    {
-    //        myText.text = myString;
-    //        myText.color = Color.Lerp(myText.color, Color.white, fadeTime * Time.deltaTime);
-    //    }
+	//void FadeText()
+	//{
+	//    if (displayInfo)
+	//    {
+	//        myText.text = myString;
+	//        myText.color = Color.Lerp(myText.color, Color.white, fadeTime * Time.deltaTime);
+	//    }
 
-    //    else
-    //    {
-    //        myText.color = Color.Lerp(myText.color, Color.clear, fadeTime * Time.deltaTime);
-    //    }
-    //}
+	//    else
+	//    {
+	//        myText.color = Color.Lerp(myText.color, Color.clear, fadeTime * Time.deltaTime);
+	//    }
+	//}
 }
