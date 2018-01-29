@@ -21932,7 +21932,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: c1383908f1bad4352982f58c8853b382, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Licht
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: c1383908f1bad4352982f58c8853b382, type: 3}
       propertyPath: m_Controller
