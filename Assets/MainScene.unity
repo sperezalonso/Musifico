@@ -90,7 +90,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 112000786, guid: c3b4b3981bd19474c93b709a001d756a,
+  m_LightingDataAsset: {fileID: 112000792, guid: c3b4b3981bd19474c93b709a001d756a,
     type: 2}
   m_UseShadowmask: 0
 --- !u!196 &4
@@ -22849,7 +22849,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1903574206
+  randomSeed: -47980062
   InitialModule:
     serializedVersion: 3
     enabled: 1
