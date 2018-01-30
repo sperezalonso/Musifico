@@ -20,6 +20,7 @@ public class PlayerRaycast : MonoBehaviour
 		cardboardCam = GetComponent<Camera>();
 		laserLine = GetComponent<LineRenderer>();
         flashlight.SetActive(false);
+        GameObject.FindWithTag("Licht").SetActive(true);
 	}
 
     void Update()
@@ -81,17 +82,21 @@ public class PlayerRaycast : MonoBehaviour
                 }
             }
             else targetHit = false;
-        }
 
-		if (hit.collider.tag == "Licht")         {
-			targetHit = true;
-
-			if (Input.GetKeyDown("space"))
+			if (hit.collider.tag == "Licht")
 			{
-				GameObject.FindWithTag("Licht").SetActive(false); // Make Flashlight invisible
-                flashlight.SetActive(true); // turn on spotlight attached to camera
+				targetHit = true;
+
+				if (Input.GetKeyDown("space"))
+				{
+					GameObject.FindWithTag("Licht").SetActive(false); // Make Flashlight invisible
+					flashlight.SetActive(true); // turn on spotlight attached to camera
+				}
 			}
-		}  
+
+		}
+
+		
 		// if the raycast doesn't hit anything
 		else
 		{
