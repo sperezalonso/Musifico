@@ -7,9 +7,9 @@ TagManager:
   - drawer
   - Interaction
   - bookshelf
-  - OutlineTest
   - lamp
   - Licht
+  - ComplexFurniture
   layers:
   - Default
   - TransparentFX
