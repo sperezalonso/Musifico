@@ -10,9 +10,15 @@ public class InteractiveObject : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        if (transform.parent.name == "closet")
+        //if (transform.parent.name == "closet" || transform.parent.name == "tvTable" || transform.parent.name == "windowTable") 
+        if (transform.name == "flashlight")
         {
-            Debug.Log("THis is working");
+            Debug.Log("WORKING WORKS");
+            mat = transform.GetChild(0).GetComponent<Renderer>().materials[1];
+        }
+        else if (transform.parent.tag == "ComplexFurniture")
+        {
+            //Debug.Log("THis is working");
             mat = transform.GetChild(0).GetComponent<Renderer>().material;
         }
         else mat = GetComponent<Renderer>().material;

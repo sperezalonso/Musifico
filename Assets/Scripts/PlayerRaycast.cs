@@ -42,7 +42,7 @@ public class PlayerRaycast : MonoBehaviour
             if (hit.collider.tag == "Interaction")
             {
                 targetHit = true;
-                Debug.Log("I hit something, " + hit.collider.gameObject.name);
+                //Debug.Log("I hit something, " + hit.collider.gameObject.name);
 
                 if (Input.GetKeyDown("space") && !isOpen)
                 {
@@ -60,28 +60,27 @@ public class PlayerRaycast : MonoBehaviour
                     isOpen = false;
                 }
             }
-            if (hit.collider.tag == "OutlineTest")
-            {
-                //mat.SetFloat("_Outline", 0.026f);
-                targetHit = true;
+            //if (hit.collider.tag == "OutlineTest")
+            //{
+            //    //mat.SetFloat("_Outline", 0.026f);
+            //    targetHit = true;
 
-                if (Input.GetKeyDown("space") && !isOpen)
-                {
+            //    if (Input.GetKeyDown("space") && !isOpen)
+            //    {
 
-                    //drawer animations
-                    hit.collider.GetComponent<Animator>().Play(hit.transform.name + "Open");
-                    isOpen = true;
+            //        //drawer animations
+            //        hit.collider.GetComponent<Animator>().Play(hit.transform.name + "Open");
+            //        isOpen = true;
 
-                    //hidden door animation
+            //        //hidden door animation
 
-                }
-                else if (Input.GetKeyDown("space") && isOpen)
-                {
-                    hit.collider.GetComponent<Animator>().Play(hit.transform.name + "Close");
-                    isOpen = false;
-                }
-            }
-            else targetHit = false;
+            //    }
+            //    else if (Input.GetKeyDown("space") && isOpen)
+            //    {
+            //        hit.collider.GetComponent<Animator>().Play(hit.transform.name + "Close");
+            //        isOpen = false;
+            //    }
+            //}
 
 			if (hit.collider.tag == "Licht")
 			{
@@ -94,14 +93,15 @@ public class PlayerRaycast : MonoBehaviour
 				}
 			}
 
+            //else targetHit = false;
 		}
-
 		
 		// if the raycast doesn't hit anything
 		else
 		{
 			laserLine.SetPosition(1, rayOrigin + (cardboardCam.transform.forward * range));
 			timer = 0;
+            targetHit = false;
 		}
 	}
 
