@@ -35,13 +35,12 @@ public class PlayerRaycast : MonoBehaviour
         if (Physics.Raycast(rayOrigin, cardboardCam.transform.forward, out hit, range))
         {
             laserLine.SetPosition(1, hit.point);
-            //mat = hit.collider.GetComponent<Renderer>().material;
             hitObject = hit.collider.transform;
+                targetHit = true;
 
             // check if hit object is an interactable object
             if (hit.collider.tag == "Interaction")
             {
-                targetHit = true;
                 //Debug.Log("I hit something, " + hit.collider.gameObject.name);
 
                 if (Input.GetKeyDown("space") && !isOpen)
@@ -102,6 +101,7 @@ public class PlayerRaycast : MonoBehaviour
 			laserLine.SetPosition(1, rayOrigin + (cardboardCam.transform.forward * range));
 			timer = 0;
             targetHit = false;
+            hitObject = null;
 		}
 	}
 
