@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerRaycast : MonoBehaviour {
 
@@ -10,6 +11,8 @@ public class PlayerRaycast : MonoBehaviour {
 	float timer = 0f;
 	bool isOpen = false;
     Material mat;
+    public Text InstructionText;
+    bool firstText = false;
 
 	public static bool targetHit;
     public static Transform hitObject;
@@ -17,7 +20,8 @@ public class PlayerRaycast : MonoBehaviour {
     void Awake()
 	{
 		cardboardCam = GetComponent<Camera>();
-		laserLine = GetComponent<LineRenderer>();
+        laserLine = GetComponent<LineRenderer>();
+        InstructionText.text = "";
 	}
 
 	void Update()
@@ -39,15 +43,28 @@ public class PlayerRaycast : MonoBehaviour {
 			if (hit.collider.tag == "Interaction")
 			{
                 targetHit = true;
+
+                // the instruction text is only visible for the first interactable object
+				if (!firstText)
+				{
+					InstructionText.text = "Press X";
+					firstText = true;
+				}
+
 				Debug.Log("I hit something, " + hit.collider.gameObject.name);
 					
 				if (Input.GetKeyDown ("space") && !isOpen) {
 
-					//drawer animations
+
+                    if (firstText){
+                        InstructionText.text = "";
+                    }
+					
+                    
+					//plays animations for opening objects according to the animation transition name 
 					hit.collider.GetComponent<Animator>().Play(hit.transform.name + "Open");
 					isOpen = true;
 
-					//hidden door animation
 
 				}
 				else if (Input.GetKeyDown("space") && isOpen)
@@ -55,6 +72,9 @@ public class PlayerRaycast : MonoBehaviour {
 					hit.collider.GetComponent<Animator>().Play(hit.transform.name + "Close");
 					isOpen = false;
 				}
+
+				
+
 			}
             if (hit.collider.tag == "OutlineTest")
             {
@@ -63,8 +83,7 @@ public class PlayerRaycast : MonoBehaviour {
 
                 if (Input.GetKeyDown("space") && !isOpen)
                 {
-
-                    //drawer animations
+                    
                     hit.collider.GetComponent<Animator>().Play(hit.transform.name + "Open");
                     isOpen = true;
 
