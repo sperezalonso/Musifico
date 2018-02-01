@@ -8,27 +8,32 @@ using UnityEngine;
 public class CassetteManager : MonoBehaviour
 {
 
-    public GameObject cassette;
-
+    GameObject[] cassettes;
     GameObject[] cassetteSpots;
+
+    public GameObject test;
+
     int index;
+    int count = 0;
 
     // Use this for initialization
     void Awake()
     {
-        cassetteSpots = GameObject.FindGameObjectsWithTag("SpotTest");
-        Debug.Log(cassetteSpots.Length);
+        cassettes = new GameObject[transform.childCount];
+        cassetteSpots = GameObject.FindGameObjectsWithTag("Spot");
+        Debug.Log(transform.childCount);
 
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < transform.childCount; i++)
         {
+            cassettes[i] = transform.GetChild(i).gameObject;
             SpawnRandomly();
         }
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-
+        Debug.Log(cassetteSpots.Length + ",    " + cassettes.Length);
+        //for (int i = 0; i < cassettes.Length; i++)
+        //{
+        //    SpawnRandomly(i);
+        //}
     }
 
     void SpawnRandomly()
@@ -36,8 +41,12 @@ public class CassetteManager : MonoBehaviour
         index = Random.Range(0, cassetteSpots.Length);
         if (cassetteSpots[index].transform.childCount == 0)
         {
-            GameObject newCassette = Instantiate(cassette, cassetteSpots[index].transform.position, cassetteSpots[index].transform.rotation);
+            //GameObject newCassette = Instantiate(test, cassetteSpots[index].transform.position, cassetteSpots[index].transform.rotation);
+            GameObject newCassette = cassettes[count].gameObject;
             newCassette.transform.SetParent(cassetteSpots[index].transform);
+            newCassette.transform.position = cassetteSpots[index].transform.position;
+            //newCassette.transform.rotation = cassetteSpots[index].transform.rotation;
+            count++;
         }
         else SpawnRandomly();
     }

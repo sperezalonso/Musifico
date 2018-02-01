@@ -13,7 +13,7 @@ public class InteractiveObject : MonoBehaviour {
         //if (transform.parent.name == "closet" || transform.parent.name == "tvTable" || transform.parent.name == "windowTable") 
         if (transform.name == "flashlight")
         {
-            Debug.Log("WORKING WORKS");
+            //Debug.Log("WORKING WORKS");
             mat = transform.GetChild(0).GetComponent<Renderer>().materials[1];
         }
         else if (transform.parent.tag == "ComplexFurniture")
@@ -28,8 +28,10 @@ public class InteractiveObject : MonoBehaviour {
 	void Update () {
         if (transform == PlayerRaycast.hitObject && PlayerRaycast.targetHit)
         {
-            mat.SetFloat("_Outline", 0.026f);
+            //mat.SetFloat("_Outline", 0.026f);
+            mat.EnableKeyword("_EMISSION");
         }
-        else mat.SetFloat("_Outline", 0f);
+        //else mat.SetFloat("_Outline", 0f);
+        else mat.DisableKeyword("_EMISSION");
     }
 }
