@@ -93,7 +93,10 @@ public class PlayerRaycast : MonoBehaviour
 
 				if (Input.GetKeyDown("space"))
 				{
-					GameObject.FindWithTag("Licht").SetActive(false); // Make Flashlight invisible
+					StartCoroutine("WaitAndHideFlashlight");
+                    GameObject.FindWithTag("Licht").GetComponent<Animator>().Play("flashlightOpen"); // plays flashlight animation
+					
+					
 					flashlight.SetActive(true); // turn on spotlight attached to camera
 				}
 			}
@@ -110,6 +113,12 @@ public class PlayerRaycast : MonoBehaviour
             hitObject = null;
 		}
 	}
+			IEnumerator WaitAndHideFlashlight()
+			{
+				// suspend execution for 5 seconds
+				yield return new WaitForSeconds(1);
+				GameObject.FindWithTag("Licht").SetActive(false); // Make Flashlight invisible
+			}
 
 	//void FadeText()
 	//{
