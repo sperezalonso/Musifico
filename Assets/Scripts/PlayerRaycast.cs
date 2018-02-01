@@ -1,4 +1,4 @@
-﻿﻿﻿using System.Collections;
+﻿﻿﻿﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -91,7 +91,7 @@ public class PlayerRaycast : MonoBehaviour
 			{
 				targetHit = true;
 
-				if (Input.GetKeyDown("space ") || Input.GetKeyDown("joystick button 1"))
+				if (Input.GetKeyDown("space") || Input.GetKeyDown("joystick button 1"))
 				{
 					StartCoroutine("WaitAndHideFlashlight");
                     GameObject.FindWithTag("Licht").GetComponent<Animator>().Play("flashlightOpen"); // plays flashlight animation
