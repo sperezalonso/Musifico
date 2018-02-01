@@ -45,7 +45,7 @@ public class PlayerRaycast : MonoBehaviour
 
 
 
-                if (Input.GetKeyDown("space") || Input.GetKeyDown("joystick button 1") && !isOpen)
+                if ((Input.GetKeyDown("space") || Input.GetKeyDown("joystick button 1")) && !isOpen)
                 {
 
                     if (hit.transform.name == "buch_0001c"){
@@ -59,7 +59,7 @@ public class PlayerRaycast : MonoBehaviour
                     //hidden door animation
 
                 }
-                else if (Input.GetKeyDown("space") || Input.GetKeyDown("joystick button 1") && isOpen)
+                else if ((Input.GetKeyDown("space") || Input.GetKeyDown("joystick button 1")) && isOpen)
                 {
                     hit.collider.GetComponent<Animator>().Play(hit.transform.name + "Close");
                     isOpen = false;
