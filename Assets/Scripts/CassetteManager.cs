@@ -11,10 +11,12 @@ public class CassetteManager : MonoBehaviour
     GameObject[] cassettes;
     GameObject[] cassetteSpots;
 
-    public GameObject test;
+    public AudioClip finalSong;
+    public GameObject caughtTapes;
 
     int index;
     int count = 0;
+    float timer = 0f;
 
     // Use this for initialization
     void Awake()
@@ -36,6 +38,16 @@ public class CassetteManager : MonoBehaviour
         //}
     }
 
+    private void Update()
+    {
+        if (caughtTapes.transform.childCount == 7)
+        {
+            Victory();
+            timer += Time.deltaTime;
+            if (timer > 60) Application.Quit();
+        }
+    }
+
     void SpawnRandomly()
     {
         index = Random.Range(0, cassetteSpots.Length);
@@ -49,5 +61,11 @@ public class CassetteManager : MonoBehaviour
             count++;
         }
         else SpawnRandomly();
+    }
+
+    void Victory()
+    {
+        GetComponent<AudioSource>().clip = finalSong;
+        GetComponent<AudioSource>().Play();
     }
 }

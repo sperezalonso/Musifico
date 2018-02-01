@@ -7,7 +7,7 @@ public class PlayerRaycast : MonoBehaviour
 
 	Camera cardboardCam;
 	LineRenderer laserLine;
-	public float range = 60f;
+	public float range = 75f;
 	float timer = 0f;
 	bool isOpen = false;
 	Material mat;

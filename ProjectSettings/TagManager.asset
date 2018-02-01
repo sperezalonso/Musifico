@@ -11,6 +11,7 @@ TagManager:
   - Licht
   - ComplexFurniture
   - Spot
+  - Guitar
   layers:
   - Default
   - TransparentFX

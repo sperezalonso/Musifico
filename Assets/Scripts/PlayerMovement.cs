@@ -25,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
         var x = Input.GetAxis("Horizontal") * Time.deltaTime * speed;       // Keyboard input
         var z = Input.GetAxis("Vertical") * Time.deltaTime * speed;
 
-        // Follow the Vive cam so that the headset rig moves forward in the direction the Vive is facing
+        // Follow the headset cam so that the player moves forward in the direction the headset is facing
         transform.position += (rb.transform.right * x + rb.transform.forward * z) * speed * Time.deltaTime;
         transform.position = new Vector3(transform.position.x, -20f, transform.position.z);       // This is done so that the player stays on the ground
 

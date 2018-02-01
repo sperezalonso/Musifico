@@ -24,7 +24,7 @@ public class lampSwitch : MonoBehaviour
     {
         if (transform == PlayerRaycast.hitObject && PlayerRaycast.targetHit)
         {
-            mat.SetFloat("_Outline", 0.026f);
+            mat.EnableKeyword("_EMISSION");
             if (Input.GetKeyDown("space") && off)
             {
                 transform.GetComponent<Renderer>().material = transparent;
@@ -39,7 +39,7 @@ public class lampSwitch : MonoBehaviour
                 off = true;
             }
         }
-        else mat.SetFloat("_Outline", 0f);
+        else mat.DisableKeyword("_EMISSION");
     }
 }
 
