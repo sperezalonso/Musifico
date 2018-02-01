@@ -29,12 +29,12 @@ public class PlayerMovement : MonoBehaviour
         transform.position += (rb.transform.right * x + rb.transform.forward * z) * speed * Time.deltaTime;
         transform.position = new Vector3(transform.position.x, -20f, transform.position.z);       // This is done so that the player stays on the ground
 
-		//Rotates Player on "X" Axis Acording to Mouse Input
-		float h = horizontalSpeed * Input.GetAxis ("Mouse X");
-		transform.Rotate (0, h, 0);
+		////Rotates Player on "X" Axis Acording to Mouse Input
+		//float h = horizontalSpeed * Input.GetAxis ("Mouse X");
+		//transform.Rotate (0, h, 0);
 
-		//Rotates Player on "Y" Axis Acording to Mouse Input
-		float v = verticalSpeed * Input.GetAxis ("Mouse Y");
-		Camera.main.transform.Rotate (v, 0, 0);
+		////Rotates Player on "Y" Axis Acording to Mouse Input
+		//float v = verticalSpeed * Input.GetAxis ("Mouse Y");
+		//Camera.main.transform.Rotate (v, 0, 0);
     }
 }

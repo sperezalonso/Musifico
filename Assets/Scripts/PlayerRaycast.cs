@@ -1,4 +1,4 @@
-﻿﻿using System.Collections;
+﻿﻿﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -45,7 +45,7 @@ public class PlayerRaycast : MonoBehaviour
 
 
 
-                if (Input.GetKeyDown("space") && !isOpen)
+                if (Input.GetKeyDown("space") || Input.GetKeyDown("joystick button 1") && !isOpen)
                 {
 
                     if (hit.transform.name == "buch_0001c"){
@@ -59,7 +59,7 @@ public class PlayerRaycast : MonoBehaviour
                     //hidden door animation
 
                 }
-                else if (Input.GetKeyDown("space") && isOpen)
+                else if (Input.GetKeyDown("space") || Input.GetKeyDown("joystick button 1") && isOpen)
                 {
                     hit.collider.GetComponent<Animator>().Play(hit.transform.name + "Close");
                     isOpen = false;
@@ -91,7 +91,7 @@ public class PlayerRaycast : MonoBehaviour
 			{
 				targetHit = true;
 
-				if (Input.GetKeyDown("space"))
+				if (Input.GetKeyDown("space ") || Input.GetKeyDown("joystick button 1"))
 				{
 					StartCoroutine("WaitAndHideFlashlight");
                     GameObject.FindWithTag("Licht").GetComponent<Animator>().Play("flashlightOpen"); // plays flashlight animation
