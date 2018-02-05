@@ -1,4 +1,4 @@
-﻿﻿﻿﻿using System.Collections;
+﻿﻿﻿﻿﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -47,16 +47,14 @@ public class PlayerRaycast : MonoBehaviour
                 //Debug.Log("I hit something, " + hit.collider.gameObject.name);
                 if ((Input.GetKeyDown("space") || Input.GetKeyDown("joystick button 1")) && !isOpen)
                 {
+                    hit.collider.GetComponent<Animator>().Play(hit.transform.name + "Open");
+
                     if (hit.transform.name == "buch_0001c")
                     {
                         GameObject.FindWithTag("bookshelf").GetComponent<Animator>().Play("BookshelfCombinedOpen");
 
                     }
-                    //drawer animations
-                    hit.collider.GetComponent<Animator>().Play(hit.transform.name + "Open");
                     isOpen = true;
-
-                    //hidden door animation
 
                 }
                 else if ((Input.GetKeyDown("space") || Input.GetKeyDown("joystick button 1")) && isOpen)
