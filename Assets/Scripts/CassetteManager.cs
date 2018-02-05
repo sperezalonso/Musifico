@@ -18,6 +18,8 @@ public class CassetteManager : MonoBehaviour
     int count = 0;
     float timer = 0f;
 
+    public static int casCount;
+
     // Use this for initialization
     void Awake()
     {
@@ -40,6 +42,8 @@ public class CassetteManager : MonoBehaviour
 
     private void Update()
     {
+        casCount = caughtTapes.transform.childCount;
+
         if (caughtTapes.transform.childCount == 7)
         {
             Victory();

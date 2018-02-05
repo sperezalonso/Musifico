@@ -28,7 +28,7 @@ public class roomSounds : MonoBehaviour {
         {
             mat.EnableKeyword("_EMISSION");
 
-            if (Input.GetKeyDown("space"))
+            if (Input.GetKeyDown("space") || Input.GetKeyDown("joystick button 1"))
             {
                 GetComponent<AudioSource>().Play();
                 //if (transform.tag == "Guitar")

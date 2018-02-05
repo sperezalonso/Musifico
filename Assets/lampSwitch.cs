@@ -25,13 +25,13 @@ public class lampSwitch : MonoBehaviour
         if (transform == PlayerRaycast.hitObject && PlayerRaycast.targetHit)
         {
             mat.EnableKeyword("_EMISSION");
-            if (Input.GetKeyDown("space") && off)
+            if ((Input.GetKeyDown("space") || Input.GetKeyDown("joystick button 1")) && off)
             {
                 transform.GetComponent<Renderer>().material = transparent;
                 lightbulb.gameObject.SetActive(true);
                 off = false;
             }
-            else if (Input.GetKeyDown("space") && !off)
+            else if ((Input.GetKeyDown("space") || Input.GetKeyDown("joystick button 1")) && !off)
             {
                 transform.GetComponent<Renderer>().material = opaque;
                 mat = transform.GetComponent<Renderer>().material;

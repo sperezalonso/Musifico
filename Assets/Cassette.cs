@@ -22,16 +22,16 @@ public class Cassette : MonoBehaviour
         {
             mat.EnableKeyword("_EMISSION");
 
-            if (Input.GetKeyDown("space"))
+            if (Input.GetKeyDown("space") || Input.GetKeyDown("joystick button 1"))
             {
-                GetComponent<AudioSource>().Play();
-                //transform.gameObject.SetActive(false);
                 transform.SetParent(storage.transform);
                 transform.position = storage.transform.position;
-                //isCaught = true;
-                //transform.GetComponent<Renderer>().material = transparent;
-                //lightbulb.gameObject.SetActive(true);
-                //off = false;
+
+                //if (CassetteManager.casCount < 7)
+                if (CassetteManager.casCount < 6)
+                {
+                    GetComponent<AudioSource>().Play();
+                }
             }
         }
         else mat.DisableKeyword("_EMISSION");

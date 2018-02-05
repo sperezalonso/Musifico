@@ -1,6 +1,7 @@
 ﻿﻿﻿﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerRaycast : MonoBehaviour
 {
@@ -14,9 +15,11 @@ public class PlayerRaycast : MonoBehaviour
     public GameObject flashlight;
 	public static bool targetHit;
 	public static Transform hitObject;
+    public Text pointer;
 
 	void Awake()
 	{
+        pointer.text = ".";
 		cardboardCam = GetComponent<Camera>();
 		laserLine = GetComponent<LineRenderer>();
         flashlight.SetActive(false);
@@ -42,13 +45,10 @@ public class PlayerRaycast : MonoBehaviour
             if (hit.collider.tag == "Interaction")
             {
                 //Debug.Log("I hit something, " + hit.collider.gameObject.name);
-
-
-
                 if ((Input.GetKeyDown("space") || Input.GetKeyDown("joystick button 1")) && !isOpen)
                 {
-
-                    if (hit.transform.name == "buch_0001c"){
+                    if (hit.transform.name == "buch_0001c")
+                    {
                         GameObject.FindWithTag("bookshelf").GetComponent<Animator>().Play("BookshelfCombinedOpen");
 
                     }
