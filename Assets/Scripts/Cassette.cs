@@ -27,7 +27,8 @@ public class Cassette : MonoBehaviour
                 transform.SetParent(storage.transform);
                 transform.position = storage.transform.position;
 
-                //if (CassetteManager.casCount < 7)
+                // the cassette's audio file is played as long as the player hasn't found the final cassette
+                // when this happens, the finished song is played instead
                 if (CassetteManager.casCount < 6)
                 {
                     GetComponent<AudioSource>().Play();

@@ -17,6 +17,7 @@ public class CassetteManager : MonoBehaviour
     int index;
     int count = 0;
     float timer = 0f;
+    bool playedFinalTrack = false;
 
     public static int casCount;
 
@@ -46,7 +47,8 @@ public class CassetteManager : MonoBehaviour
 
         if (caughtTapes.transform.childCount == 7)
         {
-            Victory();
+            VictorySound();
+            Debug.Log("You won!");
             timer += Time.deltaTime;
             if (timer > 60) Application.Quit();
         }
@@ -67,9 +69,12 @@ public class CassetteManager : MonoBehaviour
         else SpawnRandomly();
     }
 
-    void Victory()
+    void VictorySound()
     {
-        GetComponent<AudioSource>().clip = finalSong;
-        GetComponent<AudioSource>().Play();
+        if (!playedFinalTrack)
+        {
+            GetComponent<AudioSource>().Play();
+            playedFinalTrack = true;
+        }
     }
 }

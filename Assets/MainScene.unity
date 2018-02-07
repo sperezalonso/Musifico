@@ -784,7 +784,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300001, guid: ca71259be6348485abbe393157796cb8,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 08ca27df565d802479bbfb7c66426c0a, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -63905,7 +63905,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12f8da9afc205754f8e0e1dd88e0f060, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  finalSong: {fileID: 0}
+  finalSong: {fileID: 8300000, guid: b01ada38577407b459b34f37dd91643c, type: 3}
   caughtTapes: {fileID: 711156144}
 --- !u!4 &1631575336
 Transform:
@@ -63930,8 +63930,8 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300001, guid: ca71259be6348485abbe393157796cb8,
     type: 2}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: b01ada38577407b459b34f37dd91643c, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
