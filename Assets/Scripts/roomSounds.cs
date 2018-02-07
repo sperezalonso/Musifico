@@ -14,7 +14,7 @@ public class roomSounds : MonoBehaviour {
     AudioClip source;
     Material mat;
 
-    int guitar = 1;
+    bool guitarAudio = true;
 
     // Use this for initialization
     void Start () {
@@ -30,7 +30,17 @@ public class roomSounds : MonoBehaviour {
 
             if (Input.GetKeyDown("space") || Input.GetKeyDown("joystick button 1"))
             {
+                // rotate the audio clips so that every time the player plays the guitar, a different clip is played
+
+                guitarAudio = !guitarAudio;
+                if (guitarAudio)
+                    GetComponent<AudioSource>().clip = guitar1;
+                else if (!guitarAudio)
+                    GetComponent<AudioSource>().clip = guitar2;
+
                 GetComponent<AudioSource>().Play();
+
+                Debug.Log(guitarAudio + "   " + source);
                 //if (transform.tag == "Guitar")
                 //{
                 //}
