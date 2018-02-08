@@ -12,7 +12,7 @@ public class PlayerRaycast : MonoBehaviour
 	float timer = 0f;
 	bool isOpen = false;
 	Material mat;
-    public GameObject flashlight;
+    //public GameObject flashlight;
 	public static bool targetHit;
 	public static Transform hitObject;
     public Text pointer;
@@ -22,8 +22,8 @@ public class PlayerRaycast : MonoBehaviour
         pointer.text = ".";
 		cardboardCam = GetComponent<Camera>();
 		laserLine = GetComponent<LineRenderer>();
-        flashlight.SetActive(false);
-        GameObject.FindWithTag("Licht").SetActive(true);
+        //flashlight.SetActive(false);
+        //GameObject.FindWithTag("Licht").SetActive(true);
 	}
 
     void Update()
@@ -95,10 +95,15 @@ public class PlayerRaycast : MonoBehaviour
                     GameObject.FindWithTag("Licht").GetComponent<Animator>().Play("flashlightOpen"); // plays flashlight animation
 					
 					
-					flashlight.SetActive(true); // turn on spotlight attached to camera
+					//flashlight.SetActive(true); // turn on spotlight attached to camera
 				}
 			}
-
+            if(hit.collider.tag == "Button"){
+                Debug.Log("I hit something, ");
+            }
+            if (hitObject.tag== "Button"){
+                Debug.Log("I hit something, ");
+            }
             //else targetHit = false;
 		}
 		

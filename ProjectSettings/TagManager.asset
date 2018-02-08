@@ -12,6 +12,7 @@ TagManager:
   - ComplexFurniture
   - Spot
   - Guitar
+  - Button
   layers:
   - Default
   - TransparentFX
