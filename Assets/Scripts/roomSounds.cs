@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class roomSounds : MonoBehaviour {
+public class roomSounds : MonoBehaviour
+{
 
     public AudioClip guitar1;
     public AudioClip guitar2;
@@ -17,13 +18,15 @@ public class roomSounds : MonoBehaviour {
     bool guitarAudio = true;
 
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
         mat = GetComponent<Renderer>().material;
         source = GetComponent<AudioSource>().clip;
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
         if (transform == PlayerRaycast.hitObject && PlayerRaycast.targetHit)
         {
             mat.EnableKeyword("_EMISSION");
@@ -47,5 +50,5 @@ public class roomSounds : MonoBehaviour {
             }
         }
         else mat.DisableKeyword("_EMISSION");
-	}
+    }
 }
