@@ -7,25 +7,22 @@ using UnityEngine;
 
 public class CassetteManager : MonoBehaviour
 {
-
     GameObject[] cassettes;
     GameObject[] cassetteSpots;
 
-    public AudioClip finalSong;
     public GameObject caughtTapes;
 
     int index;
     int count = 0;
     float timer = 0f;
+    bool playedFinalTrack = false;
 
-    public static int casCount;
+    public static int casCount;                 // keep track of the found cassettes. Static because the value is used in the Cassette.cs script
 
-    // Use this for initialization
     void Awake()
     {
         cassettes = new GameObject[transform.childCount];
         cassetteSpots = GameObject.FindGameObjectsWithTag("Spot");
-        Debug.Log(transform.childCount);
 
         for (int i = 0; i < transform.childCount; i++)
         {
@@ -46,7 +43,9 @@ public class CassetteManager : MonoBehaviour
 
         if (caughtTapes.transform.childCount == 7)
         {
-            Victory();
+            VictorySound();
+
+            // let the final song play out, and close the application after one minute
             timer += Time.deltaTime;
             if (timer > 60) Application.Quit();
         }
@@ -67,9 +66,13 @@ public class CassetteManager : MonoBehaviour
         else SpawnRandomly();
     }
 
-    void Victory()
+    void VictorySound()
     {
-        GetComponent<AudioSource>().clip = finalSong;
-        GetComponent<AudioSource>().Play();
+        // if called multiple times during update, the song is never played (forever starting?). The bool value is used to play the final song only once
+        if (!playedFinalTrack)
+        {
+            GetComponent<AudioSource>().Play();
+            playedFinalTrack = true;
+        }
     }
 }
