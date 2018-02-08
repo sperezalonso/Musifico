@@ -27,20 +27,6 @@ public class UiToggle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Toggle inventory panel 
-
-   //     if ((Input.GetKeyDown("k") || Input.GetKeyDown("joystick button 2")) && !panelVisibility)
-   //     {
-   //     //inventoryPanel.SetActive(true);
-			//panelVisibility = true;
-        //}
-        //else if ((Input.GetKeyDown("k") || Input.GetKeyDown("joystick button 2")) && panelVisibility)
-        //{
-        //    Debug.Log("inventory is visible now");
-        //    //inventoryPanel.SetActive(false);
-        //    panelVisibility = false;
-        //}
-
         //Set opacity of icons to 100% depending on the collected Cassettes 
         for (int i = 0; i < tapes.Length; i++)
         {
