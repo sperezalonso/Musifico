@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UiToggle : MonoBehaviour
 {
-    public GameObject inventoryPanel;
     bool panelVisibility = false;
     GameObject[] tapes; 
     GameObject caughtTapes; 
@@ -15,13 +15,12 @@ public class UiToggle : MonoBehaviour
         //inventoryPanel.SetActive(false);
         tapes = GameObject.FindGameObjectsWithTag("tape");
         caughtTapes = GameObject.Find("Caught Tapes");
-
-        inventoryPanel.GetComponent<CanvasRenderer>().SetAlpha(0f); //set the opacity of inventory panels to 0 
         icons = GameObject.FindGameObjectsWithTag("UI");
 
         //hide all inventory icons
         for (int i = 0; i < icons.Length; i++){
             icons[i].GetComponent<CanvasRenderer>().SetAlpha(0.5f); //set opacity of icons to 0.5 
+            icons[i].GetComponent<Button>().interactable = false; //make icon buttons inactive
         }
     }
 
@@ -30,19 +29,17 @@ public class UiToggle : MonoBehaviour
     {
         //Toggle inventory panel 
 
-        if ((Input.GetKeyDown("k") || Input.GetKeyDown("joystick button 2")) && !panelVisibility)
-        {
-        //inventoryPanel.SetActive(true);
-            inventoryPanel.GetComponent<CanvasRenderer>().SetAlpha(1f);
-			panelVisibility = true;
-        }
-        else if ((Input.GetKeyDown("k") || Input.GetKeyDown("joystick button 2")) && panelVisibility)
-        {
-            Debug.Log("inventory is visible now");
-            //inventoryPanel.SetActive(false);
-            inventoryPanel.GetComponent<CanvasRenderer>().SetAlpha(0f);
-            panelVisibility = false;
-        }
+   //     if ((Input.GetKeyDown("k") || Input.GetKeyDown("joystick button 2")) && !panelVisibility)
+   //     {
+   //     //inventoryPanel.SetActive(true);
+			//panelVisibility = true;
+        //}
+        //else if ((Input.GetKeyDown("k") || Input.GetKeyDown("joystick button 2")) && panelVisibility)
+        //{
+        //    Debug.Log("inventory is visible now");
+        //    //inventoryPanel.SetActive(false);
+        //    panelVisibility = false;
+        //}
 
         //Set opacity of icons to 100% depending on the collected Cassettes 
         for (int i = 0; i < tapes.Length; i++)
@@ -85,6 +82,7 @@ public class UiToggle : MonoBehaviour
 
     void showCassetteIcon(int i){
         GameObject.Find("TapeIcon" + i).GetComponent<CanvasRenderer>().SetAlpha(1f);
+        GameObject.Find("TapeIcon" + i).GetComponent<Button>().interactable = true;
     }
 
     public void playCassette(int i){
