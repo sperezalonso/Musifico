@@ -12,6 +12,8 @@ TagManager:
   - ComplexFurniture
   - Spot
   - Guitar
+  - UI
+  - tape
   layers:
   - Default
   - TransparentFX
