@@ -4,6 +4,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CassetteManager : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class CassetteManager : MonoBehaviour
     GameObject[] cassetteSpots;
 
     public GameObject caughtTapes;
+    public Text victoryText;
 
     int index;
     int count = 0;
@@ -44,6 +46,7 @@ public class CassetteManager : MonoBehaviour
         if (caughtTapes.transform.childCount == 7)
         {
             VictorySound();
+            victoryText.gameObject.SetActive(true);
 
             // let the final song play out, and close the application after one minute
             timer += Time.deltaTime;
